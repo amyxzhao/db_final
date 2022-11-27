@@ -70,7 +70,7 @@ if __name__ == '__main__':
     # 3. Set semester -----
     # Manually input or pass using command line arguments
     # Examples: 202001 = 2020 Spring, 201903 = 2019 Fall
-    semester = '202203'
+    semester = '202301'
 
     if len(sys.argv) > 1:
         semester = str(sys.argv[1])
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
     courses = [] # containers for courses: format is id, code, name
     demands = [] # container for demand: format is id, date, count
-    i = 2392 # iterator for assigning course id
+    i = 5000 # iterator for assigning course id
     subject_counter = 120
     num_subjects = len(subjects)
 
@@ -114,8 +114,10 @@ if __name__ == '__main__':
 
         # selects all the courses info and demand info
         # each element in course_containers contains code, name, and demand for one course
-        course_containers = s.select("div#content > div")[0].select('table > tbody > tr') # s.select("div#content > div > table > tbody > tr")
+        # course_containers = s.select("div#content > div")[0].select('table > tbody > tr') # s.select("div#content > div > table > tbody > tr")
         # print(course_containers)
+        if s.select("div#content > div") != []:
+            course_containers = s.select("div#content > div")[0].select('table > tbody > tr')
 
         for container in course_containers:
             # extract name and code

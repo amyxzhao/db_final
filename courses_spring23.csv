@@ -1,0 +1,2354 @@
+id,code,name
+5000,HPM 500 01,Independent Study in Health Policy and Management
+5001,HPM 502 01,Foundations of Accounting and Valuation
+5002,HPM 536 01,Narratives in Health Media on the Social Internet
+5003,HPM 542 01,Health of Women and Children
+5004,HPM 555 01,Health Policy or Health Care Management Practicum
+5005,HPM 555 02,Health Policy or Health Care Management Practicum
+5006,HPM 559 01,"Big Data, Privacy, and Public Health Ethics"
+5007,HPM 560 01,Health Economics and U.S. Health Policy
+5008,HPM 564 01,Vaccination Policy and Politics
+5009,HPM 573 01,Advanced Topics in Modeling Health Care Decisions
+5009,MGT 681 01,Advanced Topics in Modeling Health Care Decisions
+5010,HPM 575 01,Evaluation of Global Health Policies and Programs
+5011,HPM 576 01,Comparative Health Care Systems
+5012,HPM 583 01,Methods in Health Services Research
+5013,HPM 590 01,"Economics, Addiction, and Policy"
+5013,ECON 461 01,"Economics, Addiction, and Policy"
+5014,HPM 592 01,Mental Health Care Policy in the US
+5015,HPM 595 01,Food and Drug Administration Law
+5016,HPM 597 01,Capstone Course in Health Policy
+5017,HPM 600 01,Independent Study or Directed Readings
+5018,HPM 610 01,Applied Area Readings
+5019,HPM 618 01,Colloquium in Health Services Research
+5020,HPM 620 01,Readings in Health Services Research
+5021,HPM 621 01,Managing Social Enterprise Organizations
+5022,HPM 630 01,Advanced Readings in Health Services Research
+5025,HPM 688 01,Managing Health Care in Complex Systems
+5026,HPM 698 01,"Health Care Policy, Finance, and Economics"
+5027,HPM 700 01,Colloquium in Health Care Leadership
+5028,HPM 995 01,Sustainable Innovations in Health Care
+5029,HSAR 110 01,Introduction to the History of Art: Global Decorative Arts
+5029,ARCG 110 01,Introduction to the History of Art: Global Decorative Arts
+5030,HSAR 160 01,Art and Technology
+5031,HSAR 208 01,African Arts and Expressive Cultures
+5031,AFAM 184 01,African Arts and Expressive Cultures
+5031,AFST 208 01,African Arts and Expressive Cultures
+5032,HSAR 237 01,Arts of China
+5032,EAST 237 01,Arts of China
+5033,HSAR 255 01,Dutch Art and its Worlds
+5034,HSAR 257 01,Modernism's Social Life
+5036,HSAR 260 01,"A Sense of Place: Sculpture, Public Art, Monuments in and throughout Connecticut"
+5036,AFAM 148 01,"A Sense of Place: Sculpture, Public Art, Monuments in and throughout Connecticut"
+5037,HSAR 286 01,Renaissance Architecture: A Global History
+5038,HSAR 294 01,Caravaggio
+5039,HSAR 312 01,"Modern Architecture in a Global Context, 1750-present"
+5039,ARCH 312 01,"Modern Architecture in a Global Context, 1750-present"
+5040,HSAR 357 01,Arts of Japan I
+5043,HSAR 401 01,Critical Approaches to Art History
+5046,HSAR 436 01,The Art of Crisis
+5047,HSAR 457 01,Japanese Gardens
+5048,HSAR 467 01,Environmental Relations in Pre-Hispanic and Colonial South American Art
+5049,HSAR 474 01,Histories and Critiques of the Art Museum
+5050,HSAR 476 01,Energy Cultures of Modern Architecture
+5051,HSAR 478 01,Paint
+5051,ART 323 01,Paint
+5053,HSAR 489 01,Pathos-Figures: Affection-Images in the Visual Arts
+5053,CLCV 305 01,Pathos-Figures: Affection-Images in the Visual Arts
+5053,GMAN 489 01,Pathos-Figures: Affection-Images in the Visual Arts
+5055,HSAR 499 01,The Senior Essay
+5056,HSAR 512 01,Directed Research
+5057,HSAR 539 01,Early Modern England
+5057,EMST 739 01,Early Modern England
+5059,HSAR 567 01,Introduction to the Digital Humanities for the Premodern World
+5059,CLSS 840 01,Introduction to the Digital Humanities for the Premodern World
+5060,HSAR 571 01,Architectural Drawing in the Expanded Field
+5060,ARCH 3317 01,Architectural Drawing in the Expanded Field
+5061,HSAR 585 01,Art and Race in Medieval Europe
+5061,EMST 745 01,Art and Race in Medieval Europe
+5061,MDVL 595 01,Art and Race in Medieval Europe
+5062,HSAR 594 01,Chinese Paintings at the YUAG
+5062,EAST 594 01,Chinese Paintings at the YUAG
+5063,HSAR 605 01,Russian Realist Literature and Painting
+5064,HSAR 631 01,"Art Writing after the ""Great Resignation"""
+5065,HSAR 708 01,Museum and Nation
+5065,ARCH 3326 01,Museum and Nation
+5070,HSAR 843 01,Evoking Ancestral Memory: Reinterpreting Native American and Indigenous Collections
+5071,HSHM 006 01,Making Climate Knowledge
+5072,HSHM 226 01,The Global Scientific Revolution
+5072,HIST 236 01,The Global Scientific Revolution
+5073,HSHM 238 01,The History of Drugs in America
+5073,ANTH 221 01,The History of Drugs in America
+5073,HIST 133 01,The History of Drugs in America
+5076,HSHM 407 01,Collecting Before the Museum
+5076,HIST 289J 01,Collecting Before the Museum
+5076,HSAR 399 01,Collecting Before the Museum
+5076,HUMS 220 01,Collecting Before the Museum
+5077,HSHM 409 01,Marriage and Medicine in Modern America
+5077,HIST 197J 01,Marriage and Medicine in Modern America
+5078,HSHM 411 01,Trauma and Healing in Historical Perspective
+5078,HIST 424J 01,Trauma and Healing in Historical Perspective
+5079,HSHM 412 01,Laboratory Life
+5079,HIST 429J 01,Laboratory Life
+5080,HSHM 417 01,Before the Anthropocene: Global Environment in the Preindustrial World
+5081,HSHM 429 01,Decolonizing the Mind
+5081,HIST 490J 01,Decolonizing the Mind
+5082,HSHM 449 01,"Critical Data Visualization: History, Theory, and Practice"
+5082,EVST 349 01,"Critical Data Visualization: History, Theory, and Practice"
+5082,HIST 449J 01,"Critical Data Visualization: History, Theory, and Practice"
+5082,URBN 382 01,"Critical Data Visualization: History, Theory, and Practice"
+5084,HSHM 467 01,History of the Body
+5084,HIST 447J 01,History of the Body
+5084,WGSS 465 01,History of the Body
+5085,HSHM 470 01,Directed Reading
+5086,HSHM 473 01,Vaccination in Historical Perspective
+5086,HIST 403J 01,Vaccination in Historical Perspective
+5087,HSHM 475 01,Race and Disease in American Medicine
+5087,HIST 128J 01,Race and Disease in American Medicine
+5088,HSHM 489 01,Activism and Advocacy in the History of American Health Care
+5088,HIST 109J 01,Activism and Advocacy in the History of American Health Care
+5089,HSHM 490 01,Yearlong Senior Project
+5090,HSHM 491 01,Yearlong Senior Project
+5091,HSHM 492 01,One-Term Senior Project
+5094,HSHM 710 01,Problems in Science Studies
+5094,HIST 921 01,Problems in Science Studies
+5095,HSHM 713 01,Geography and History
+5095,HIST 913 01,Geography and History
+5096,HSHM 716 01,Early Modern Science and Medicine
+5096,EMST 816 01,Early Modern Science and Medicine
+5096,HIST 936 01,Early Modern Science and Medicine
+5098,HSHM 777 01,Nature and the Modern Museum
+5098,AMST 613 01,Nature and the Modern Museum
+5098,ANTH 770 01,Nature and the Modern Museum
+5098,HIST 918 01,Nature and the Modern Museum
+5099,HSHM 780 01,History beyond the Archive
+5099,HIST 948 01,History beyond the Archive
+5100,HSHM 920 01,Independent Reading
+5101,HSHM 930 01,Independent Research
+5114,HUMS 184 01,Writing and Reading Biography
+5114,AMST 184 01,Writing and Reading Biography
+5114,ENGL 437 01,Writing and Reading Biography
+5115,HUMS 188 01,Public Plato: Ancient Wisdom in the Digital Age
+5125,HUMS 228 01,Climate Change and the Humanities
+5125,EVST 228 01,Climate Change and the Humanities
+5125,HIST 459J 01,Climate Change and the Humanities
+5125,LITR 345 01,Climate Change and the Humanities
+5126,HUMS 231 01,Poetic Influence from Shakespeare to the Twenty-First Century
+5126,ENGL 206 01,Poetic Influence from Shakespeare to the Twenty-First Century
+5130,HUMS 258 01,Democracy and Education
+5130,EDST 218 01,Democracy and Education
+5130,PLSC 319 01,Democracy and Education
+5137,HUMS 286 01,Mass Incarceration in the Soviet Union and the United States
+5137,ER&M 279 01,Mass Incarceration in the Soviet Union and the United States
+5137,HIST 295J 01,Mass Incarceration in the Soviet Union and the United States
+5137,PHIL 433 01,Mass Incarceration in the Soviet Union and the United States
+5138,HUMS 295 01,Trials of Uncertainty
+5138,JDST 223 01,Trials of Uncertainty
+5138,PLSC 307 01,Trials of Uncertainty
+5147,HUMS 349 01,Identity in Modern Thought
+5147,LITR 470 01,Identity in Modern Thought
+5151,HUMS 389 01,Ecstasy
+5151,RLST 154 01,Ecstasy
+5152,HUMS 392 01,Computational Representation and the Humanities/Arts
+5153,HUMS 395 01,Public Plato: Ancient Wisdom in the Digital Age
+5153,PHIL 334 01,Public Plato: Ancient Wisdom in the Digital Age
+5154,HUMS 411 01,Life Worth Living
+5155,HUMS 411 02,Life Worth Living
+5156,HUMS 411 03,Life Worth Living
+5157,HUMS 411 04,Life Worth Living
+5158,HUMS 411 05,Life Worth Living
+5159,HUMS 411 06,Life Worth Living
+5160,HUMS 411 07,Life Worth Living
+5161,HUMS 411 08,Life Worth Living
+5162,HUMS 411 09,Life Worth Living
+5163,HUMS 411 10,Life Worth Living
+5164,HUMS 417 01,Thinking Digitally about the Humanities
+5165,HUMS 420 01,The Waste Land
+5165,ENGL 355 01,The Waste Land
+5165,LITR 219 01,The Waste Land
+5169,HUMS 471 01,Special Studies in the Humanities
+5170,HUMS 491 01,The Senior Essay
+5171,HUMS 500 01,Seminar in Digital and Computational Methods in the Humanities
+5172,IBIO 503 01,"Responsible Conduct of Research, Refresher Course"
+5173,IBIO 503 02,"Responsible Conduct of Research, Refresher Course"
+5174,IBIO 531 01,Advanced Immunology
+5175,IBIO 538 01,Immunobiology Seminar: Advances in Immunotherapy: from Cancer to Transplantation
+5177,IBIO 613 01,Research Rotation 3
+5178,IMED 635 01,Directed Reading in Investigative Medicine
+5179,IMED 655 01,Writing Your K- or R-Type Grant Proposal (I)
+5180,IMED 662 01,"Methods in Clinical Research, Part III"
+5181,IMED 670 01,Writing Your K- or R-Type Grant Proposal (II)
+5183,INDN 120 01,Elementary Indonesian II
+5184,INDN 120 02,Elementary Indonesian II
+5185,INDN 140 01,Intermediate Indonesian II
+5186,INDN 180 01,Research and Creative Project on Indonesia
+5187,INDN 471 01,Independent Tutorial
+5188,INDN 570 01,Readings in Indonesian
+5189,INP 507 01,Cellular and Molecular Mechanisms of Neurological Disease
+5190,INP 510 01,Structural and Functional Organization of the Human Nervous System
+5191,INP 512 01,Lab Rotation for First-Year Students
+5192,INP 514 01,Second-Year Thesis Research
+5193,INP 521 01,Neuroimaging in Neuropsychiatry II: Clinical Applications
+5194,INP 542 01,Developing and Writing Fellowship Proposals
+5195,INP 542 02,Developing and Writing Fellowship Proposals
+5196,INP 554 01,Human Molecular Diversity in the Context of Neuropsychiatric Disorders and Behavioral Traits
+5199,INP 580 01,Bioethics in Neuroscience
+5201,INP 599 01,Statistics and Data Analysis in Neuroscience
+5202,INP 703 01,Foundations of Systems Neuroscience
+5203,ITAL 120 01,Elementary Italian II
+5204,ITAL 120 02,Elementary Italian II
+5205,ITAL 120 03,Elementary Italian II
+5206,ITAL 120 04,Elementary Italian II
+5207,ITAL 120 05,Elementary Italian II
+5208,ITAL 120 06,Elementary Italian II
+5209,ITAL 125 01,Intensive Elementary Italian
+5210,ITAL 140 01,Intermediate Italian II
+5211,ITAL 140 02,Intermediate Italian II
+5212,ITAL 151 01,Advanced Italian Workshop: The Translation Notebooks
+5213,ITAL 172 01,Introduction to Italian Literature: From the Baroque to the Present
+5214,ITAL 240 01,Women Intellectuals in Italy
+5215,ITAL 303 01,Italian Film from Postwar to Postmodern
+5215,FILM 457 01,Italian Film from Postwar to Postmodern
+5215,LITR 359 01,Italian Film from Postwar to Postmodern
+5216,ITAL 317 01,Women in the Middle Ages
+5216,HUMS 210 01,Women in the Middle Ages
+5216,LITR 180 01,Women in the Middle Ages
+5216,WGSS 317 01,Women in the Middle Ages
+5217,ITAL 338 01,Gender & the Avant-Garde
+5217,HSAR 485 01,Gender & the Avant-Garde
+5217,HUMS 318 01,Gender & the Avant-Garde
+5217,LITR 222 01,Gender & the Avant-Garde
+5217,WGSS 331 01,Gender & the Avant-Garde
+5218,ITAL 470 01,Special Studies in Italian Literature
+5219,ITAL 471 01,Special Studies in Italian Literature
+5220,ITAL 491 01,The Senior Essay
+5221,ITAL 570 01,Methods and Techniques in the Italian-Language Classroom
+5222,ITAL 691 01,Directed Reading
+5223,ITAL 721 01,Talking Animals
+5224,ITAL 895 01,Dante and the Revolution of Poverty
+5225,ITAL 946 01,"Early Modern Ecologies: Representing Peasants, Animals, Labor, Land"
+5225,CPLT 658 01,"Early Modern Ecologies: Representing Peasants, Animals, Labor, Land"
+5225,ENGL 699 01,"Early Modern Ecologies: Representing Peasants, Animals, Labor, Land"
+5225,MDVL 946 01,"Early Modern Ecologies: Representing Peasants, Animals, Labor, Land"
+5226,JAPN 120 01,Elementary Japanese II
+5227,JAPN 120 02,Elementary Japanese II
+5228,JAPN 120 03,Elementary Japanese II
+5229,JAPN 120 04,Elementary Japanese II
+5230,JAPN 120 05,Elementary Japanese II
+5231,JAPN 140 01,Intermediate Japanese II
+5232,JAPN 140 02,Intermediate Japanese II
+5233,JAPN 151 01,Advanced Japanese II
+5234,JAPN 157 01,Advanced Japanese IV
+5236,JDST 128 01,Jews in Early Christian Sources
+5236,JDST 708 01,Jews in Early Christian Sources
+5236,RLST 232 01,Jews in Early Christian Sources
+5236,RLST 738 01,Jews in Early Christian Sources
+5238,JDST 202 01,Jewish Identity in the Pre-Islamic Mediterranean World
+5238,RLST 146 01,Jewish Identity in the Pre-Islamic Mediterranean World
+5244,JDST 290 01,Contemporary American Judaisms
+5246,JDST 306 01,Israeli Narratives
+5246,MMES 157 01,Israeli Narratives
+5246,NELC 157 01,Israeli Narratives
+5246,NELC 557 01,Israeli Narratives
+5247,JDST 312 01,Hebrew Poetry in Muslim Spain
+5247,LITR 196 01,Hebrew Poetry in Muslim Spain
+5247,MMES 312 01,Hebrew Poetry in Muslim Spain
+5247,NELC 323 01,Hebrew Poetry in Muslim Spain
+5254,JDST 375 01,Two Medieval Jewish Philosophers: Judah Halevi and Maimonides
+5255,JDST 375 02,Two Medieval Jewish Philosophers: Judah Halevi and Maimonides
+5258,JDST 492 01,The Senior Essay
+5260,JDST 672 01,Readings in Babylonian Aramaic Texts
+5260,SMTC 535 01,Readings in Babylonian Aramaic Texts
+5266,KHMR 120 01,Elementary Khmer II
+5267,KHMR 140 01,Intermediate Khmer II
+5268,KREN 110 01,Elementary Korean I
+5269,KREN 110 02,Elementary Korean I
+5270,KREN 110 03,Elementary Korean I
+5271,KREN 110 04,Elementary Korean I
+5272,KREN 110 05,Elementary Korean I
+5273,KREN 120 01,Elementary Korean II
+5274,KREN 120 02,Elementary Korean II
+5275,KREN 120 03,Elementary Korean II
+5276,KREN 120 04,Elementary Korean II
+5277,KREN 120 05,Elementary Korean II
+5278,KREN 140 01,Intermediate Korean II
+5279,KREN 142 01,Intermediate Korean for Advanced Learners II
+5280,KREN 151 01,Advanced Korean II: Language and Culture through Media
+5281,KREN 154 01,Advanced Korean III
+5282,KREN 154 02,Advanced Korean III
+5294,LAST 370 01,Continuities and Discontinuities of Violence in Latin America
+5294,HIST 310J 01,Continuities and Discontinuities of Violence in Latin America
+5295,LAST 491 01,The Senior Essay
+5296,LATN 120 01,Beginning Latin: Review of Grammar and Selected Readings
+5297,LATN 120 02,Beginning Latin: Review of Grammar and Selected Readings
+5298,LATN 141 01,Latin Poetry: An Introduction
+5299,LATN 390 01,Latin Syntax and Stylistics
+5300,LATN 420 01,Latin from Colonial Mexico
+5300,LATN 720 01,Latin from Colonial Mexico
+5300,EMST 620 01,Latin from Colonial Mexico
+5301,LATN 436 01,Latin Epistolography
+5302,LATN 736 01,Latin Epistolography
+5303,LATN 790 01,Latin Syntax and Stylistics
+5304,LAW 20317 01,Secured Transactions
+5305,LAW 21017 01,Property
+5307,LAW 21027 01,Advanced Legal Research: Methods and Sources
+5309,LAW 21037 01,[The] Burden of Proof: Appreciating and Understanding Evidence in a Seemingly Post-Truth World
+5310,LAW 21040 01,Business Organizations
+5311,LAW 21041 01,"Law, Economics, and Organization"
+5312,LAW 21048 01,Administrative Law
+5313,LAW 21050 01,Federal Income Taxation
+5314,LAW 21055 01,Civil Pretrial Litigation
+5315,LAW 21065 01,Securities Regulation
+5316,LAW 21068 01,Antitrust
+5317,LAW 21080 01,Research Methods in United States Legal History
+5318,LAW 21097 01,Medical Legal Partnerships
+5319,LAW 21100 01,U.S. International Taxation
+5320,LAW 21124 01,Federal and State Courts in a Federal System
+5321,LAW 21136 01,Employment and Labor Law
+5322,LAW 21137 01,Democracy and Executive Power: Policymaking Accountability in Comparative Perspective
+5323,LAW 21139 01,Legal History Forum
+5324,LAW 21144 01,Education Law
+5325,LAW 21149 01,Third World Approaches to International Law: Seminar
+5327,LAW 21156 01,Law and Economics and Law and Macroeconomics: Directed Research
+5328,LAW 21159 01,Antitrust and Democracy
+5330,LAW 21162 01,Health Law
+5331,LAW 21175 01,Local Government Law
+5332,LAW 21179 01,Contemporary China and U.S.-China Relations: Research Seminar
+5332,GLBL 6175 01,Contemporary China and U.S.-China Relations: Research Seminar
+5333,LAW 21193 01,Human Rights Workshop: Current Issues and Events
+5334,LAW 21204 01,Bankruptcy
+5335,LAW 21209 01,International Business Transactions
+5335,MGT 661 01,International Business Transactions
+5336,LAW 21214 01,Law and Religion: The Free Exercise of Religion
+5337,LAW 21217 01,Criminal Procedure: Adjudication
+5338,LAW 21244 01,Reforming the Court(s)
+5339,LAW 21246 01,Separation of Powers: Seminar
+5340,LAW 21248 01,Comparative Constitutional Law
+5340,PLSC 709 01,Comparative Constitutional Law
+5341,LAW 21249 01,Intervening in the Criminalization of Youth and Queer and Trans Individuals: Seminar and Practicum
+5342,LAW 21258 01,Comparative Criminal Law: Fair Trials: Seminar
+5343,LAW 21262 01,On the Inside: Narratives from Prison
+5344,LAW 21267 01,American Global Power Since the Cold War
+5345,LAW 21272 01,Living Civil Rights Law
+5346,LAW 21276 01,"Wills, Trusts and Estates"
+5347,LAW 21277 01,Evidence
+5348,LAW 21283 01,International Commercial Arbitration
+5348,MGT 625 01,International Commercial Arbitration
+5349,LAW 21285 01,Law in Western History
+5350,LAW 21289 01,Thirteen Ways of Looking at Brown v. Board of Education
+5351,LAW 21297 01,Professional Responsibility
+5352,LAW 21325 01,Media and Technology Industries: Public Policy and Business Strategy
+5352,MGT 670 01,Media and Technology Industries: Public Policy and Business Strategy
+5353,LAW 21326 01,Blockchain and Digital Assets: A New Birth for Trust?
+5354,LAW 21339 01,Disability Law
+5355,LAW 21343 01,Advanced Legal Writing
+5356,LAW 21345 01,Constitutional Litigation Seminar
+5357,LAW 21375 01,Gaming Law
+5358,LAW 21380 01,[The] Jurisprudence of Sports
+5359,LAW 21381 01,"Law, Leadership and Ethics in Sports Leagues"
+5360,LAW 21382 01,Professional Responsibility
+5361,LAW 21387 01,Children and the Constitution: Seminar
+5362,LAW 21390 01,Confronting America's Consitutional Crisis
+5362,PLSC 859 01,Confronting America's Consitutional Crisis
+5363,LAW 21397 01,Corporate Litigation Seminar
+5366,LAW 21408 01,Philosophy of Law: Normative Jurisprudence
+5366,PHIL 715 01,Philosophy of Law: Normative Jurisprudence
+5367,LAW 21414 01,Foundations of American Legal Thought
+5367,HIST 759 01,Foundations of American Legal Thought
+5368,LAW 21414 0,Foundations of American Legal Thought
+5369,LAW 21426 01,"Capital Punishment: Race, Poverty, and Disadvantage"
+5370,LAW 21429 01,"Race, Inequality, and the Law: Directed Research"
+5371,LAW 21430 01,White Collar Criminal Defense: Critical Issues and Strategies
+5372,LAW 21431 01,Nonstate Law
+5373,LAW 21448 01,"Criminal Procedure: Investigations, Seizures and the Constitutional Constraints on the Police"
+5374,LAW 21454 01,Introduction to International and Transnational Law
+5374,GLBL 7545 01,Introduction to International and Transnational Law
+5375,LAW 21463 01,Sex Discrimination in Education
+5376,LAW 21469 01,"Estate Planning: Estate, Gift, and Generation-Skipping Transfer Taxes and Related Income Tax Issues"
+5377,LAW 21471 01,"Brain Injury, Medical Ethics, Disability Rights: Directed Research"
+5378,LAW 21482 01,Family Law
+5379,LAW 21486 01,Introduction to Legal Research Methods and Sources
+5380,LAW 21500 01,European Union Law
+5380,E&RS 570 01,European Union Law
+5380,GLBL 6135 01,European Union Law
+5381,LAW 21507 01,Corporate Finance in Modern Society
+5382,LAW 21511 01,Advanced Deals Workshop: Public Company Mergers and Acquisitions
+5383,LAW 21520 01,Comparative Constitutional Law
+5384,LAW 21524 01,Corporate Taxation
+5385,LAW 21528 01,Living Civil Rights Law: Directed Research
+5387,LAW 21534 01,Liman Public Interest Workshop: Liman Workshop: Imprisoned
+5388,LAW 21537 01,Narrative in Law and Literature
+5388,CPLT 516 01,Narrative in Law and Literature
+5389,LAW 21546 01,"Litigating Civil Rights, Policing, and Imprisonment"
+5390,LAW 21548 01,Negotiating International Agreements: The Case of Climate Change
+5391,LAW 21556 01,Legal Theory Workshop Colloquium
+5392,LAW 21574 01,New Developments in Legislation and Statutory Interpretation
+5393,LAW 21575 01,Law and Psychology
+5394,LAW 21582 01,Partnership Taxation
+5395,LAW 21597 01,Capitalism Film Society
+5396,LAW 21601 01,Administrative Law
+5397,LAW 21602 01,Advanced Antitrust
+5398,LAW 21603 01,Statutory Torts
+5399,LAW 21608 01,Torts and Regulation
+5400,LAW 21610 01,Torts and Regulation
+5401,LAW 21619 01,[The] Art of Argument
+5402,LAW 21622 01,Access to Law School: Seminar
+5403,LAW 21623 01,Access to Law School: Fieldwork
+5404,LAW 21624 01,Advanced Access to Law School: Fieldwork
+5405,LAW 21625 01,Social Media Governance
+5406,LAW 21635 01,International Trade Law and Policy: Seminar
+5407,LAW 21649 01,Topics in Behavioral Law and Economics
+5408,LAW 21651 01,[The] Law of the Sea
+5408,ENV 865 01,[The] Law of the Sea
+5408,GLBL 7045 01,[The] Law of the Sea
+5409,LAW 21660 01,Legitimacy as a Legal Concept: Seminar
+5410,LAW 21664 01,The Lawyer as Leader
+5411,LAW 21667 01,Criminal Procedure: Investigation
+5412,LAW 21676 01,Forgiveness and Mercy in Law
+5413,LAW 21684 01,Administrative Law and Bureaucracy: Supervised Research
+5414,LAW 21696 01,Sustainable Development Law and Governance
+5414,ENV 861 01,Sustainable Development Law and Governance
+5415,LAW 21710 01,Legal Writing II
+5416,LAW 21718 01,Aggregate Litigation
+5417,LAW 21722 01,Statutory Interpretation in the Regulatory State
+5418,LAW 21737 01,"Artificial Intelligence, the Legal Profession, and Procedure: Seminar"
+5419,LAW 21739 01,Federal Indian Law
+5419,ENV 775 01,Federal Indian Law
+5420,LAW 21767 01,Food and Drug Administration Law and Policy
+5423,LAW 21787 01,Foreign Relations and International Law in Practice
+5424,LAW 21788 01,Decentralized Resistance
+5425,LAW 21789 01,"Normative, Legal, and Empirical Analyses of Discrimination"
+5425,PHIL 761 01,"Normative, Legal, and Empirical Analyses of Discrimination"
+5426,LAW 21834 01,Everyday Leadership
+5427,LAW 30104 01,Advanced Community and Economic Development Clinic: Seminar
+5428,LAW 30116 01,Housing Clinic: Fieldwork
+5429,LAW 30122 01,Housing and Community Development: Seminar
+5430,LAW 30123 01,Veterans Legal Services Clinic: Seminar
+5431,LAW 30124 01,Veterans Legal Services Clinic:  Fieldwork
+5432,LAW 30125 01,Advanced Veterans Legal Services Clinic: Seminar
+5433,LAW 30126 01,Advanced Veterans Legal Services Clinic: Fieldwork
+5434,LAW 30127 01,Worker and Immigrant Rights Advocacy Clinic: Seminar
+5435,LAW 30128 01,Worker and Immigrant Rights Advocacy: Fieldwork
+5436,LAW 30129 01,Advanced Worker and Immigrant Rights Advocacy Clinic: Seminar
+5437,LAW 30130 01,Advanced Worker and Immigrant Rights Advocacy Clinic: Fieldwork
+5438,LAW 30131 01,Community and Economic Development: Fieldwork
+5439,LAW 30132 01,Advanced Community and Economic Development: Fieldwork
+5440,LAW 30135 01,Challenging Mass Incarceration Clinic: Seminar
+5441,LAW 30136 01,Challenging Mass Incarceration Clinic: Fieldwork
+5442,LAW 30143 01,Free Exercise Clinic: Seminar
+5443,LAW 30144 01,Free Exercise Clinic: Fieldwork
+5444,LAW 30145 01,Advanced Challenging Mass Incarceration Clinic: Seminar
+5445,LAW 30146 01,Advanced Challenging Mass Incarceration Clinic: Fieldwork
+5446,LAW 30149 01,Criminal Justice Advocacy Clinic: Fieldwork
+5447,LAW 30150 01,Advanced Housing Clinic: Seminar
+5448,LAW 30151 01,Advanced Housing Clinic: Fieldwork
+5449,LAW 30153 01,Advanced Free Exercise Clinic
+5450,LAW 30164 01,Environmental Protection Clinic: Policy and Advocacy
+5450,ENV 970 01,Environmental Protection Clinic: Policy and Advocacy
+5451,LAW 30165 01,Advanced Environmental Protection Clinic
+5451,ENV 972 01,Advanced Environmental Protection Clinic
+5452,LAW 30170 01,International Refugee Assistance Project
+5453,LAW 30171 01,Advanced International Refugee Assistance Project
+5454,LAW 30172 01,Liman Projects: Research for Reform
+5455,LAW 30173 01,Lowenstein International Human Rights Clinic
+5456,LAW 30174 01,Advanced Lowenstein International Human Rights Clinic
+5457,LAW 30175 01,Media Freedom and Information Access Clinic
+5458,LAW 30176 01,Advanced Media Freedom and Information Access Clinic
+5459,LAW 30178 01,Local Government in Action: San Francisco Affirmative Litigation Project
+5460,LAW 30179 01,Advanced San Francisco Affirmative Litigation Project
+5461,LAW 30180 01,Supreme Court Advocacy Clinic
+5462,LAW 30181 01,Advanced Supreme Court Advocacy Clinic
+5463,LAW 30186 01,Health Justice Practicum
+5463,EMD 588 01,Health Justice Practicum
+5463,SBS 588 01,Health Justice Practicum
+5464,LAW 30193 01,Prosecution Externship and Instruction
+5465,LAW 30194 01,Legal Assistance: Immigrant Rights Clinic: Seminar
+5466,LAW 30195 01,Legal Assistance: Immigrant Rights Clinic: Fieldwork
+5467,LAW 30199 01,Trial Practice
+5468,LAW 30200 01,Advanced Appellate Litigation Project
+5469,LAW 30201 01,Legal Assistance: Reentry Clinic
+5470,LAW 30202 01,Advanced Legal Assistance: Reentry Clinic: Fieldwork
+5471,LAW 30203 01,Advanced Legal Assistance: Immigrant Rights Clinic Fieldwork
+5472,LAW 30219 01,Anatomy of a Merger
+5473,LAW 30223 01,Advanced Issues in Capital Markets: The IPO
+5473,MGT 662 01,Advanced Issues in Capital Markets: The IPO
+5474,LAW 30226 01,Reproductive Rights and Justice Project: Seminar
+5475,LAW 30229 01,Reproductive Rights and Justice Project: Fieldwork
+5476,LAW 30230 01,Advanced Reproductive Rights and Justice Project: Seminar
+5477,LAW 30231 01,Advanced Reproductive Rights and Justice Project: Fieldwork
+5478,LAW 30234 01,Entrepreneurship and Innovation Clinic: Seminar
+5479,LAW 30236 01,Entrepreneurship and Innovation Clinic: Fieldwork
+5480,LAW 30237 01,Advanced Entrepreneurship and Innovation Clinic: Seminar
+5481,LAW 30238 01,Advanced Entrepreneurship and Innovation Clinic: Fieldwork
+5482,LAW 30239 01,Negotiating and Drafting Secured Transactions
+5482,MGT 689 01,Negotiating and Drafting Secured Transactions
+5483,LAW 30241 01,"Climate, Animals, Food, and Environment Law and Policy Lab"
+5483,ENV 990 01,"Climate, Animals, Food, and Environment Law and Policy Lab"
+5484,LAW 30242 01,"Advanced Climate, Animals, Food, and Environment Law and Policy Lab"
+5484,ENV 991 01,"Advanced Climate, Animals, Food, and Environment Law and Policy Lab"
+5485,LAW 30245 01,Strategic Advocacy Clinic
+5486,LAW 30246 01,"Policing, Law, and Policy Clinic"
+5487,LAW 30248 01,Advanced Strategic Advocacy Clinic
+5488,LAW 30249 01,"AdvPolicing,Law,  PolicyClinic: AdvPolicing,Law, Policy Clinic"
+5489,LAW 30253 01,Private Law Clinic
+5490,LAW 30255 01,Mental Health Justice Clinic
+5491,LAW 30256 01,Mental Health Justice Clinic: Fieldwork
+5493,LING 106 01,Illusions of Language: Linguistics in the Real World
+5494,LING 107 01,Linguistic Diversity & Endangerment
+5494,ER&M 207 01,Linguistic Diversity & Endangerment
+5496,LING 112 01,Historical Linguistics
+5496,LING 512 01,Historical Linguistics
+5497,LING 116 01,Cognitive Science of Language
+5497,CGSC 216 01,Cognitive Science of Language
+5497,PSYC 116 01,Cognitive Science of Language
+5500,LING 211 01,Grammatical Diversity in U.S. English
+5501,LING 227 01,Language and Computation I
+5501,LING 627 01,Language and Computation I
+5501,PSYC 327 01,Language and Computation I
+5502,LING 231 01,Neurolinguistics
+5502,LING 631 01,Neurolinguistics
+5502,PSYC 331 01,Neurolinguistics
+5503,LING 232 01,Phonology I
+5503,LING 632 01,Phonology I
+5504,LING 239 01,Phonetics II: Speech Production and Perception
+5504,LING 639 01,Phonetics II: Speech Production and Perception
+5504,CGSC 239 01,Phonetics II: Speech Production and Perception
+5504,PSYC 239 01,Phonetics II: Speech Production and Perception
+5505,LING 241 01,Field Methods
+5505,LING 641 01,Field Methods
+5506,LING 254 01,Syntax II
+5506,LING 654 01,Syntax II
+5507,LING 264 01,Semantics II
+5507,LING 664 01,Semantics II
+5508,LING 328 01,Laboratory Phonology
+5508,LING 728 01,Laboratory Phonology
+5509,LING 375 01,Linguistic Meaning and Conceptual Structure
+5509,LING 875 01,Linguistic Meaning and Conceptual Structure
+5509,CGSC 375 01,Linguistic Meaning and Conceptual Structure
+5509,PSYC 375 01,Linguistic Meaning and Conceptual Structure
+5510,LING 376 01,Implicature and Pragmatic Theory
+5510,LING 776 01,Implicature and Pragmatic Theory
+5510,PHIL 445 01,Implicature and Pragmatic Theory
+5510,PHIL 690 01,Implicature and Pragmatic Theory
+5511,LING 383 01,Causative Constructions
+5511,LING 783 01,Causative Constructions
+5511,CGSC 383 01,Causative Constructions
+5512,LING 394 01,"Asserting, Asking, Answering"
+5512,LING 794 01,"Asserting, Asking, Answering"
+5513,LING 399 01,Variation in Variable-Force Modality
+5513,LING 799 01,Variation in Variable-Force Modality
+5514,LING 471 01,Special Projects
+5515,LING 491 01,The Senior Essay
+5516,LING 519 01,Perspectives on Grammar
+5517,LING 611 01,Grammatical Diversity in U.S. English
+5518,LING 810 01,Directed Research in Linguistics
+5520,LITR 028 01,Medicine and the Humanities: Certainty and Unknowing
+5520,HUMS 029 01,Medicine and the Humanities: Certainty and Unknowing
+5521,LITR 028 02,Medicine and the Humanities: Certainty and Unknowing
+5521,HUMS 029 02,Medicine and the Humanities: Certainty and Unknowing
+5522,LITR 037 01,The Limits of the Human
+5522,HUMS 037 01,The Limits of the Human
+5525,LITR 130 01,How to Read
+5525,HUMS 130 01,How to Read
+5526,LITR 143 01,World Cinema
+5526,ENGL 192 01,World Cinema
+5526,FILM 240 01,World Cinema
+5526,HUMS 190 01,World Cinema
+5543,LITR 305 01,Advanced Literary Translation
+5543,ENGL 483 01,Advanced Literary Translation
+5543,HUMS 428 01,Advanced Literary Translation
+5543,JDST 343 01,Advanced Literary Translation
+5544,LITR 308 01,Literature at the Limit from Palestine and Israel
+5544,ER&M 306 01,Literature at the Limit from Palestine and Israel
+5544,JDST 353 01,Literature at the Limit from Palestine and Israel
+5544,MMES 308 01,Literature at the Limit from Palestine and Israel
+5546,LITR 330 01,Heidegger's Being and Time
+5546,GMAN 227 01,Heidegger's Being and Time
+5546,HUMS 330 01,Heidegger's Being and Time
+5546,PHIL 402 01,Heidegger's Being and Time
+5547,LITR 331 01,"Medieval World Literature, Genres and Geographies"
+5549,LITR 348 01,The Practice of Literary Translation
+5549,ENGL 456 01,The Practice of Literary Translation
+5549,HUMS 427 01,The Practice of Literary Translation
+5549,JDST 316 01,The Practice of Literary Translation
+5559,LITR 450 01,Film and Fiction in Interaction
+5559,CPLT 929 01,Film and Fiction in Interaction
+5559,ENGL 363 01,Film and Fiction in Interaction
+5559,FILM 445 01,Film and Fiction in Interaction
+5559,FILM 651 01,Film and Fiction in Interaction
+5560,LITR 454 01,Neurodiversity and World Literature
+5562,LITR 473 01,Politics and Literature in the Middle East
+5562,MMES 164 01,Politics and Literature in the Middle East
+5564,LITR 491 01,The Senior Essay
+5565,LITR 493 01,The Yearlong Senior Essay
+5566,MATH 107 01,Mathematics in the Real World
+5567,MATH 111 01,Introduction to Functions and Calculus II
+5568,MATH 111 02,Introduction to Functions and Calculus II
+5569,MATH 111 03,Introduction to Functions and Calculus II
+5570,MATH 111 04,Introduction to Functions and Calculus II
+5571,MATH 112 01,Calculus of Functions of One Variable I
+5572,MATH 112 02,Calculus of Functions of One Variable I
+5573,MATH 112 03,Calculus of Functions of One Variable I
+5574,MATH 112 04,Calculus of Functions of One Variable I
+5575,MATH 115 01,Calculus of Functions of One Variable II
+5576,MATH 115 02,Calculus of Functions of One Variable II
+5577,MATH 115 03,Calculus of Functions of One Variable II
+5578,MATH 115 04,Calculus of Functions of One Variable II
+5579,MATH 115 05,Calculus of Functions of One Variable II
+5580,MATH 115 06,Calculus of Functions of One Variable II
+5581,MATH 115 07,Calculus of Functions of One Variable II
+5582,MATH 118 01,Introduction to Functions of Several Variables
+5583,MATH 120 01,Calculus of Functions of Several Variables
+5584,MATH 120 02,Calculus of Functions of Several Variables
+5585,MATH 120 03,Calculus of Functions of Several Variables
+5586,MATH 120 04,Calculus of Functions of Several Variables
+5587,MATH 120 05,Calculus of Functions of Several Variables
+5588,MATH 120 06,Calculus of Functions of Several Variables
+5589,MATH 121 01,Mathematical Models in the Biosciences II: Advanced Techniques
+5591,MATH 222 01,Linear Algebra with Applications
+5591,AMTH 222 01,Linear Algebra with Applications
+5592,MATH 222 02,Linear Algebra with Applications
+5592,AMTH 222 02,Linear Algebra with Applications
+5593,MATH 222 03,Linear Algebra with Applications
+5593,AMTH 222 03,Linear Algebra with Applications
+5594,MATH 222 04,Linear Algebra with Applications
+5594,AMTH 222 04,Linear Algebra with Applications
+5595,MATH 225 01,Linear Algebra
+5596,MATH 225 02,Linear Algebra
+5597,MATH 240 01,Advanced Linear Algebra
+5599,MATH 244 01,Discrete Mathematics
+5599,AMTH 244 01,Discrete Mathematics
+5600,MATH 246 01,Ordinary Differential Equations
+5601,MATH 247 01,Intro to Partial Differential Equations
+5601,AMTH 247 01,Intro to Partial Differential Equations
+5603,MATH 255 01,Analysis 1
+5604,MATH 255 02,Analysis 1
+5605,MATH 256 01,Analysis 1 (Intensive)
+5606,MATH 260 01,Basic Analysis in Function Spaces
+5606,AMTH 260 01,Basic Analysis in Function Spaces
+5607,MATH 305 01,Analysis 2: Lebesgue Integration and Fourier Series
+5608,MATH 315 01,Intermediate Complex Analysis
+5608,MATH 515 01,Intermediate Complex Analysis
+5609,MATH 325 01,Introduction to Functional Analysis
+5609,MATH 525 01,Introduction to Functional Analysis
+5610,MATH 350 01,Introduction to Abstract Algebra
+5611,MATH 353 01,Introduction to Representation Theory
+5611,MATH 533 01,Introduction to Representation Theory
+5612,MATH 370 01,Fields and Galois Theory
+5613,MATH 430 01,Introduction to Topology
+5614,MATH 435 01,Differential Geometry
+5615,MATH 470 01,Individual Studies
+5616,MATH 475 01,Senior Essay
+5617,MATH 480 01,Senior Seminar: Mathematical Topics
+5618,MATH 481 01,Senior Seminar: Topics in Economics and Mathematics
+5619,MATH 536 01,Combinatorics
+5620,MATH 553 01,Representations of Lie Groups
+5621,MATH 610 01,Introduction to Arithmetic Geometry
+5622,MATH 614 01,Complex Alegebraic Geometry
+5624,MATH 748 01,Infinite Ergodic Theory
+5625,MATH 749 01,Geometric Representation Theory
+5626,MATH 750 01,Topics in Group Actions and Ergodic Theory
+5627,MATH 751 01,Foliations and Flows in 3-Manifolds
+5628,MATH 752 01,Topics in Sparse Analysis
+5629,MATH 827 01,Lang Teaching Seminar
+5630,MB&B 050 01,Topics in Cancer Biology
+5635,MB&B 251L 01,Laboratory for Biochemistry
+5635,MCDB 301L 01,Laboratory for Biochemistry
+5636,MB&B 251L 02,Laboratory for Biochemistry
+5636,MCDB 301L 02,Laboratory for Biochemistry
+5637,MB&B 268 01,"Identity, Society, and STEM"
+5638,MB&B 301 01,Principles of Biochemistry II
+5638,MB&B 601 01,Principles of Biochemistry II
+5640,MB&B 365 01,Biochemistry and Our Changing Climate
+5641,MB&B 431 01,Illuminating Biomolecular Mechanism with Structure
+5642,MB&B 443 01,Advanced Eukaryotic Molecular Biology
+5642,GENE 743 01,Advanced Eukaryotic Molecular Biology
+5642,MB&B 743 01,Advanced Eukaryotic Molecular Biology
+5642,MCDB 743 01,Advanced Eukaryotic Molecular Biology
+5643,MB&B 445 01,Methods and Logic in Molecular Biology
+5643,MB&B 545 01,Methods and Logic in Molecular Biology
+5644,MB&B 452 01,"Biomedical Data Science, Mining and Modeling"
+5644,CB&B 752 01,"Biomedical Data Science, Mining and Modeling"
+5644,CPSC 752 01,"Biomedical Data Science, Mining and Modeling"
+5644,MB&B 752 01,"Biomedical Data Science, Mining and Modeling"
+5644,MB&B 753 01,"Biomedical Data Science, Mining and Modeling"
+5644,MB&B 754 01,"Biomedical Data Science, Mining and Modeling"
+5644,MCDB 452 01,"Biomedical Data Science, Mining and Modeling"
+5644,MCDB 752 01,"Biomedical Data Science, Mining and Modeling"
+5644,S&DS 352 01,"Biomedical Data Science, Mining and Modeling"
+5645,MB&B 459 01,"Writing about Science, Medicine, and the Environment"
+5645,ENGL 459 01,"Writing about Science, Medicine, and the Environment"
+5645,EVST 215 01,"Writing about Science, Medicine, and the Environment"
+5646,MB&B 460L 01,Biochemical Analytics Laboratory
+5647,MB&B 471 01,Research in Biochemistry and Biophysics for the Major
+5648,MB&B 472 01,Research in Biochemistry and Biophysics
+5649,MB&B 473 01,Research in Biochemistry and Biophysics
+5650,MB&B 479 01,Intensive Research in Biochemistry and Biophysics for the Major
+5651,MB&B 490 01,The Senior Project
+5652,MB&B 517 01,Methods and Logic in Interdisciplinary Research
+5652,ENAS 517 01,Methods and Logic in Interdisciplinary Research
+5652,MCDB 517 01,Methods and Logic in Interdisciplinary Research
+5652,PHYS 517 01,Methods and Logic in Interdisciplinary Research
+5654,MB&B 571 01,Intensive Research for B.S./M.S. Candidates
+5655,MB&B 630 01,Biochemical and Biophysical Approaches in Molecular and Cellular Biology
+5655,MCDB 630 01,Biochemical and Biophysical Approaches in Molecular and Cellular Biology
+5656,MB&B 651 01,Lab Rotation for BQBS First-Year Students
+5657,MB&B 676 01,Responsible Conduct of Research
+5658,MB&B 711 01,Practical cryo-EM Workshop
+5658,C&MP 711 01,Practical cryo-EM Workshop
+5661,MBIO 671 01,Laboratory Rotations
+5662,MBIO 672 01,Laboratory Rotations
+5663,MBIO 674 01,Laboratory Rotations
+5664,MBIO 685 01,The Biology of Bacterial Pathogens II
+5665,MBIO 700 01,Seminal Papers on the Foundations of Modern Microbiology
+5666,MBIO 702 01,Research in Progress
+5667,MBIO 704 01,Microbiology Seminar Series
+5668,MBIO 734 01,Molecular Biology of Animal Viruses
+5668,GENE 734 01,Molecular Biology of Animal Viruses
+5668,MB&B 734 01,Molecular Biology of Animal Viruses
+5669,MCDB 040 01,The Science and Politics of Cancer
+5671,MCDB 103 01,Cancer
+5672,MCDB 105 01,"Biology, the World, and Us"
+5672,MB&B 105 01,"Biology, the World, and Us"
+5673,MCDB 109 01,Immunity and Contagion
+5674,MCDB 200 01,Molecular & Biochemical Principles of Gene Function
+5674,MCDB 700 01,Molecular & Biochemical Principles of Gene Function
+5675,MCDB 201L 01,Molecular Biology Laboratory
+5676,MCDB 201L 02,Molecular Biology Laboratory
+5677,MCDB 205 01,Cell Biology
+5678,MCDB 210 01,Developmental Biology
+5679,MCDB 250 01,Biology of Reproduction
+5680,MCDB 251 01,The Lab for Biology of Plants
+5681,MCDB 251 02,The Lab for Biology of Plants
+5682,MCDB 251L 01,Laboratory for Biology of Reproduction and Development
+5683,MCDB 251L 02,Laboratory for Biology of Reproduction and Development
+5684,MCDB 290 01,Microbiology
+5685,MCDB 291L 01,Laboratory for Microbiology
+5686,MCDB 291L 02,Laboratory for Microbiology
+5687,MCDB 291L 03,Laboratory for Microbiology
+5688,MCDB 300 01,Biochemistry
+5688,MB&B 200 01,Biochemistry
+5688,MB&B 500 01,Biochemistry
+5688,MCDB 500 01,Biochemistry
+5691,MCDB 303L 01,Advanced Molecular Biology Laboratory
+5692,MCDB 315 01,Pathobiology
+5693,MCDB 344L 01,Experimental Techniques in Cellular Biology
+5694,MCDB 345L 01,Experimental Strategies in Cellular Biology
+5695,MCDB 361 01,Modeling Biological Systems II
+5695,AMTH 765 01,Modeling Biological Systems II
+5695,BENG 465 01,Modeling Biological Systems II
+5695,CB&B 562 01,Modeling Biological Systems II
+5695,ENAS 561 01,Modeling Biological Systems II
+5695,INP 562 01,Modeling Biological Systems II
+5695,MB&B 361 01,Modeling Biological Systems II
+5695,MB&B 562 01,Modeling Biological Systems II
+5695,MCDB 562 01,Modeling Biological Systems II
+5695,NSCI 325 01,Modeling Biological Systems II
+5695,PHYS 562 01,Modeling Biological Systems II
+5696,MCDB 370 01,Biotechnology
+5697,MCDB 375 01,"Human Biology: Research Methods, Questions, and Societal impact"
+5698,MCDB 415 01,Cellular and Molecular Physiology
+5698,MCDB 560 01,Cellular and Molecular Physiology
+5698,C&MP 560 01,Cellular and Molecular Physiology
+5698,ENAS 570 01,Cellular and Molecular Physiology
+5698,PHAR 560 01,Cellular and Molecular Physiology
+5699,MCDB 435 01,Landmark Papers in Cell Biology
+5700,MCDB 450 01,The Human Genome
+5702,MCDB 470 01,"Tutorial in Molecular, Cellular, and Developmental Biology"
+5703,MCDB 474 01,Independent Research
+5704,MCDB 475 01,Senior Independent Research
+5705,MCDB 485 01,Senior Research
+5706,MCDB 486 01,Senior Research
+5707,MCDB 495 01,Senior Research Intensive
+5708,MCDB 496 01,Senior Research Intensive
+5709,MCDB 504 01,Responsible Conduct of Research
+5711,MCDB 585 01,Research in MCDB for B.S./M.S. Candidates
+5712,MCDB 595 01,Intensive Research in MCDB for B.S./M.S. Candidates
+5713,MCDB 596 01,Intensive Research in MCDB for B.S./M.S. Candidates
+5717,MCDB 901 01,Research Skills and Ethics II
+5717,CBIO 901 01,Research Skills and Ethics II
+5717,GENE 901 01,Research Skills and Ethics II
+5718,MCDB 903 01,Advanced Graduate Seminar
+5719,MCDB 913 01,Third Laboratory Rotation
+5719,CBIO 913 01,Third Laboratory Rotation
+5719,GENE 913 01,Third Laboratory Rotation
+5720,MCDB 951 01,Second-Year Research
+5721,MDVL 560 01,Master's Project
+5726,MDVL 621 01,Advanced Manuscript Studies
+5726,CLSS 624 01,Advanced Manuscript Studies
+5726,EMST 621 01,Advanced Manuscript Studies
+5726,ENGL 521 01,Advanced Manuscript Studies
+5726,HIST 532 01,Advanced Manuscript Studies
+5729,MDVL 677 01,"Preaching in the Middle Ages: Authority, Virtue, and Persuasion"
+5729,REL 777 01,"Preaching in the Middle Ages: Authority, Virtue, and Persuasion"
+5732,MDVL 975 01,Proseminar for Jobseekers in Premodern Fields
+5732,EALL 753 01,Proseminar for Jobseekers in Premodern Fields
+5732,EMST 960 01,Proseminar for Jobseekers in Premodern Fields
+5732,RLST 955 01,Proseminar for Jobseekers in Premodern Fields
+5733,MEDC 999 01,Courses in School of Medicine
+5734,MEDR 999 01,Clinical Clerkships
+5736,MENG 185 01,Mechanical Design
+5737,MENG 211 01,Thermodynamics for Mechanical Engineers
+5738,MENG 286L 01,Solid Mechanics and Materials Science Laboratory
+5739,MENG 363L 01,Fluid Mechanics and Thermodynamics Laboratory
+5740,MENG 363L 02,Fluid Mechanics and Thermodynamics Laboratory
+5741,MENG 363L 03,Fluid Mechanics and Thermodynamics Laboratory
+5742,MENG 363L 04,Fluid Mechanics and Thermodynamics Laboratory
+5743,MENG 363L 05,Fluid Mechanics and Thermodynamics Laboratory
+5744,MENG 383 01,Mechanical Engineering III: Dynamics
+5745,MENG 389 01,Mechanical Engineering IV: Fluid and Thermal Energy Science
+5746,MENG 390L 01,Mechatronics Laboratory
+5747,MENG 400 01,Computer-Aided Engineering
+5747,ENAS 600 01,Computer-Aided Engineering
+5749,MENG 425 01,Advanced Design and Analysis of Machines
+5751,MENG 459 01,Neuromuscular Biomechanics
+5751,BENG 459 01,Neuromuscular Biomechanics
+5752,MENG 464 01,Forces on the Nanoscale
+5753,MENG 472 01,Special Projects I
+5754,MENG 474 01,Special Projects II
+5755,MENG 488L 01,Mechanical Design: Process and Implementation II
+5756,MENG 492 01,Electronic and Optical Properties of Energy Materials
+5756,ENAS 755 01,Electronic and Optical Properties of Energy Materials
+5758,MESO 531 01,Beginning Sumerian II
+5759,MGMT 701 01,Seminar in Accounting Research II
+5762,MGMT 736 1,Organizations and Management I: Inside Organizations
+5763,MGMT 737 01,Applied Empirical Methods
+5764,MGMT 743 01,Continuous Time Finance
+5765,MGMT 745 1,Behavioral Finance
+5765,ECON 672 01,Behavioral Finance
+5766,MGMT 752 1,Marketing Workshop
+5767,MGMT 758 01,Foundations of Behavioral Economics
+5768,MGMT 758 1,Foundations of Behavioral Economics
+5769,MGMT 759 01,Moral Consumer Decision Making
+5770,MGMT 781 01,PhD Seminar: PhD Seminar:Finance/Accounting
+5771,MGMT 781 02,PhD Seminar: PhD Seminar: Accounting
+5772,MGMT 781 03,PhD Seminar: PhD Seminar: Marketing
+5773,MGMT 781 04,PhD Seminar: PhD Seminar: O & M
+5774,MGMT 781 05,PhD Seminar: PhD Seminar: Operations
+5775,MGMT 782 01,PhD PreSeminar: PhD PreSeminar:Finanacia/ Econ
+5776,MGMT 782 02,PhD PreSeminar: PhD PreSeminar: Accounting
+5777,MGMT 782 03,PhD PreSeminar: PhD PreSeminar: Marketing
+5778,MGMT 782 04,PhD PreSeminar: PhD PreSeminar: O & M
+5779,MGMT 782 05,PhD PreSeminar: PhD PreSeminar: Operations
+5780,MGMT 791 01,Independent Reading and Research
+5781,MGRK 120 01,Elementary Modern Greek II
+5782,MGRK 140 01,Intermediate Modern Greek II
+5783,MGRK 212 01,Folktales and Fairy Tales
+5783,LITR 328 01,Folktales and Fairy Tales
+5784,MGRK 216 01,Dionysus in Modernity
+5784,CLCV 216 01,Dionysus in Modernity
+5784,LITR 239 01,Dionysus in Modernity
+5784,WGSS 209 01,Dionysus in Modernity
+5785,MGRK 218 01,Family in Greek Literature and Film
+5785,FILM 243 01,Family in Greek Literature and Film
+5785,WGSS 245 01,Family in Greek Literature and Film
+5786,MGRK 222 01,History of Modern Greece
+5786,HIST 237J 01,History of Modern Greece
+5787,MGRK 300 01,"The Olympic Games, Ancient and Modern"
+5787,CLCV 319 01,"The Olympic Games, Ancient and Modern"
+5787,HIST 242J 01,"The Olympic Games, Ancient and Modern"
+5787,WGSS 293 01,"The Olympic Games, Ancient and Modern"
+5788,MGRK 304 01,Extreme and Radical Right Movements
+5788,ER&M 376 01,Extreme and Radical Right Movements
+5788,PLSC 376 01,Extreme and Radical Right Movements
+5788,SOCY 307 01,Extreme and Radical Right Movements
+5789,MGT 408 01,Introduction to Negotiation
+5790,MGT 408 02,Introduction to Negotiation
+5791,MGT 408 03,Introduction to Negotiation
+5792,MGT 408 04,Introduction to Negotiation
+5793,MGT 408 05,Introduction to Negotiation
+5794,MGT 408 E1,Introduction to Negotiation
+5795,MGT 413 E1,State & Society
+5796,MGT 416 01,International Experience: International Exp: Costa Rica
+5797,MGT 416 02,International Experience: IntnlExp:LondonMadridBarcelona
+5798,MGT 416 03,International Experience: IntntnlExp:Frankfurt/Amsterdam
+5799,MGT 416 04,International Experience: International Exp: Kenya
+5800,MGT 416 05,International Experience: International Exp: Uruguay
+5801,MGT 416 06,International Experience: International Exp: South Korea
+5802,MGT 416 07,International Experience: International Exp: Norway
+5803,MGT 416 08,International Experience: Intrntnl Experience: Israel
+5804,MGT 416 09,International Experience: International Exp: Bhutan
+5805,MGT 418 01,Global Virtual Teams
+5806,MGT 418 02,Global Virtual Teams
+5807,MGT 418 03,Global Virtual Teams
+5808,MGT 418 04,Global Virtual Teams
+5809,MGT 418 05,Global Virtual Teams
+5810,MGT 420 01,The Workforce
+5811,MGT 420 02,The Workforce
+5812,MGT 420 03,The Workforce
+5813,MGT 420 04,The Workforce
+5814,MGT 420 05,The Workforce
+5815,MGT 421 01,Innovator
+5816,MGT 421 02,Innovator
+5817,MGT 421 03,Innovator
+5818,MGT 421 04,Innovator
+5819,MGT 421 05,Innovator
+5820,MGT 421 E1,Innovator
+5821,MGT 422 01,Operations Engine
+5822,MGT 422 02,Operations Engine
+5823,MGT 422 03,Operations Engine
+5824,MGT 422 04,Operations Engine
+5825,MGT 422 05,Operations Engine
+5826,MGT 423 01,Sourcing & Managing Funds
+5827,MGT 423 02,Sourcing & Managing Funds
+5828,MGT 423 03,Sourcing & Managing Funds
+5829,MGT 423 04,Sourcing & Managing Funds
+5830,MGT 423 05,Sourcing & Managing Funds
+5831,MGT 423 E1,Sourcing & Managing Funds
+5832,MGT 425 01,The Global Macroeconomy
+5833,MGT 425 02,The Global Macroeconomy
+5834,MGT 425 03,The Global Macroeconomy
+5835,MGT 425 04,The Global Macroeconomy
+5836,MGT 425 05,The Global Macroeconomy
+5837,MGT 425 E1,The Global Macroeconomy
+5838,MGT 430 01,The Executive
+5839,MGT 430 02,The Executive
+5840,MGT 430 03,The Executive
+5841,MGT 430 04,The Executive
+5842,MGT 430 05,The Executive
+5843,MGT 430 E1,The Executive
+5844,MGT 504 P1,Human Capital Strategy: Human Capital Strategy I
+5845,MGT 506 P1,Managerial Decision Making
+5846,MGT 507 01,Intro to Operations Research
+5847,MGT 507 P1,Intro to Operations Research: Operations Management
+5848,MGT 510 01,Data Analysis and Causal Inference
+5849,MGT 511 P1,"Inequality, Systems, & Society: Inequality,Systems&Society II"
+5850,MGT 512 P1,Stategic Communication: Stategic Communication I
+5851,MGT 513 P1,FinInfoforStrategicDecisions: FinInfoforStratgicDecisions II
+5852,MGT 516 P1,EducatnPolicyforSystmsLeaders: EducatnPolicyforSystmsLeadersI
+5853,MGT 516 P2,EducatnPolicyforSystmsLeaders: EducatnPolicyforSystmsLeadrsII
+5854,MGT 518 P1,ShapingthePoliticalEnvironment
+5855,MGT 519 P1,ExecutivefortheEducationLeader: ExecutivefortheEducationLeadrI
+5856,MGT 523 01,Monetary Policy
+5857,MGT 525 01,Competitive Strategy
+5858,MGT 525 02,Competitive Strategy
+5859,MGT 525 03,Competitive Strategy
+5860,MGT 525 04,Competitive Strategy
+5861,MGT 525 05,Competitive Strategy
+5862,MGT 526 01,Market Failures and Economic Policy in Developing Countries
+5862,GLBL 6530 01,Market Failures and Economic Policy in Developing Countries
+5863,MGT 528 01,The Firm in the Social World
+5865,MGT 531 01,Interpersonal Dynamics
+5866,MGT 532 01,Business Ethics
+5867,MGT 532 02,Business Ethics
+5868,MGT 532 G1,Business Ethics
+5869,MGT 537 01,Inequality & Social Mobility
+5870,MGT 540 01,Personal Finance
+5870,ECON 436 01,Personal Finance
+5871,MGT 540 02,Personal Finance
+5871,ECON 436 02,Personal Finance
+5872,MGT 541 01,Corporate Finance
+5873,MGT 541 02,Corporate Finance
+5874,MGT 541 03,Corporate Finance
+5875,MGT 541 E1,Corporate Finance
+5876,MGT 544 01,Investment Management
+5877,MGT 548 01,Real Estate Finance
+5877,LAW 21401 01,Real Estate Finance
+5878,MGT 548 02,Real Estate Finance
+5878,LAW 21401 02,Real Estate Finance
+5879,MGT 553 01,Strategic Communication: Delivering Effective Presentations
+5880,MGT 553 02,Strategic Communication: Delivering Effective Presentations
+5881,MGT 555 01,Pricing Strategy
+5882,MGT 555 02,Pricing Strategy
+5883,MGT 556 01,Big Data & Customer Analytics
+5884,MGT 556 02,Big Data & Customer Analytics
+5885,MGT 561 01,Product Management
+5886,MGT 561 02,Product Management
+5887,MGT 566 01,"Metrics, Tools and Indicators in Corporate Responsibility"
+5887,ENV 811 01,"Metrics, Tools and Indicators in Corporate Responsibility"
+5888,MGT 575 01,Social Media Analytics
+5889,MGT 575 02,Social Media Analytics
+5890,MGT 581 01,Education Policy
+5891,MGT 589 01,Competition Economics & Policy
+5891,ECON 339 01,Competition Economics & Policy
+5891,LAW 21154 01,Competition Economics & Policy
+5892,MGT 600 01,Global Network Week Course: GNW: EGADE Mexico
+5893,MGT 600 02,Global Network Week Course: GNW: ESMT Berlin
+5894,MGT 600 03,Global Network Week Course: GNW: FGV Brazil
+5895,MGT 600 04,Global Network Week Course: GNW: FGV Brazil
+5896,MGT 600 05,Global Network Week Course: GNW: Hitosubashi Japan
+5897,MGT 600 06,Global Network Week Course: GNW: HKUST China
+5898,MGT 600 07,Global Network Week Course: GNW: INCAE Costa Rica
+5899,MGT 600 08,Global Network Week Course: GNW: IIMB Bangalore
+5900,MGT 600 09,Global Network Week Course: GNW: Koc Univ. Turkey
+5901,MGT 600 10,Global Network Week Course: GNW: PUC Chile
+5902,MGT 600 11,Global Network Week Course: GNW: Renmin China
+5903,MGT 600 12,Global Network Week Course: GNW: SNU Seoul
+5904,MGT 600 13,Global Network Week Course: GNW: Technion Israel
+5905,MGT 600 14,Global Network Week Course: GNW: UBC Sauder Canada
+5906,MGT 600 15,Global Network Week Course: GNW: UCT South Africa
+5907,MGT 600 16,Global Network Week Course: GNW: Univ. of Indonesia
+5908,MGT 600 17,Global Network Week Course: GNW: UNSW Australia
+5909,MGT 621 01,Managing Social Enterprises
+5910,MGT 623 01,Strategic Leadership Across Sectors
+5911,MGT 624 01,Human Capital Strategy
+5912,MGT 624 02,Human Capital Strategy
+5914,MGT 631 01,Public Health Entrepreneurship & Intrapraneurship
+5914,ENV 604 01,Public Health Entrepreneurship & Intrapraneurship
+5914,GLBL 6520 01,Public Health Entrepreneurship & Intrapraneurship
+5914,HPM 631 01,Public Health Entrepreneurship & Intrapraneurship
+5915,MGT 631 02,Public Health Entrepreneurship & Intrapraneurship
+5915,ENV 604 02,Public Health Entrepreneurship & Intrapraneurship
+5915,GLBL 6520 02,Public Health Entrepreneurship & Intrapraneurship
+5915,HPM 631 02,Public Health Entrepreneurship & Intrapraneurship
+5916,MGT 636 G1,Global Leadership: Increasing Personal and Interpersonal Effectiveness
+5917,MGT 641 01,Behavioral Finance
+5918,MGT 641 02,Behavioral Finance
+5919,MGT 641 03,Behavioral Finance
+5921,MGT 646 01,Start-up Founder Practicum
+5922,MGT 650 01,CustomerInsights&Applications
+5923,MGT 657 01,Creating Healthcare and Life Science Ventures
+5926,MGT 668 01,Narratives in Health Media on the Social Internet
+5928,MGT 671 01,Entrepreneurship through Acquisition
+5930,MGT 674 01,Leading Small and Medium Enterprises
+5931,MGT 675 01,Designing Brand Strategy
+5938,MGT 695 01,MngingHealthcareinComplexSysts: Cancel MangHealthcareComplexSy
+5939,MGT 698 01,"Healthcare Policy, Finance, and Economics"
+5940,MGT 699 01,ColloquiumHealthcareLeadership
+5941,MGT 699 E1,ColloquiumHealthcareLeadership: Colloquium Healthcare
+5942,MGT 699 E2,ColloquiumHealthcareLeadership: Colloquium: Asset Management
+5943,MGT 699 E3,ColloquiumHealthcareLeadership: Colloquium:Sustainability
+5944,MGT 806 01,PrivateEquity:Value Creation
+5945,MGT 809 01,Advanced Business Analytics with Spreadsheets
+5946,MGT 809 02,Advanced Business Analytics with Spreadsheets
+5947,MGT 811 01,"Taxes, Business & Strategy"
+5948,MGT 812 01,Financial Statement Analysis
+5949,MGT 812 02,Financial Statement Analysis
+5950,MGT 812 G1,Financial Statement Analysis
+5951,MGT 814 E1,Informed Business Decisions: Tax and Financial Perspective
+5952,MGT 819 01,Big Data
+5953,MGT 819 02,Big Data
+5954,MGT 819 03,Big Data
+5955,MGT 822 01,Game Theory and Market Design
+5956,MGT 822 02,Game Theory and Market Design
+5957,MGT 822 E1,Game Theory and Market Design
+5958,MGT 822 G1,Game Theory and Market Design
+5959,MGT 823 01,Insurance and Finance for the Poor
+5960,MGT 826 01,Inclusive Economic Development Lab: Opportunity Zones in New Haven
+5961,MGT 827 01,Endowment Management: Cancelled:Endowment Management
+5962,MGT 828 01,Creativity & Innovation
+5963,MGT 829 01,MacroeconImplicatnsofGlblztion
+5964,MGT 829 G1,MacroeconImplicatnsofGlblztion
+5965,MGT 832 01,Leadership Lab
+5966,MGT 832 02,Leadership Lab
+5967,MGT 832 03,Leadership Lab
+5968,MGT 833 01,Understanding Technology Disruption
+5969,MGT 836 G1,The Global Macroeconomy
+5970,MGT 839 01,Program Evaluation
+5971,MGT 842 01,Financing Green Technologies
+5972,MGT 843 01,The Digitalization of Money
+5973,MGT 845 01,PortfolioManagementinPractice
+5974,MGT 846 01,Introduction to Private Equity
+5975,MGT 848 01,A History of Financial Market Fraud: A Forensic Approach
+5976,MGT 853 01,AI Strategy & Marketing
+5977,MGT 853 02,AI Strategy & Marketing
+5978,MGT 854 01,"Behavioral Economics: The Psychology and Behavior of Individuals, Organizations, and Markets"
+5979,MGT 854 02,"Behavioral Economics: The Psychology and Behavior of Individuals, Organizations, and Markets"
+5980,MGT 854 03,"Behavioral Economics: The Psychology and Behavior of Individuals, Organizations, and Markets"
+5981,MGT 855 01,How to Design and Run Business Experiments
+5982,MGT 855 02,How to Design and Run Business Experiments
+5983,MGT 856 01,Managing Marketing Programs
+5984,MGT 856 02,Managing Marketing Programs
+5985,MGT 858 01,Database Systems
+5986,MGT 861 01,Race&MoneyinAmerica
+5987,MGT 862 01,Applications of Game Theory
+5987,ECON 160 01,Applications of Game Theory
+5987,GLBL 383 01,Applications of Game Theory
+5988,MGT 863 01,PoliticalEthics&IssuesforOrgs
+5989,MGT 864 01,BehavioralScience&SocialGood
+5990,MGT 864 02,BehavioralScience&SocialGood
+5992,MGT 866 01,Build a Metaverse Strategy
+5993,MGT 867 01,Modern Philanthropy: Cancel: Modern Philanthropy
+5994,MGT 868 01,Education in the Economy
+5995,MGT 871 01,Financial Reporting
+5996,MGT 872 01,Managing Sustainable Operations
+5997,MGT 872 E1,Managing Sustainable Operations
+5998,MGT 873 01,Supply Chain Management
+5999,MGT 873 G1,Supply Chain Management
+6000,MGT 875 01,Service Management
+6001,MGT 879 01,Healthcare Operations
+6002,MGT 880 01,BrandStrat&CommunicatinAfrica
+6003,MGT 882 01,Advanced Negotiations
+6004,MGT 882 02,Advanced Negotiations
+6005,MGT 882 E1,Advanced Negotiations
+6006,MGT 887 01,Negotiations
+6007,MGT 887 02,Negotiations
+6008,MGT 891 01,Private Capital and Impact Investing
+6009,MGT 892 01,Introduction to Financial Crisis Communications
+6010,MGT 893 01,Nonmarket Strategy
+6011,MGT 893 02,Nonmarket Strategy
+6012,MGT 894 01,ConnectedCities&UrbanEcosystms: Canceled:ConctdCities&UrbanEco
+6013,MGT 896 01,America’s Future Role in the Global Economy
+6014,MGT 897 01,Entrepreneurial Finance
+6015,MGT 897 02,Entrepreneurial Finance
+6016,MGT 897 G1,Entrepreneurial Finance
+6017,MGT 898 01,FinancialCrisis:PolicyResponse
+6018,MGT 913 01,EntVenturesinConsumerProducts
+6019,MGT 920 01,GNAM: Natural Capital
+6020,MGT 921 01,Asset Management Colloquium
+6021,MGT 926 01,AM in RegulatoryEnvironment
+6022,MGT 928 01,AssetMgt Practical Expriecence
+6023,MGT 929 01,ESG Investing
+6024,MGT 929 02,ESG Investing: Cancelled: ESG Investing
+6025,MGT 929 E1,ESG Investing
+6026,MGT 936 01,Fixed Income Strategies
+6027,MGT 937 01,Hedge Fund Strategies
+6028,MGT 938 01,Macroeconomic Strategies
+6029,MGT 939 01,Risky Credit
+6030,MGT 943 01,Financial Stability Regulation
+6032,MGT 949 01,Systemic-Risk Colloquium
+6033,MGT 952 01,GNAM:ConflictResolutionMngers
+6034,MGT 953 01,GNAM: Digital Resilience
+6035,MGT 961 01,GNAM: ManagingErrorsinOrgs
+6036,MGT 964 01,GNAM:FutureofFood&AgriBusiness
+6037,MGT 965 01,GNAM:Aviation Finance
+6038,MGT 966 01,GNAM:GlblImplctnsFinTechInnovs
+6039,MGT 968 01,GNAM:ValuatnandMergrs&Acquistn
+6040,MGT 969 01,GNAM: Sustainable Finance
+6041,MGT 971 01,GNAM: Sustnblty&Innovation
+6042,MGT 973 01,GNAM: Digital Finance
+6043,MGT 983 01,GNAM:Innovation&Entrpreneurshp
+6045,MGT 994 E1,InvestinginHealthcare:Capstone
+6046,MGT 995 01,Sustainable Innovation in Healthcare
+6047,MGT 997 01,VentureCapital&PrivateEquity
+6048,MHHR 701 01,Theory and Praxis of Material Histories
+6055,MMES 243 01,"Health, Medicine, and Politics in the Middle East"
+6060,MRES 999 01,Master's Thesis Research
+6061,MUS 502 01,Analysis and Musicianship II
+6062,MUS 502 02,Analysis and Musicianship II
+6063,MUS 505 01,Orchestration through Contemporary Score Study
+6064,MUS 506 01,LyricDiction/Singers: LyricDiction/Singers-ITALIAN
+6064,MUS 606 01,LyricDiction/Singers: LyricDiction/Singers-ITALIAN
+6065,MUS 506 02,LyricDiction/Singers: LyricDiction/Singers-ITALIAN
+6065,MUS 606 02,LyricDiction/Singers: LyricDiction/Singers-ITALIAN
+6066,MUS 507 01,Vocal Repertoire for Singers
+6066,MUS 607 01,Vocal Repertoire for Singers
+6067,MUS 508 01,Opera Workshop
+6067,MUS 608 01,Opera Workshop
+6068,MUS 509 01,Art Song Coaching for Singers
+6069,MUS 509 02,Art Song Coaching for Singers: Art Song Coaching/Singers ISM
+6069,MUS 609 02,Art Song Coaching for Singers: Art Song Coaching/Singers ISM
+6070,MUS 511 01,Music before 1750
+6071,MUS 512 01,Music from 1750 to 1900
+6072,MUS 513 01,Music since 1900
+6073,MUS 515 01,Improvisation at the Organ I
+6073,MUS 615 01,Improvisation at the Organ I
+6073,MUS 715 01,Improvisation at the Organ I
+6073,MUS 815 01,Improvisation at the Organ I
+6074,MUS 519 01,ISM Colloquium
+6074,MUS 619 01,ISM Colloquium
+6074,MUS 719 01,ISM Colloquium
+6075,MUSI 329 01,Intermediate Conducting
+6075,MUS 530 01,Intermediate Conducting
+6076,MUS 531 01,Repertory Chorus—Voice
+6076,MUS 631 01,Repertory Chorus—Voice
+6076,MUS 731 01,Repertory Chorus—Voice
+6077,MUS 532 01,Repertory Chorus—Conducting
+6077,MUS 632 01,Repertory Chorus—Conducting
+6078,MUS 533 01,Seminar in Piano Literature and Interpretation
+6078,MUS 633 01,Seminar in Piano Literature and Interpretation
+6078,MUS 733 01,Seminar in Piano Literature and Interpretation
+6079,MUS 534 01,Collaborative Piano—Instrumental
+6080,MUS 535 01,Recital Chorus—Voice
+6080,MUS 635 01,Recital Chorus—Voice
+6080,MUS 735 01,Recital Chorus—Voice
+6081,MUS 536 01,Recital Chorus—Conducting
+6081,MUS 636 01,Recital Chorus—Conducting
+6081,MUS 736 01,Recital Chorus—Conducting
+6082,MUS 537 01,Collaborative Piano—Voice
+6083,MUS 538 01,Cello Ensemble
+6083,MUS 638 01,Cello Ensemble
+6083,MUS 738 01,Cello Ensemble
+6084,MUS 540 0,Indiv Instrctn--: Indiv Instrctn--ORGAN
+6085,MUS 540 01,Indiv Instrctn--: Indiv Instrctn--BASS
+6085,MUS 640 01,Indiv Instrctn--: Indiv Instrctn--BASS
+6085,MUS 740 01,Indiv Instrctn--: Indiv Instrctn--BASS
+6086,MUS 540 02,Indiv Instrctn--: Indiv Instrctn--BASSOON
+6086,MUS 640 02,Indiv Instrctn--: Indiv Instrctn--BASSOON
+6087,MUS 540 03,Indiv Instrctn--: Indiv Instrctn--CELLO
+6087,MUS 640 03,Indiv Instrctn--: Indiv Instrctn--CELLO
+6087,MUS 740 02,Indiv Instrctn--: Indiv Instrctn--CELLO
+6088,MUS 540 04,Indiv Instrctn--: Indiv Instrctn--CHORAL COND
+6089,MUS 540 05,Indiv Instrctn--: Indiv Instrctn--CHORAL COND
+6089,MUS 640 19,Indiv Instrctn--: Indiv Instrctn--CHORAL COND
+6090,MUS 540 06,Indiv Instrctn--: Indiv Instrctn--CLARINET
+6090,MUS 640 06,Indiv Instrctn--: Indiv Instrctn--CLARINET
+6090,MUS 740 04,Indiv Instrctn--: Indiv Instrctn--CLARINET
+6091,MUS 540 07,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6091,MUS 640 08,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6091,MUS 740 07,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6092,MUS 540 08,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6092,MUS 640 07,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6092,MUS 740 06,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6093,MUS 540 09,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6093,MUS 640 09,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6093,MUS 740 08,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6094,MUS 540 10,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6094,MUS 640 10,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6094,MUS 740 05,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6095,MUS 540 11,Indiv Instrctn--: Indiv Instrctn--FLUTE
+6095,MUS 640 11,Indiv Instrctn--: Indiv Instrctn--FLUTE
+6096,MUS 540 12,Indiv Instrctn--: Indiv Instrctn--FRENCH HORN
+6096,MUS 640 12,Indiv Instrctn--: Indiv Instrctn--FRENCH HORN
+6096,MUS 740 09,Indiv Instrctn--: Indiv Instrctn--FRENCH HORN
+6097,MUS 540 13,Indiv Instrctn--: Indiv Instrctn--GUITAR
+6097,MUS 640 13,Indiv Instrctn--: Indiv Instrctn--GUITAR
+6098,MUS 540 14,Indiv Instrctn--: Indiv Instrctn--HARP
+6098,MUS 640 14,Indiv Instrctn--: Indiv Instrctn--HARP
+6099,MUS 540 15,Indiv Instrctn--: Indiv Instrctn--HARPSICHORD
+6099,MUS 640 15,Indiv Instrctn--: Indiv Instrctn--HARPSICHORD
+6100,MUS 540 16,Indiv Instrctn--: Indiv Instrctn--OBOE
+6100,MUS 640 16,Indiv Instrctn--: Indiv Instrctn--OBOE
+6101,MUS 540 17,Indiv Instrctn--: Indiv Instrctn--ORGAN
+6101,MUS 640 17,Indiv Instrctn--: Indiv Instrctn--ORGAN
+6102,MUS 540 18,Indiv Instrctn--: Indiv Instrctn--ORGAN
+6102,MUS 640 18,Indiv Instrctn--: Indiv Instrctn--ORGAN
+6103,MUS 540 19,Indiv Instrctn--: Indiv Instrctn--ORCH COND
+6104,MUS 540 20,Indiv Instrctn--: Indiv Instrctn--PERCUSSION
+6104,MUS 640 20,Indiv Instrctn--: Indiv Instrctn--PERCUSSION
+6104,MUS 740 10,Indiv Instrctn--: Indiv Instrctn--PERCUSSION
+6105,MUS 540 21,Indiv Instrctn--: Indiv Instrctn--PIANO
+6105,MUS 640 21,Indiv Instrctn--: Indiv Instrctn--PIANO
+6106,MUS 540 22,Indiv Instrctn--: Indiv Instrctn--PIANO
+6106,MUS 640 22,Indiv Instrctn--: Indiv Instrctn--PIANO
+6107,MUS 540 23,Indiv Instrctn--: Indiv Instrctn--PIANO
+6107,MUS 640 23,Indiv Instrctn--: Indiv Instrctn--PIANO
+6108,MUS 540 24,Indiv Instrctn--: Indiv Instrctn--PIANO
+6108,MUS 640 24,Indiv Instrctn--: Indiv Instrctn--PIANO
+6109,MUS 540 25,Indiv Instrctn--: Indiv Instrctn--PIANO
+6110,MUS 540 26,Indiv Instrctn--: Indiv Instrctn--TROMBONE
+6110,MUS 640 26,Indiv Instrctn--: Indiv Instrctn--TROMBONE
+6111,MUS 540 27,Indiv Instrctn--: Indiv Instrctn--TRUMPET
+6111,MUS 640 27,Indiv Instrctn--: Indiv Instrctn--TRUMPET
+6112,MUS 540 28,Indiv Instrctn--: Indiv Instrctn--TUBA
+6112,MUS 640 28,Indiv Instrctn--: Indiv Instrctn--TUBA
+6113,MUS 540 29,Indiv Instrctn--: Indiv Instrctn--VIOLA
+6113,MUS 640 29,Indiv Instrctn--: Indiv Instrctn--VIOLA
+6114,MUS 540 30,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6114,MUS 640 30,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6114,MUS 840 03,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6115,MUS 540 31,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6115,MUS 640 33,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6116,MUS 540 32,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6116,MUS 640 31,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6117,MUS 540 33,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6117,MUS 640 32,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6118,MUS 540 34,Indiv Instrctn--: Indiv Instrctn--VOICE
+6118,MUS 640 34,Indiv Instrctn--: Indiv Instrctn--VOICE
+6119,MUS 540 35,Indiv Instrctn--: Indiv Instrctn--VOICE
+6119,MUS 640 35,Indiv Instrctn--: Indiv Instrctn--VOICE
+6120,MUS 540 36,Indiv Instrctn--: Indiv Instrctn--COMPOSITION
+6121,MUS 540 37,Indiv Instrctn--: Indiv Instrctn--VOICE
+6122,MUS 540 38,Indiv Instrctn--: Indiv Instrctn--VOICE
+6123,MUS 541 01,Secndry Instrmnt--: Secndry Instrmnt--BASS
+6124,MUS 541 02,Secndry Instrmnt--: Secndry Instrmnt--CELLO
+6125,MUS 541 03,Secndry Instrmnt--: Secndry Instrmnt--CHORAL COND
+6126,MUS 541 04,Secndry Instrmnt--: Secndry Instrmnt--CLARINET
+6127,MUS 541 05,Secndry Instrmnt--: Secndry Instrmnt--COMPOSITION
+6128,MUS 541 06,Secndry Instrmnt--: Secndry Instrmnt--FLUTE
+6129,MUS 541 07,Secndry Instrmnt--: Secndry Instrmnt--FRENCH HORN
+6130,MUS 541 08,Secndry Instrmnt--: Secndry Instrmnt--GUITAR
+6131,MUS 541 09,Secndry Instrmnt--: Secndry Instrmnt--HARP
+6132,MUS 541 10,Secndry Instrmnt--: Secndry Instrmnt--HARPSICHORD
+6133,MUS 541 11,Secndry Instrmnt--: Secndry Instrmnt--OBOE
+6134,MUS 541 12,Secndry Instrmnt--: Secndry Instrmnt--ORCH COND
+6135,MUS 541 13,Secndry Instrmnt--: Secndry Instrmnt--ORGAN
+6136,MUS 541 14,Secndry Instrmnt--: Secndry Instrmnt--SAXOPHONE
+6137,MUS 541 15,Secndry Instrmnt--: Secndry Instrmnt--PERCUSSION
+6138,MUS 541 16,Secndry Instrmnt--: Secndry Instrmnt--PIANO
+6139,MUS 541 17,Secndry Instrmnt--: Secndry Instrmnt--TROMBONE
+6140,MUS 541 18,Secndry Instrmnt--: Secndry Instrmnt--TRUMPET
+6141,MUS 541 19,Secndry Instrmnt--: Secndry Instrmnt--TUBA
+6142,MUS 541 20,Secndry Instrmnt--: Secndry Instrmnt--VIOLA
+6143,MUS 541 21,Secndry Instrmnt--: Secndry Instrmnt--VIOLIN
+6144,MUS 541 22,Secndry Instrmnt--: Secndry Instrmnt--VOICE
+6145,MUS 542 01,The Yale Philharmonia and New Music New Haven
+6145,MUS 642 01,The Yale Philharmonia and New Music New Haven
+6145,MUS 742 01,The Yale Philharmonia and New Music New Haven
+6145,MUS 842 01,The Yale Philharmonia and New Music New Haven
+6146,MUS 543 01,Chamber Music
+6146,MUS 643 01,Chamber Music
+6146,MUS 743 01,Chamber Music
+6146,MUS 843 01,Chamber Music
+6147,MUS 544 01,"Seminar, Major--: Seminar, Major--BASS"
+6147,MUS 644 01,"Seminar, Major--: Seminar, Major--BASS"
+6147,MUS 744 01,"Seminar, Major--: Seminar, Major--BASS"
+6148,MUS 544 02,"Seminar, Major--: Seminar, Major--BASSOON"
+6149,MUS 544 03,"Seminar, Major--: Seminar, Major--CELLO"
+6149,MUS 644 03,"Seminar, Major--: Seminar, Major--CELLO"
+6149,MUS 744 02,"Seminar, Major--: Seminar, Major--CELLO"
+6150,MUS 544 04,"Seminar, Major--: Seminar, Major--CHORAL COND"
+6150,MUS 644 04,"Seminar, Major--: Seminar, Major--CHORAL COND"
+6150,MUS 744 03,"Seminar, Major--: Seminar, Major--CHORAL COND"
+6151,MUS 544 05,"Seminar, Major--: Seminar, Major--CLARINET"
+6151,MUS 644 06,"Seminar, Major--: Seminar, Major--CLARINET"
+6151,MUS 744 04,"Seminar, Major--: Seminar, Major--CLARINET"
+6152,MUS 544 06,"Seminar, Major--: Seminar, Major--COMPOSITION"
+6152,MUS 644 07,"Seminar, Major--: Seminar, Major--COMPOSITION"
+6152,MUS 744 05,"Seminar, Major--: Seminar, Major--COMPOSITION"
+6153,MUS 544 07,"Seminar, Major--: Seminar, Major--FLUTE"
+6153,MUS 644 08,"Seminar, Major--: Seminar, Major--FLUTE"
+6154,MUS 544 08,"Seminar, Major--: Seminar, Major--FRENCH HORN"
+6154,MUS 644 09,"Seminar, Major--: Seminar, Major--FRENCH HORN"
+6154,MUS 744 06,"Seminar, Major--: Seminar, Major--FRENCH HORN"
+6155,MUS 544 09,"Seminar, Major--: Seminar, Major--GUITAR"
+6155,MUS 644 10,"Seminar, Major--: Seminar, Major--GUITAR"
+6156,MUS 544 10,"Seminar, Major--: Seminar, Major--HARP"
+6156,MUS 644 11,"Seminar, Major--: Seminar, Major--HARP"
+6157,MUS 544 11,"Seminar, Major--: Seminar, Major--HARPSICHORD"
+6157,MUS 644 12,"Seminar, Major--: Seminar, Major--HARPSICHORD"
+6158,MUS 544 12,"Seminar, Major--: Seminar, Major--OBOE"
+6158,MUS 644 13,"Seminar, Major--: Seminar, Major--OBOE"
+6159,MUS 544 14,"Seminar, Major--: Seminar, Major--ORCH COND"
+6160,MUS 544 15,"Seminar, Major--: Seminar, Major--ORGAN"
+6160,MUS 644 14,"Seminar, Major--: Seminar, Major--ORGAN"
+6161,MUS 544 16,"Seminar, Major--: Seminar, Major--PERCUSSION"
+6161,MUS 644 15,"Seminar, Major--: Seminar, Major--PERCUSSION"
+6162,MUS 544 17,"Seminar, Major--: Seminar, Major--TROMBONE"
+6162,MUS 644 17,"Seminar, Major--: Seminar, Major--TROMBONE"
+6163,MUS 544 18,"Seminar, Major--: Seminar, Major--TRUMPET"
+6163,MUS 644 18,"Seminar, Major--: Seminar, Major--TRUMPET"
+6163,MUS 740 13,"Seminar, Major--: Seminar, Major--TRUMPET"
+6164,MUS 544 19,"Seminar, Major--: Seminar, Major--TUBA"
+6164,MUS 644 19,"Seminar, Major--: Seminar, Major--TUBA"
+6165,MUS 544 20,"Seminar, Major--: Seminar, Major--VIOLA"
+6165,MUS 644 20,"Seminar, Major--: Seminar, Major--VIOLA"
+6166,MUS 544 21,"Seminar, Major--: Seminar, Major--VIOLIN"
+6166,MUS 644 22,"Seminar, Major--: Seminar, Major--VIOLIN"
+6167,MUS 544 22,"Seminar, Major--: Seminar, Major--VIOLIN"
+6167,MUS 644 21,"Seminar, Major--: Seminar, Major--VIOLIN"
+6168,MUS 544 23,"Seminar, Major--: Seminar, Major--VIOLIN"
+6168,MUS 644 23,"Seminar, Major--: Seminar, Major--VIOLIN"
+6169,MUS 544 24,"Seminar, Major--: Seminar, Major--VIOLIN"
+6169,MUS 644 24,"Seminar, Major--: Seminar, Major--VIOLIN"
+6170,MUS 544 25,"Seminar, Major--: Seminar, Major--VOICE"
+6170,MUS 644 25,"Seminar, Major--: Seminar, Major--VOICE"
+6171,MUS 544 26,"Seminar, Major--: Seminar, Major--VOICE"
+6172,MUS 546 01,Yale Camerata
+6172,MUS 646 01,Yale Camerata
+6173,MUS 551 01,Studio Techniques and Contemporary Popular Music
+6174,MUS 555 01,Composition for Performers
+6175,MUS 571 01,Yale Schola Cantorum
+6176,MUS 574 01,Bruckner: The Music of Anton Bruckner
+6178,MUS 590 01,Wind/brass chamber analysis: Wind/brass Chamber Analysis
+6179,MUSI 463 01,"Scat, Cyborgs, and Sirens: The 20th Century Voice"
+6179,MUS 591 01,"Scat, Cyborgs, and Sirens: The 20th Century Voice"
+6180,MUS 594 01,Vocal Chamber Music
+6181,MUS 595 01,Performance Practice for Singers
+6181,MUS 695 01,Performance Practice for Singers
+6182,MUS 609 01,Art Song Coaching for Singers
+6183,MUS 612 01,The Music of Igor Stravinsky
+6184,MUS 618 01,"Intimacy, Love, and Devotion in Seventeenth-Century Music"
+6185,MUS 622 01,Acting for Singers: Acting for Singers-ISM
+6186,MUS 623 01,Early Music Coaching for Singers
+6187,MUS 626 01,Performance Practice before 1750
+6188,MUS 640 04,Indiv Instrctn--: Indiv Instrctn--CHORAL COND
+6189,MUS 640 05,Indiv Instrctn--: Indiv Instrctn--CHORAL COND
+6190,MUS 640 25,Indiv Instrctn--: Indiv Instrctn--PIANO
+6191,MUS 640 36,Indiv Instrctn--: Indiv Instrctn--VOICE
+6192,MUS 641 01,Secndry Instrmnt--: Secndry Instrmnt--BASS
+6193,MUS 641 02,Secndry Instrmnt--: Secndry Instrmnt--BASSOON
+6194,MUS 641 03,Secndry Instrmnt--: Secndry Instrmnt--CELLO
+6195,MUS 641 04,Secndry Instrmnt--: Secndry Instrmnt--CHORAL COND
+6196,MUS 641 05,Secndry Instrmnt--: Secndry Instrmnt--CLARINET
+6197,MUS 641 06,Secndry Instrmnt--: Secndry Instrmnt--COMPOSITION
+6198,MUS 641 07,Secndry Instrmnt--: Secndry Instrmnt--FLUTE
+6199,MUS 641 08,Secndry Instrmnt--: Secndry Instrmnt--FRENCH HORN
+6200,MUS 641 09,Secndry Instrmnt--: Secndry Instrmnt--GUITAR
+6201,MUS 641 10,Secndry Instrmnt--: Secndry Instrmnt--HARP
+6202,MUS 641 11,Secndry Instrmnt--: Secndry Instrmnt--HARPSICHORD
+6203,MUS 641 12,Secndry Instrmnt--: Secndry Instrmnt--OBOE
+6204,MUS 641 13,Secndry Instrmnt--: Secndry Instrmnt--ORGAN
+6205,MUS 641 14,Secndry Instrmnt--: Secndry Instrmnt--SAXOPHONE
+6206,MUS 641 15,Secndry Instrmnt--: Secndry Instrmnt--PERCUSSION
+6207,MUS 641 16,Secndry Instrmnt--: Secndry Instrmnt--PIANO
+6208,MUS 641 17,Secndry Instrmnt--: Secndry Instrmnt--TROMBONE
+6209,MUS 641 18,Secndry Instrmnt--: Secndry Instrmnt--TRUMPET
+6210,MUS 641 19,Secndry Instrmnt--: Secndry Instrmnt--TUBA
+6211,MUS 641 20,Secndry Instrmnt--: Secndry Instrmnt--VIOLA
+6212,MUS 641 21,Secndry Instrmnt--: Secndry Instrmnt--VIOLIN
+6213,MUS 641 22,Secndry Instrmnt--: Secndry Instrmnt--VOICE
+6214,MUS 644 02,"Seminar, Major--: Seminar, Major--BASSOON"
+6215,MUS 644 16,"Seminar, Major--: Seminar, Major--TROMBONE"
+6216,MUS 644 26,"Seminar, Major--: Seminar, Major--VOICE"
+6217,MUS 648 01,Approaches to Fin-de-siècle Song
+6218,MUS 654 01,Radical Piano Miniatures
+6219,MUS 659 01,Jazz Improvisation II
+6219,MUSI 449 01,Jazz Improvisation II
+6220,MUS 669 01,The Literary Voice of Langston Hughes in American Music
+6221,MUS 671 01,Yale Schola Cantorum
+6222,MUS 673 01,Leadership Strategies for Music Presenters
+6223,MUS 674 01,Analysis of Western Music (1199–1939) from the Composer’s Perspective
+6224,MUS 678 01,Advanced Continuo Realization and Performance
+6225,MUS 710 01,Score Reading and Analysis
+6226,MUS 732 01,Repertory Chorus—Conducting
+6227,MUS 740 03,Indiv Instrctn--: Indiv Instrctn--CHORAL COND
+6228,MUS 740 11,Indiv Instrctn--: Indiv Instrctn--PIANO
+6229,MUS 740 12,Indiv Instrctn--: Indiv Instrctn--PIANO
+6230,MUS 740 14,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6231,MUS 740 15,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6232,MUS 740 16,Indiv Instrctn--: Indiv Instrctn--GUITAR
+6233,MUS 740 17,Indiv Instrctn--: Indiv Instrctn--OBOE
+6234,MUS 740 18,Indiv Instrctn--: Indiv Instrctn--VIOLIN
+6235,MUS 740 19,Indiv Instrctn--: Indiv Instrctn--PIANO
+6236,MUS 744 07,"Seminar, Major--: Seminar, Major--GUITAR"
+6237,MUS 744 08,"Seminar, Major--: Seminar, Major--PERCUSSION"
+6238,MUS 744 09,"Seminar, Major--: Seminar, Major--TRUMPET"
+6239,MUS 744 10,"Seminar, Major--: Seminar, Major--VIOLIN"
+6240,MUS 744 11,"Seminar, Major--: Seminar, Major--OBOE"
+6241,MUS 744 12,"Seminar, Major--: Seminar, Major--VIOLIN"
+6242,MUS 744 19,"Seminar, Major--: Seminar, Major--VIOLIN"
+6243,MUS 746 01,Yale Camerata
+6244,MUS 840 01,Indiv Instrctn: Indiv Instrctn--PIANO
+6245,MUS 840 02,Indiv Instrctn: Indiv Instrctn--PIANO
+6246,MUS 844 01,"Seminar, Major: Seminar, Major--VIOLIN"
+6247,MUS 852 01,D.M.A. Seminar I
+6248,MUS 854 01,D.M.A. Colloquium
+6250,MUSI 051 01,Rockin' the Revolution: The Politics of Rock in Communist Europe and Eurasia
+6252,MUSI 087 01,"Music, Memes, and Digital Culture"
+6253,MUSI 110 01,Elements of Musical Pitch and Time
+6254,MUSI 138 01,"Transatlantic Ireland: Race, Place, and Global Popular Music"
+6255,MUSI 169 01,One Thousand Years of Love Songs
+6256,MUSI 175 01,Listening to Music
+6257,MUSI 189 01,Music & Jane Austen
+6257,HUMS 189 01,Music & Jane Austen
+6258,MUSI 207 01,Commercial and Popular Music Theory
+6259,MUSI 208 01,Commercial and Popular Music Theory II
+6260,MUSI 210 01,"Counterpoint, Harmony, and Form: 1500–1800"
+6261,MUSI 217 01,Keyboard Skills for Tonal Music
+6262,MUSI 218 01,Aural Skills for Tonal Music
+6263,MUSI 221 01,The Performance of Chamber Music
+6264,MUSI 223 01,Near Eastern and Balkan Ensemble
+6265,MUSI 229 01,Musical Theater Performance II
+6265,THST 226 01,Musical Theater Performance II
+6266,MUSI 232 01,Central Javanese Gamelan Ensemble
+6267,MUSI 233 01,Cultures and Performing Arts of Central Java
+6268,MUSI 238 01,Contemporary Chamber Music Performance
+6269,MUSI 240 01,The Performance of Early Music
+6270,MUSI 280 01,Music of South Asia
+6270,SAST 259 01,Music of South Asia
+6271,MUSI 321 01,Composition Seminar II
+6272,MUSI 325 01,British and American Art Song
+6273,MUSI 329 01,Intermediate Conducting
+6273,MUS 530 01,Intermediate Conducting
+6274,MUSI 330 01,Musical Theater Composition II
+6275,MUSI 340 01,"Analyzing, Directing, and Performing Early Opera"
+6275,THST 318 01,"Analyzing, Directing, and Performing Early Opera"
+6276,MUSI 345 01,Lessons
+6277,MUSI 352 01,"The Western Art-Music Tradition, 1800-2020"
+6278,MUSI 378 01,American Neighborhood Musics
+6279,MUSI 381 01,"Jazz in Transition, 1960–2000"
+6279,AFAM 253 01,"Jazz in Transition, 1960–2000"
+6280,MUSI 406 01,Exploring South Indian Rhythmic Design
+6280,SAST 473 01,Exploring South Indian Rhythmic Design
+6281,MUSI 414 01,Instrumentation and Orchestration
+6283,MUSI 418 01,Advanced Musicianship
+6284,MUSI 421 01,Composition Seminar IV
+6286,MUSI 445 01,Advanced Lessons
+6290,MUSI 463 01,"Scat, Cyborgs, and Sirens: the 20th/21st Century Voice"
+6290,MUS 591 01,"Scat, Cyborgs, and Sirens: the 20th/21st Century Voice"
+6291,MUSI 472 01,Stephen Sondheim and the American Musical Theater Tradition
+6291,THST 333 01,Stephen Sondheim and the American Musical Theater Tradition
+6292,MUSI 476 01,The Secret Life of Radio: Fringe Practices of a Mass Medium
+6292,HUMS 449 01,The Secret Life of Radio: Fringe Practices of a Mass Medium
+6293,MUSI 483 01,The Gospel Imagination
+6293,REL 948 01,The Gospel Imagination
+6294,MUSI 484 01,Introduction to Chinese Music
+6294,EAST 413 01,Introduction to Chinese Music
+6295,MUSI 485 01,Sacred Musics of the Middle East
+6295,RLST 244 01,Sacred Musics of the Middle East
+6296,MUSI 486 01,"Diasporic Jewish Music: History, Ritual, and Memory"
+6297,MUSI 495 01,Individual Study
+6298,MUSI 496 01,The Senior Recital
+6299,MUSI 497 01,The Senior Project in Composition
+6300,MUSI 498 01,The Senior Project in Musical Theater Composition
+6301,MUSI 499 01,The Senior Essay
+6302,MUSI 695 01,The Study of African American Music
+6303,MUSI 697 01,Proseminar: Ethnomusicology
+6304,MUSI 713 01,"Topics in Music, Gender, and Sexuality"
+6305,MUSI 812 01,Directed Studies: Ethnomusicology
+6306,MUSI 814 01,Directed Studies: History of Music
+6307,MUSI 837 01,"Opera, Media, Technologies"
+6307,FILM 804 01,"Opera, Media, Technologies"
+6308,MUSI 914 01,Directed Studies: Theory of Music
+6309,MUSI 999 01,Dissertation Colloquium
+6310,NAVY 100 01,Naval Science Laboratory
+6311,NAVY 112 01,Navigation
+6312,NAVY 211 01,Leadership and Management
+6313,NAVY 312 01,Naval Systems
+6314,NAVY 313 01,Evolution of Warfare
+6315,NAVY 412 01,Leadership and Ethics
+6316,NAVY 413 01,Maneuver Warfare
+6318,NELC 000 01,The Ancient State: Genesis and Crisis from Mesopotamia to Mexico
+6319,NELC 001 01,Egypt and Northeast Africa: A Multidisciplinary Approach
+6319,AFST 001 01,Egypt and Northeast Africa: A Multidisciplinary Approach
+6319,ARCG 001 01,Egypt and Northeast Africa: A Multidisciplinary Approach
+6320,NELC 007 01,Six Pretty Good Heroes
+6320,HUMS 021 01,Six Pretty Good Heroes
+6321,NELC 026 01,Origins of Civilization: Egypt and Mesopotamia
+6321,ARCG 031 01,Origins of Civilization: Egypt and Mesopotamia
+6321,EVST 030 01,Origins of Civilization: Egypt and Mesopotamia
+6322,NELC 121 01,The Hero in the Ancient Near East
+6322,HUMS 140 01,The Hero in the Ancient Near East
+6324,NELC 153 01,Gender and Identity in Ancient Egypt
+6324,NELC 638 01,Gender and Identity in Ancient Egypt
+6326,NELC 250 01,Assyria: The First Near Eastern Empire
+6326,NELC 518 01,Assyria: The First Near Eastern Empire
+6327,NELC 321 01,Imaging Ancient Worlds in Museum Collections
+6327,NELC 537 01,Imaging Ancient Worlds in Museum Collections
+6327,ANTH 492 01,Imaging Ancient Worlds in Museum Collections
+6327,ANTH 692 01,Imaging Ancient Worlds in Museum Collections
+6327,ARCG 492 01,Imaging Ancient Worlds in Museum Collections
+6327,ARCG 692 01,Imaging Ancient Worlds in Museum Collections
+6329,NELC 324 01,The Ancient State: Genesis and Crisis from Mesopotamia to Mexico
+6330,NELC 360 01,Ancient Egypt and its Neighbors
+6330,NELC 860 01,Ancient Egypt and its Neighbors
+6331,NELC 493 01,The Senior Essay
+6334,NELC 688 01,The Ancient State: Genesis and Crisis from Mesopotamia to Mexico
+6334,ANTH 647 01,The Ancient State: Genesis and Crisis from Mesopotamia to Mexico
+6334,ARCG 654 01,The Ancient State: Genesis and Crisis from Mesopotamia to Mexico
+6347,NSCI 471 01,Independent Research
+6348,NSCI 481 01,Senior Non-empirical Research
+6349,NSCI 491 01,Senior Empirical Research
+6350,NURS 5021 01,Nursing Colloquia II
+6351,NURS 5031 01,Biomedical Foundations: Health and Illness II
+6352,NURS 5051 01,Essentials of Health Assessment and Clinical Skills II
+6353,NURS 5081 01,Nursing and the Community II
+6354,NURS 5140 01,Clinical Practice Care of Childbearing Families
+6355,NURS 5150 01,Care of Childbearing Families
+6356,NURS 5171 01,Nursing Care of Adult Patient II
+6357,NURS 5180 01,Clinical Practice in Pediatric Nursing
+6358,NURS 5190 01,Pediatric Nursing
+6359,NURS 5200 01,Clinical Practice in Psychiatric–Mental Health Nursing
+6360,NURS 5210 01,Psychiatric–Mental Health Nursing
+6361,NURS 6020 01,Advanced Pharmacology
+6362,NURS 6040 01,Statistics and Research for Evidence-Based Practice Nursing
+6363,NURS 6111 01,Clinical Practice in Diabetes Care and Management
+6364,NURS 6120 01,Principles of Advanced Oncology Practice
+6365,NURS 6131 01,Advanced Management of Clinical Problems in Oncology
+6366,NURS 6141 01,Clinical Practicum for Oncology Nurse Practitioners
+6367,NURS 6160 01,Research Seminar II
+6368,NURS 6180 01,Introduction to Health Disparities in LGBTQI+ People
+6369,NURS 6202 01,Gender and Sexuality Health Justice (GSHJ) Clinical
+6370,NURS 6211 01,Advanced Primary Care and Community Health
+6371,NURS 6230 01,Clinical Practice I for Global Health Track
+6372,NURS 7000 01,Advanced Skills and Procedures for the Primary Care Provider
+6373,NURS 7040 01,Primary Care II
+6374,NURS 7045 01,Primary Care II Clinical Practice AGPCNP
+6375,NURS 7050 01,Primary Care II Clinical Practice FNP
+6376,NURS 7050 02,Primary Care II Clinical Practice FNP
+6377,NURS 7050 03,Primary Care II Clinical Practice FNP
+6378,NURS 7090 01,Primary Care IV Clinical Practice
+6379,NURS 7090 02,Primary Care IV Clinical Practice
+6380,NURS 7090 03,Primary Care IV Clinical Practice
+6381,NURS 7090 04,Primary Care IV Clinical Practice
+6382,NURS 7090 05,Primary Care IV Clinical Practice
+6383,NURS 7104 01,Advanced Primary Care of the Older Adult
+6384,NURS 7110 01,Advanced FNP/AGPCNP Pharmacology
+6385,NURS 7220 01,Women’s Health I and II Advanced Health Assessment and Clinical Practice
+6386,NURS 7230 01,Women’s Health III
+6387,NURS 7240 01,Women’s Health IV
+6388,NURS 7250 01,Women’s Health III and IV Clinical Practice
+6389,NURS 7250 02,Women’s Health III and IV Clinical Practice
+6390,NURS 7250 03,Women’s Health III and IV Clinical Practice
+6391,NURS 7260 01,Childbearing Care II
+6392,NURS 7270 01,Childbearing Care II Clinical Practice
+6393,NURS 7270 02,Childbearing Care II Clinical Practice
+6394,NURS 7270 03,Childbearing Care II Clinical Practice
+6395,NURS 7270 04,Childbearing Care II Clinical Practice
+6396,NURS 7312 01,Global Midwifery: Uganda
+6397,NURS 7314 01,Global Midwifery Clinical: Uganda
+6398,NURS 7320 01,Integration of Midwifery Care
+6399,NURS 7320 02,Integration of Midwifery Care
+6400,NURS 7320 03,Integration of Midwifery Care
+6401,NURS 7330 01,Integration of Women’s Health Care
+6402,NURS 7330 02,Integration of Women’s Health Care
+6403,NURS 7330 03,Integration of Women’s Health Care
+6404,NURS 7330 04,Integration of Women’s Health Care
+6405,NURS 7335 01,Women’s Health Primary Care Clinical
+6406,NURS 7340 01,Midwifery and Women’s Health Pharmacology
+6407,NURS 7450 01,Primary Care of Adolescents Clinical Practice
+6408,NURS 7460 01,Primary Care of Children II
+6409,NURS 7470 01,Primary Care of Children II Clinical Practice
+6410,NURS 7500 01,Primary Care of Children IV
+6411,NURS 7510 01,Primary Care of Children IV Clinical Practice
+6412,NURS 7520 01,Chronic Health Conditions in Children and Adolescents
+6413,NURS 7530 01,School Health Clinical Practice
+6414,NURS 7541 01,Specialty Pediatric Primary Care Clinical Practice II
+6415,NURS 7550 01,Advanced Pediatric Pharmacology
+6416,NURS 7560 01,Specialty Pediatric Acute Care Clinical
+6417,NURS 7620 01,Psychopathology across the Lifespan II
+6418,NURS 7631 01,Psychiatric–Mental Health Clinical Practice across the Lifespan II
+6419,NURS 7631 02,Psychiatric–Mental Health Clinical Practice across the Lifespan II
+6420,NURS 7631 03,Psychiatric–Mental Health Clinical Practice across the Lifespan II
+6421,NURS 7660 01,Individual Psychotherapy II
+6422,NURS 7670 01,Clinical Psychopharmacology across the Lifespan
+6423,NURS 7710 01,Psychiatric–Mental Health Clinical Practice across the Lifespan IV
+6424,NURS 7710 02,Psychiatric–Mental Health Clinical Practice across the Lifespan IV
+6425,NURS 7710 03,Psychiatric–Mental Health Clinical Practice across the Lifespan IV
+6426,NURS 7720 01,Applied Psychopharmacology across the Lifespan
+6427,NURS 7730 01,Family Psychotherapy
+6428,NURS 7830 01,Pathophysiology and Management of Adult/Gerontology Acute Care Health Problems I
+6429,NURS 7840 01,Adult/Gerontology Acute Care Clinical Practice I
+6430,NURS 7840 02,Adult/Gerontology Acute Care Clinical Practice I
+6431,NURS 7870 01,Adult/Gerontology Acute Care Clinical Practice III
+6432,NURS 7880 01,Advanced Acute Care Pharmacology
+6433,NURS 7916 01,Acute Care of Children II
+6434,NURS 7918 01,Acute Care of Children II Clinical
+6435,NURS 902 01,Qualitative Methods for Health Research
+6436,NURS 9515 01,Clinical DNP Practicum I
+6437,NURS 9540 01,Clinical D.N.P. Practicum IV
+6438,NURS 9601 01,Clinical Inquiry Seminar I
+6439,NURS 9660 01,Clinical Innovation Seminar
+6440,NURS 9670 01,Quality and Safety in Health Care Organizations
+6441,NURS 9710 01,"Health Care Policy, Politics, and Process"
+6442,NURS 9770 01,The Business of Health Care
+6443,NURS 9890 01,D.N.P. Project: Part 1
+6444,NURS 9890 02,D.N.P. Project: Part 1
+6445,NURS 9981 01,Leadership Immersion Practicum
+6446,NURS 9991 01,D.N.P. Project: Evidence-Based Practice Change
+6447,OLPA 5010 01,Human Anatomy I
+6448,OLPA 5020 01,Basic Science I
+6449,OLPA 5030 01,Patient Assessment I
+6450,OLPA 5040 01,Diagnostic Studies I
+6451,OLPA 5050 01,Clinical Medicine I
+6452,OLPA 5060 01,Pharmacology I
+6453,OLPA 5070 01,Behavioral & Preventive Medicine I
+6454,OLPA 5080 01,Preparing Future PAs I: PA Practice
+6455,OLPA 6010 01,Internal Medicine I
+6456,OLPA 6010 02,Internal Medicine I
+6457,OLPA 6011 01,Internal Medicine II
+6458,OLPA 6011 02,Internal Medicine II
+6459,OLPA 6012 01,Internal Medicine III
+6460,OLPA 6012 02,Internal Medicine III
+6461,OLPA 6020 01,Primary Care I
+6462,OLPA 6020 02,Primary Care I
+6463,OLPA 6021 01,Primary Care II
+6464,OLPA 6021 02,Primary Care II
+6465,OLPA 6022 01,Primary Care III
+6466,OLPA 6022 02,Primary Care III
+6467,OLPA 6030 01,Behavioral Medicine
+6468,OLPA 6030 02,Behavioral Medicine
+6469,OLPA 6040 01,Pediatrics I
+6470,OLPA 6040 02,Pediatrics I
+6471,OLPA 6041 01,Pediatrics II
+6472,OLPA 6041 02,Pediatrics II
+6473,OLPA 6050 01,General Surgery
+6474,OLPA 6050 02,General Surgery
+6475,OLPA 6060 01,Women's Health
+6476,OLPA 6060 02,Women's Health
+6477,OLPA 6070 01,Emergency Medicine
+6478,OLPA 6070 02,Emergency Medicine
+6479,OLPA 6080 01,Elective: Elective: Primary Care
+6480,OLPA 6080 02,Elective: Elective: LGBTQ Primary Care
+6481,OLPA 6080 03,Elective: Elective: Emergency Medicine
+6482,OLPA 6080 04,Elective: Elective: Foot/Ankle Ortho
+6483,OLPA 6080 05,Elective: Elective: Trauma Surgery
+6484,OLPA 6080 06,Elective: Elective: Recon & Plastic Surg
+6485,OLPA 6080 07,Elective: Elective: Intensive Care Unit
+6486,OLPA 6080 08,Elective: Elective: Cardio/Electrophys
+6487,OLPA 6080 09,Elective: Elective: Cosmetic Surgery
+6488,OLPA 6080 10,Elective: Elective: Pathology
+6489,OLPA 6080 11,Elective: Elective: Education
+6490,OLPA 6080 12,Elective: Elective: Orthopedic Surgery
+6491,OLPA 6080 13,Elective: Elective: Endocrinology
+6492,OLPA 6080 14,Elective: Elective: ER/Urgent Care
+6493,OLPA 6080 15,Elective: Elective: Rural Health LGBTQ
+6494,OLPA 6080 16,Elective: Elective: Oncology Surgery
+6495,OLPA 6080 17,Elective: Elective: Urgent Care
+6496,OLPA 6080 18,Elective: Elective: Neurosurgery
+6497,OLPA 6080 19,Elective: Elective: Cardiology
+6498,OLPA 6080 20,Elective: Elective: Dermatology
+6499,OLPA 6080 21,Elective: Elective: Ped Gastroenterology
+6500,OLPA 6090 01,Master's Capstone
+6501,OLPA 6090 02,Master's Capstone
+6502,OTTM 320 01,Introduction to Ottoman Turkish II
+6502,OTTM 620 01,Introduction to Ottoman Turkish II
+6503,OTTM 562 01,Ottoman Text Reading II
+6504,PATH 622 01,Laboratory Rotations in Experimental Pathology
+6505,PATH 622 02,Laboratory Rotations in Experimental Pathology
+6507,PATH 650 01,Biology of Cancer
+6510,PERS 120 01,Elementary Persian II
+6510,PERS 501 01,Elementary Persian II
+6511,PERS 140 01,Intermediate Persian II
+6511,PERS 503 01,Intermediate Persian II
+6512,PERS 142 01,Persian for Heritage Learners II
+6512,PERS 542 01,Persian for Heritage Learners II
+6513,PERS 150 01,Thematic Survey of Modern Persian Literature
+6513,PERS 504 01,Thematic Survey of Modern Persian Literature
+6514,PERS 302 01,Introduction to Classical Persian Literature: The Epic
+6514,PERS 602 01,Introduction to Classical Persian Literature: The Epic
+6515,PERS 500 01,Elementary Persian I
+6516,PERS 502 01,Intermediate Persian I
+6518,PHAR 515 01,Current Topics in Pharmacology
+6519,PHAR 528 01,Principles of Signal Transduction
+6520,PHAR 529 01,Structural Biology and Drug Discovery
+6520,MB&B 529 01,Structural Biology and Drug Discovery
+6521,PHAR 530 01,Targeted Use of Structural Biology in Drug Discovery
+6522,PHAR 531 01,Concepts of Structural Pharmacology
+6525,PHIL 040 01,Ethics of Data Science
+6526,PHIL 045 01,Puzzles in Philosophy and Logic
+6527,PHIL 126 01,Introduction to Modern Philosophy from Descartes to Kant
+6528,PHIL 130 01,Philosophy of Education
+6528,EDST 135 01,Philosophy of Education
+6529,PHIL 175 01,Introduction to Ethics
+6532,PHIL 267 01,Mathematical Logic
+6532,PHIL 567 01,Mathematical Logic
+6534,PHIL 304 01,Choice Theory and its Critics
+6534,ECON 302 01,Choice Theory and its Critics
+6534,EP&E 364 01,Choice Theory and its Critics
+6535,PHIL 305 01,Philosophy for Psychologists
+6535,CGSC 313 01,Philosophy for Psychologists
+6535,PSYC 313 01,Philosophy for Psychologists
+6536,PHIL 306 01,The Problem of Evil and the Book of Job
+6536,JDST 227 01,The Problem of Evil and the Book of Job
+6536,RLST 304 01,The Problem of Evil and the Book of Job
+6537,PHIL 326 01,The Philosophy of Religion
+6537,REL 910 01,The Philosophy of Religion
+6537,RLST 402 01,The Philosophy of Religion
+6539,PHIL 338 01,Happiness and Tragedy
+6541,PHIL 383 01,Critical Perspectives on the Canon
+6544,PHIL 408 01,"The Ethics of Marx, Kierkegaard, and Nietzsche"
+6544,PHIL 608 01,"The Ethics of Marx, Kierkegaard, and Nietzsche"
+6545,PHIL 419 01,Descartes
+6545,PHIL 619 01,Descartes
+6546,PHIL 423 01,Philosophy of Probability
+6546,PHIL 623 01,Philosophy of Probability
+6547,PHIL 425 01,Topics in Epistemology
+6547,PHIL 625 01,Topics in Epistemology
+6548,PHIL 427 01,Computability and Logic
+6548,PHIL 627 01,Computability and Logic
+6549,PHIL 432 01,Reproductive Ethics
+6549,WGSS 433 01,Reproductive Ethics
+6551,PHIL 436 01,Medieval Metaphysics
+6554,PHIL 457 01,Recent Work on Justice
+6554,PHIL 657 01,Recent Work on Justice
+6554,EP&E 235 01,Recent Work on Justice
+6554,PLSC 283 01,Recent Work on Justice
+6554,PLSC 611 01,Recent Work on Justice
+6556,PHIL 478 01,Nonclassical Logics
+6556,PHIL 678 01,Nonclassical Logics
+6557,PHIL 480 01,Tutorial
+6558,PHIL 487 01,The Philosophy of the Ordinary and the Extraordinary
+6558,PHIL 687 01,The Philosophy of the Ordinary and the Extraordinary
+6559,PHIL 491 01,The Senior Essay
+6560,PHIL 494 01,Topics in Kant
+6561,PHIL 706 01,Work in Progress I
+6563,PHIL 750 01,Tutorial
+6565,PHIL 765 01,"Free Will, Human and Divine"
+6565,REL 960 01,"Free Will, Human and Divine"
+6567,PHIL 775 01,Causation
+6568,PHIL 790 01,Plato Sophist
+6568,CLSS 820 01,Plato Sophist
+6569,PHIL 850 01,Prospectus Tutorial
+6570,PHIL 850 02,Prospectus Tutorial
+6575,PHYS 099 01,Introduction to Research Methods in Physics and Biology: Preparing for a First Research Experience
+6575,MB&B 099 01,Introduction to Research Methods in Physics and Biology: Preparing for a First Research Experience
+6575,MCDB 099 01,Introduction to Research Methods in Physics and Biology: Preparing for a First Research Experience
+6575,MENG 099 01,Introduction to Research Methods in Physics and Biology: Preparing for a First Research Experience
+6575,SCIE 099 01,Introduction to Research Methods in Physics and Biology: Preparing for a First Research Experience
+6577,PHYS 107 01,Being Human in STEM
+6577,EDST 107 01,Being Human in STEM
+6577,MB&B 107 01,Being Human in STEM
+6578,PHYS 120 01,Quantum Physics and Beyond
+6580,PHYS 165L 01,General Physics Laboratory
+6581,PHYS 166L 01,General Physics Laboratory
+6582,PHYS 171 01,University Physics for the Life Sciences
+6583,PHYS 181 01,University Physics
+6584,PHYS 181 02,University Physics
+6585,PHYS 201 01,Fundamentals of Physics
+6586,PHYS 205 01,Modern Physical Measurement
+6587,PHYS 206 01,Modern Physical Measurement
+6588,PHYS 261 01,Intensive Introductory Physics
+6589,PHYS 345 01,Introduction to Quantum Information Processing and Communication
+6590,PHYS 378 01,Introduction to Scientific Computing & Data Science
+6591,PHYS 382L 01,Advanced Physics Laboratory
+6591,PHYS 504 01,Advanced Physics Laboratory
+6592,PHYS 402 01,Advanced Classical Physics from Newton to Einstein
+6593,PHYS 430 01,Electromagnetic Fields and Optics
+6594,PHYS 440 01,Quantum Mechanics and Natural Phenomena I
+6595,PHYS 441 01,Quantum Mechanics and Natural Phenomena II
+6596,PHYS 442 01,Introduction to Nuclear and Elementary Particle Physics
+6596,PHYS 526 01,Introduction to Nuclear and Elementary Particle Physics
+6598,PHYS 470 01,Independent Research in Physics
+6599,PHYS 472 01,Independent Projects in Physics
+6600,PHYS 502 01,Electromagnetic Theory I
+6601,PHYS 510 01,Quantum Mechanics II
+6602,PHYS 512 01,Statistical Physics I
+6604,PHYS 522 01,Introduction to Atomic Physics
+6606,PHYS 590 01,Responsible Conduct in Research for Physical Scientists
+6606,APHY 590 01,Responsible Conduct in Research for Physical Scientists
+6607,PHYS 600 01,Cosmology
+6608,PHYS 610 01,Quantum Many-Body Theory
+6608,APHY 610 01,Quantum Many-Body Theory
+6609,PHYS 630 01,Relativistic Field Theory II
+6611,PHYS 663 01,Special Topics in Particle Theory
+6612,PHYS 678 01,Computing for Scientific Research
+6615,PHYS 990 01,Special Investigations
+6616,PLSH 120 01,Elementary Polish II
+6617,PLSH 140 01,Intermediate Polish II
+6618,PLSH 246 01,Polish Communism and Postcommunism in Film
+6618,FILM 241 01,Polish Communism and Postcommunism in Film
+6619,PORT 120 01,Elementary Portuguese II
+6620,PORT 120 02,Elementary Portuguese II
+6621,PORT 120 03,Elementary Portuguese II
+6622,PORT 140 01,Intermediate Portuguese II: Portuguese Through the Arts
+6623,PORT 140 02,Intermediate Portuguese II: Portuguese Through the Arts
+6624,PORT 151 01,Drama as Resistance: From Neoliberalism to the Bolsonarism Crisis
+6625,PORT 245 01,Afro-Luso-Brazilian Cinema and Short Filmmaking
+6625,AFST 245 01,Afro-Luso-Brazilian Cinema and Short Filmmaking
+6625,ER&M 245 01,Afro-Luso-Brazilian Cinema and Short Filmmaking
+6625,FILM 239 01,Afro-Luso-Brazilian Cinema and Short Filmmaking
+6625,WGSS 246 01,Afro-Luso-Brazilian Cinema and Short Filmmaking
+6626,PORT 910 01,Expanded Brazilian Poetry
+6627,PRAC 472 01,Fieldwork Practicum Analysis
+6628,PRAC 482 01,Mellon Mays and Edward A. Bouchet Junior Research Practicum
+6629,PRAC 484 01,Mellon Mays and Edward A. Bouchet Senior Research Practicum
+6630,PSYC 110 01,Introduction to Psychology
+6631,PSYC 115 01,History of Psychology: Racism and Colonial Power
+6634,PSYC 141 01,The Criminal Mind
+6634,NSCI 141 01,The Criminal Mind
+6635,PSYC 150 01,Social Psychology
+6635,EDST 160 01,Social Psychology
+6636,PSYC 161 01,"Drugs, Brain, and Behavior"
+6636,NSCI 161 01,"Drugs, Brain, and Behavior"
+6637,PSYC 161 02,"Drugs, Brain, and Behavior"
+6637,NSCI 161 02,"Drugs, Brain, and Behavior"
+6638,PSYC 230 01,Research Methods in Human Neuroscience
+6638,NSCI 240 01,Research Methods in Human Neuroscience
+6639,PSYC 235 01,"Research Methods, Writing Intensive"
+6640,PSYC 237 01,Research Methods with Diverse Samples
+6642,PSYC 258 01,Computational Methods in Human Neuroscience
+6642,NSCI 258 01,Computational Methods in Human Neuroscience
+6643,PSYC 307 01,Human Memory
+6644,PSYC 310 01,Psychology and Global Capitalism
+6648,PSYC 335 01,Cognitive Neuroscience
+6648,NSCI 340 01,Cognitive Neuroscience
+6651,PSYC 420 01,Topics in Clinical Neuroscience
+6651,CGSC 420 01,Topics in Clinical Neuroscience
+6651,NSCI 440 01,Topics in Clinical Neuroscience
+6652,PSYC 425 01,Social Perception
+6652,CGSC 425 01,Social Perception
+6652,PSYC 625 01,Social Perception
+6653,PSYC 429 01,"Psychology of Prejudice, Stereotyping, and Discrimination"
+6654,PSYC 432 01,Under Pressure: The Psychology of Stress
+6654,NSCI 455 01,Under Pressure: The Psychology of Stress
+6656,PSYC 437 01,"Minds, Brains, and Machines"
+6656,CGSC 437 01,"Minds, Brains, and Machines"
+6657,PSYC 449 01,Neuroscience of Social Interaction
+6657,NSCI 449 01,Neuroscience of Social Interaction
+6658,PSYC 454 01,Sensory Information Processing
+6659,PSYC 493 01,Directed Research
+6660,PSYC 495 01,Research Topics
+6661,PSYC 499 01,Senior Essay
+6662,PSYC 501 01,"Foundations of Psychology II: Social, Developmental, and Clinical Psychology"
+6663,PSYC 541 01,Research Methods in Psychology
+6664,PSYC 558 01,Computational Methods in Human Neuroscience
+6664,INP 558 01,Computational Methods in Human Neuroscience
+6665,PSYC 685 01,Introduction to Psychotherapy
+6666,PSYC 690 01,"Ethics, Diversity, Supervision, Consultation, and Professional Practice"
+6667,PSYC 702 01,Current Work in Cognition
+6668,PSYC 704 01,"Current Work in Behavior, Genetics, and Neuroscience"
+6669,PSYC 708 01,Current Work in Developmental Psychology
+6670,PSYC 710 01,Current Work in Social Psychology and Personality
+6671,PSYC 720 01,Current Work in Clinical Psychology
+6672,PSYC 724 01,"Research Topics in Cognition, Emotion, and Psychopathology"
+6673,PSYC 725 01,Research Topics in Human Neuroscience
+6674,PSYC 727 01,Research Topics in Clinical Neuroscience
+6675,PSYC 728 01,Research Topics in Racial Justice in Public Safety
+6675,AFAM 778 01,Research Topics in Racial Justice in Public Safety
+6676,PSYC 731 01,Research Topics in Cognition and Development
+6677,PSYC 733 01,Research Topics in Social Cognitive Development
+6678,PSYC 735 01,Research Topics in Thinking and Reasoning
+6679,PSYC 737 01,Research Topics in Clinical and Affective Neuroscience
+6680,PSYC 739 01,Research Topics in Autism and Related Disorders
+6681,PSYC 741 01,Research Topics in Emotion and Relationships
+6682,PSYC 742 01,Research Topics in Computation and Cognition
+6683,PSYC 744 01,Research Topics in Philosophical Psychology
+6684,PSYC 745 01,Research Topics in Disinhibitory Psychopathology
+6685,PSYC 752 01,Research Topics in Social Neuroscience
+6686,PSYC 753 01,Research Topics in Legal Psychology
+6687,PSYC 754 01,Research Topics in Clinical Affective Neuroscience and Development
+6688,PSYC 755 01,Research Topics in Intergroup Relations
+6689,PSYC 758 01,Research Topics in Cognitive Neuroscience
+6690,PSYC 759 01,Research Topics in Affective Science and Culture
+6691,PSYC 760 01,Research Topics in Cognitive and Neural Computation
+6692,PSYC 761 01,Research Topics in Computational Decision and Affective Neuroscience
+6693,PSYC 762 01,Research Topics in Skill Learning
+6694,PSYC 763 01,Research Topics in Implicit Social Cognition
+6695,PSYC 764 01,Research Topics in Children’s Learning and Motivation
+6696,PSYC 765 01,Research Topics in Philosophy and Cognitive Science
+6697,PSYC 766 01,Research Topics in Perception and Cognition
+6698,PSYC 775 01,Research Topics in Animal Cognition
+6699,PSYC 778 01,Research Topics in Clinical and Affective Neuropsychology
+6700,PSYC 803 01,Cognitive and Social Bases of Behavior
+6701,PSYC 805 01,Affective and Developmental Bases of Behavior
+6702,PSYC 811 01,Mood and Anxiety Disorders Practicum
+6703,PSYC 817 01,Other Clinical Practica
+6704,PSYC 920 01,First-Year Research
+6705,PSYC 923 01,Individual Study: Theme Essay
+6706,PSYC 925 01,Individual Tutorial
+6707,PSYC 930 01,Predissertation Research
+6709,QUAL 999 01,Preparing for Qualifying Exams
+6710,REL 3604 01,Elementary Biblical Hebrew II
+6711,REL 3606 01,Elementary New Testament Greek II
+6712,REL 3699 0,Reading Course
+6713,REL 3794 01,Colloquium on Ministry Formation/Anglican
+6714,REL 3795 01,Colloquium on Ministry Formation/Lutheran
+6715,REL 3798 01,Andover Newton Colloquium II: Ministry in the Making
+6716,REL 3799 0,M.Div. Thesis
+6717,REL 3805 01,Roman Catholic Lay Ministry Colloquium
+6718,REL 3899 0,M.A.R. Thesis or Project
+6719,REL 3900 01,Transformational Leadership for Church and Society
+6720,REL 3903 01,Clinical Pastoral Education Preparation
+6721,REL 3905 01,Andover Newton Colloquium V: Mentored Vocational Discernment
+6722,REL 3906 01,Andover Newton Colloquium VI:  Social Justice Ministries
+6723,REL 3910 01,ISM Colloquium
+6724,REL 3911 01,ISM Colloquium II
+6725,REL 3971 01,Advanced Practicum II: Reimagining Church Facilitation
+6726,REL 3987 01,Part-time Ministry Internship with Practicum II
+6727,REL 3990 01,Negotiating Boundaries in Ministerial Relationships
+6728,REL 3992 01,Board Fellows Practicum II
+6729,REL 3994 01,Part-time Nonprofit Internship with Practicum II
+6730,REL 3998 01,Part-time Internship with Advanced Practicum II
+6731,REL 3999 0,S.T.M. Thesis or Project
+6732,REL 504 01,Hebrew Bible Interpretation II
+6733,REL 506 01,New Testament Interpretation II
+6734,REL 511 01,Past Tense: Classical Biblical Prophecy
+6735,REL 513 01,The Jewish World of Jesus
+6736,REL 517 01,“Race” and the New Testament
+6737,REL 544 01,History and Methods of Old Testament Interpretation I
+6738,REL 556 01,Hebrew Exegesis: Exodus
+6739,REL 583 01,Archaeology of the Roman Empire for the Study of New Testament and Early Christianity
+6740,REL 588 01,Greek Exegesis: Paul’s Letter to the Romans
+6741,REL 612 01,Christ and Being Human
+6742,REL 615 01,Introduction to Christian Ethics
+6743,REL 624 01,Experience in Ethics
+6744,REL 626 01,Systematic Theology
+6745,REL 628 01,Eastern Christian Rites and the Syriac Liturgical Year
+6746,REL 634 01,Friedrich Schleiermacher’s Christian Faith
+6747,REL 654 01,Social Practices and Ethical Formation
+6748,REL 655 01,Liturgy and Life
+6749,REL 659 01,God in Modern Thought
+6750,REL 662 01,The Anglican Way I
+6751,REL 675 01,Baptism and Eucharist in Ecumenical Dialogue
+6752,REL 677 01,Natural Disasters in the Christian Tradition: Ritual and Theological Responses
+6753,REL 680 01,Christianity and the New Spirit of Capitalism
+6754,REL 688 01,Catholic Liturgy
+6755,REL 691 0,"Ecclesiology, Ministry, and Polity"
+6756,REL 691 01,"Ecclesiology, Ministry, Polity: Eccles,Minstry,Polity:Baptist"
+6757,REL 713 01,"History of Medieval Christianity: Learning, Faith, and Conflict"
+6757,MDVL 664 01,"History of Medieval Christianity: Learning, Faith, and Conflict"
+6758,REL 715 01,"History of Modern Christianity: American Encounters, Postmodern Transformations"
+6759,REL 723 01,The Liberation Theology Movement in Latin America: History and Sources
+6760,REL 726 01,U.S. Catholic History Remapped
+6761,REL 737 01,"Clement of Alexandria: Culture, Theology, and the Stromateis"
+6762,REL 738 01,Jonathan Edwards and American Puritanism
+6763,REL 739 01,"Pentecostalism in Africa: Perspectives, Practice, and Prospects"
+6764,REL 743 01,"Staging Mysteries: the Legacy of Medieval Biblical Drama, Past and Present"
+6764,ENGL 540 01,"Staging Mysteries: the Legacy of Medieval Biblical Drama, Past and Present"
+6764,MDVL 752 01,"Staging Mysteries: the Legacy of Medieval Biblical Drama, Past and Present"
+6767,REL 801 01,Marquand Chapel Choir
+6768,REL 802 01,Marquand Gospel and Inspirational Choir
+6769,REL 807 01,Introduction to Pastoral Theology and Care
+6770,REL 810 01,My Neighbor’s Faith: Building Interreligious Community
+6771,REL 812 01,Principles and Practices of Preaching
+6772,REL 823 01,"Trauma, Moral Injury, and Crisis Ministry"
+6773,REL 828 01,Theory and Practice of Faith Development
+6774,REL 845 01,Preaching on the Gospel of Matthew
+6775,REL 846 01,Mystics and Social Practice
+6776,REL 852 01,Women’s Ways of Knowing
+6777,REL 856 01,"Pastoral Wisdom inside Prison: Fiction, Memoir, and Drama"
+6778,REL 875 01,Advanced Topics in Educational Ministry in Schools and Colleges
+6779,REL 902 01,Literary Appropriations: Writers and Philosophers in Conversation
+6780,REL 907 01,Theological Aesthetics
+6782,REL 916 01,Themes in World Christianity
+6783,REL 917 01,Political Song and the Catholic Church in Latin America
+6784,REL 918 01,The English Language and Social Justice
+6785,REL 930 01,"Introduction to American Judaism: Religion, People, Culture"
+6786,REL 931 01,"Ethics, Imagination, and the Art of Living"
+6787,REL 942 01,"Islam at the Intersections: Readings in Liberation, Race, Gender, and Sexuality"
+6789,REL 956 01,"Faith, Doubt, and Redemption in Twentieth–Twenty-First-Century Fiction"
+6791,REL 961 01,"Eco-Theology, Environmental Ethics, and Fiction"
+6792,REL 962 01,Environmental Ethics
+6794,REL 967 01,Religion and the Performance of Space
+6795,REL 969 01,Latinx Religions and Radical Politics
+6796,REL 983 01,China Mission
+6797,RLST 017 01,Authenticity
+6798,RLST 022 01,Religion and Science Fiction
+6798,ENGL 031 01,Religion and Science Fiction
+6799,RLST 102 01,Atheism and Buddhism
+6799,EAST 390 01,Atheism and Buddhism
+6800,RLST 121 01,Religion and Culture in Korea
+6800,EALL 296 01,Religion and Culture in Korea
+6800,EAST 391 01,Religion and Culture in Korea
+6801,RLST 135 01,Zen Buddhism
+6801,EAST 335 01,Zen Buddhism
+6802,RLST 136 01,The History and Contemporary (Ab)uses of the New Testament
+6803,RLST 137 01,Colonial Empire and Orientalism
+6804,RLST 145 01,The Bible
+6804,HUMS 133 01,The Bible
+6804,JDST 110 01,The Bible
+6808,RLST 172 01,Ethics in Islam
+6808,MMES 173 01,Ethics in Islam
+6808,PHIL 355 01,Ethics in Islam
+6809,RLST 174 01,Gender and Religion since the 19th Century
+6811,RLST 214 01,Introduction to Modern Jewish Thought
+6811,HIST 248J 01,Introduction to Modern Jewish Thought
+6811,JDST 293 01,Introduction to Modern Jewish Thought
+6812,RLST 219 01,Disability and Religion
+6817,RLST 266 01,Possession
+6817,HUMS 207 01,Possession
+6818,RLST 268 01,"Christian Mysticism, 1200–1700"
+6818,HIST 281 01,"Christian Mysticism, 1200–1700"
+6819,RLST 272 01,Mapping Black Christianity
+6820,RLST 282 01,Philosopher Queens of Hinduism and Buddhism
+6820,HUMS 298 01,Philosopher Queens of Hinduism and Buddhism
+6820,PHIL 474 01,Philosopher Queens of Hinduism and Buddhism
+6820,SAST 269 01,Philosopher Queens of Hinduism and Buddhism
+6821,RLST 295 01,Al-Ghazali and Maimonides
+6821,JDST 272 01,Al-Ghazali and Maimonides
+6821,PHIL 264 01,Al-Ghazali and Maimonides
+6821,PHIL 295 01,Al-Ghazali and Maimonides
+6821,RLST 711 01,Al-Ghazali and Maimonides
+6823,RLST 321 01,Hindus and Muslims in South Asia
+6823,SAST 362 01,Hindus and Muslims in South Asia
+6824,RLST 324 01,The Global Right: From the French Revolution to the American Insurrection
+6824,HIST 268J 01,The Global Right: From the French Revolution to the American Insurrection
+6824,JDST 351 01,The Global Right: From the French Revolution to the American Insurrection
+6824,PLSC 466 01,The Global Right: From the French Revolution to the American Insurrection
+6826,RLST 358 01,Humor and Play in Rabbinic Literature
+6826,RLST 627 01,Humor and Play in Rabbinic Literature
+6826,JDST 245 01,Humor and Play in Rabbinic Literature
+6827,RLST 366 01,"Religion and Politics in China, Xinjiang, and Tibet"
+6828,RLST 376 01,Enchantment
+6828,RLST 624 01,Enchantment
+6829,RLST 380 01,Philosophies of Life
+6829,ENGL 289 01,Philosophies of Life
+6829,HUMS 388 01,Philosophies of Life
+6829,LITR 389 01,Philosophies of Life
+6829,PHIL 385 01,Philosophies of Life
+6831,RLST 422 01,Egyptian Monastic Literature in Coptic
+6831,EGYP 147 01,Egyptian Monastic Literature in Coptic
+6831,EGYP 512 01,Egyptian Monastic Literature in Coptic
+6831,RLST 658 01,Egyptian Monastic Literature in Coptic
+6832,RLST 435 01,Black Religions in Slavery and Freedom
+6832,AFAM 402 01,Black Religions in Slavery and Freedom
+6833,RLST 489 01,Individual Tutorial
+6834,RLST 490 01,Religion and Society
+6835,RLST 492 01,The Senior Essay
+6836,RLST 492 02,The Senior Essay
+6837,RLST 537 01,Readings in Indo-Islamic Texts
+6837,SAST 561 01,Readings in Indo-Islamic Texts
+6838,RLST 574 01,Chinese Buddhist Texts
+6839,RLST 608 01,Approaches to the Study of Christianity in Late Antiquity
+6839,HIST 568 01,Approaches to the Study of Christianity in Late Antiquity
+6839,NELC 619 01,Approaches to the Study of Christianity in Late Antiquity
+6844,RLST 724 01,Topics in Islamic Cosmography
+6844,NELC 775 01,Topics in Islamic Cosmography
+6845,RLST 747 01,From Temple to Talmud: The Remaking of Ancient Judaism
+6845,JDST 742 01,From Temple to Talmud: The Remaking of Ancient Judaism
+6849,RLST 839 01,Elementary Syriac II
+6849,SMTC 514 01,Elementary Syriac II
+6850,RLST 841 01,Introductory Ugaritic II
+6850,SMTC 521 01,Introductory Ugaritic II
+6851,RLST 861 01,Archaeology of the Roman Empire for the Study of New Testament and Early Christianity
+6853,RLST 961 01,Directed Readings: American Religious History
+6854,RLST 962 01,Directed Readings: EMWAR
+6855,RLST 963 01,Directed Readings: Asian Religions
+6856,RLST 964 01,Directed Readings: Ethics
+6857,RLST 965 01,Directed Readings: Judaic Studies
+6858,RLST 966 01,Directed Readings: Islamic Studies
+6859,RLST 968 01,Directed Readings: Old Testament/Hebrew Bible
+6860,RLST 969 01,Directed Readings: Philosophy of Religion
+6861,RLST 970 01,Directed Readings: Religion and Modernity
+6862,RLST 971 01,Directed Readings: Theology
+6868,RSEE 322 01,"The Master and Margarita: Money, Sex, and Power in Stalin's Russia"
+6868,RUSS 324 01,"The Master and Margarita: Money, Sex, and Power in Stalin's Russia"
+6871,RSEE 401 01,Socialist Realism And Its Legacies
+6871,RUSS 606 01,Socialist Realism And Its Legacies
+6871,RSEE 606 01,Socialist Realism And Its Legacies
+6871,RUSS 401 01,Socialist Realism And Its Legacies
+6872,RSEE 491 01,The Senior Essay
+6873,RUSS 120 01,First-Year Russian II
+6874,RUSS 120 02,First-Year Russian II
+6875,RUSS 120 03,First-Year Russian II
+6876,RUSS 140 01,Second-Year Russian II
+6877,RUSS 140 02,Second-Year Russian II
+6878,RUSS 142 01,Russian for Heritage Learners II
+6879,RUSS 145 01,Intensive Intermediate Russian
+6880,RUSS 145 02,Intensive Intermediate Russian
+6881,RUSS 151 01,Third-Year Russian II
+6882,RUSS 152 01,Mastering Oral Communication in Russian
+6883,RUSS 161 01,Fourth-Year Russian II
+6884,RUSS 173 01,Ecology and Nature in Russian Culture
+6885,RUSS 254 01,Tolstoy and Dostoevsky
+6885,LITR 245 01,Tolstoy and Dostoevsky
+6885,RSEE 254 01,Tolstoy and Dostoevsky
+6886,RUSS 314 01,Science and Literature in Russia
+6888,RUSS 350 01,Russia Between Empire and Nation
+6888,ER&M 218 01,Russia Between Empire and Nation
+6888,HIST 259 01,Russia Between Empire and Nation
+6888,HUMS 309 01,Russia Between Empire and Nation
+6888,RSEE 351 01,Russia Between Empire and Nation
+6889,RUSS 380 01,Putin's Russia and Protest Culture
+6889,FILM 360 01,Putin's Russia and Protest Culture
+6889,LITR 301 01,Putin's Russia and Protest Culture
+6889,RSEE 380 01,Putin's Russia and Protest Culture
+6891,RUSS 481 01,Directed Reading in Russian Literature
+6892,RUSS 491 01,The Senior Essay
+6893,RUSS 603 01,Russian Realist Literature and Painting
+6894,RUSS 653 01,Second Sex after the Second World
+6895,RUSS 670 01,Empire in Russian Culture
+6895,E&RS 618 01,Empire in Russian Culture
+6896,RUSS 689 01,Russian Symbolist Poetry
+6897,S&DS 100 01,Introductory Statistics
+6897,S&DS 500 01,Introductory Statistics
+6898,S&DS 123 01,YData: An Introduction to Data Science
+6898,S&DS 523 01,YData: An Introduction to Data Science
+6898,CPSC 123 01,YData: An Introduction to Data Science
+6898,PLSC 351 01,YData: An Introduction to Data Science
+6900,S&DS 220 01,"Introductory Statistics, Intensive"
+6900,S&DS 520 01,"Introductory Statistics, Intensive"
+6901,S&DS 230 01,Data Exploration and Analysis
+6901,S&DS 530 01,Data Exploration and Analysis
+6901,ENV 757 01,Data Exploration and Analysis
+6901,PLSC 530 01,Data Exploration and Analysis
+6902,S&DS 230 02,Data Exploration and Analysis
+6902,S&DS 530 02,Data Exploration and Analysis
+6902,PLSC 530 02,Data Exploration and Analysis
+6903,S&DS 242 01,Theory of Statistics
+6903,MATH 242 01,Theory of Statistics
+6903,S&DS 542 01,Theory of Statistics
+6904,S&DS 262 01,Computational Tools for Data Science
+6904,AMTH 262 01,Computational Tools for Data Science
+6904,CPSC 262 01,Computational Tools for Data Science
+6904,S&DS 562 01,Computational Tools for Data Science
+6905,S&DS 351 01,Stochastic Processes
+6905,S&DS 551 01,Stochastic Processes
+6905,EENG 434 01,Stochastic Processes
+6905,ENAS 502 01,Stochastic Processes
+6905,MATH 251 01,Stochastic Processes
+6907,S&DS 361 01,Data Analysis
+6907,AMTH 361 01,Data Analysis
+6907,S&DS 661 01,Data Analysis
+6908,S&DS 363 01,Multivariate Statistics for Social Sciences
+6908,ENV 758 0,Multivariate Statistics for Social Sciences
+6908,S&DS 563 01,Multivariate Statistics for Social Sciences
+6909,S&DS 364 01,Information Theory
+6909,AMTH 364 01,Information Theory
+6909,EENG 454 01,Information Theory
+6909,S&DS 664 01,Information Theory
+6910,S&DS 425 01,Statistical Case Studies
+6910,S&DS 625 01,Statistical Case Studies
+6911,S&DS 432 01,Advanced Optimization Techniques
+6911,S&DS 632 01,Advanced Optimization Techniques
+6912,S&DS 480 01,Individual Studies
+6913,S&DS 492 01,Senior Project
+6914,S&DS 617 01,Applied Machine Learning and Causal Inference Research Seminar
+6914,PLSC 511 01,Applied Machine Learning and Causal Inference Research Seminar
+6915,S&DS 626 01,Practical Work
+6916,S&DS 628 01,Statistical Consulting
+6917,S&DS 684 01,Statistical Inference on Graphs
+6918,S&DS 685 01,Theory of Reinforcement Learning
+6919,S&DS 686 01,High-Dimensional Phenomena in Statistics and Learning
+6920,S&DS 687 01,Discrimination in Data Science
+6921,S&DS 690 01,Independent Study
+6922,S&DS 695 01,Summer Internship in Statistics and Data Science
+6923,S&DS 700 01,Departmental Seminar
+6924,S&DS 731 01,"Research Topics in Algorithms, Probability, and Statistics"
+6934,SAST 420 01,"Tradition, Modernity, Medicine in South Asia"
+6934,HIST 339J 01,"Tradition, Modernity, Medicine in South Asia"
+6934,HSHM 457 01,"Tradition, Modernity, Medicine in South Asia"
+6937,SAST 486 01,Directed Study
+6938,SAST 492 01,Senior Essay
+6940,SBCR 120 01,Elementary Bosnian-Croatian-Serbian II
+6941,SBCR 140 01,Intermediate Bosnian Croatian Serbian II
+6942,SBS 500 01,Independent Study in Social and Behavioral Sciences
+6943,SBS 526 01,Seminar in Social and Behavioral Sciences
+6944,SBS 537 01,Social and Interpersonal Influences on Health
+6945,SBS 540E 01,Monitoring and Evaluation in Public Health: Principles and Applications
+6946,SBS 565 01,Trauma and Health
+6947,SBS 574 01,Developing a Health Promotion and Disease Prevention Intervention
+6948,SBS 580 01,Qualitative Research Methods in Public Health
+6948,ANTH 607 01,Qualitative Research Methods in Public Health
+6949,SBS 587 01,Harm Reduction and Drug Policy Reform
+6951,SBS 590 01,Advocacy and Activism
+6952,SBS 592 01,Biomedical Justice: Public Health Critiques and Praxis
+6953,SBS 593 01,Community-Based Participatory Research in Public Health
+6954,SBS 600 01,Independent Study or Directed Readings
+6955,SBS 610 01,Applied Area Readings for Qualifying Exams
+6957,SBS 670 01,Advanced Field Methods in Public Health
+6958,SBS 676 01,Questionnaire Development
+6959,SCIE 011 01,Perspectives on Biological Research
+6960,SCIE 021 01,Perspectives on Research in the Mathematical and Physical Sciences
+6961,SCIE 031 01,Current Topics in Science
+6963,SKRT 120 01,Introductory Sanskrit II
+6963,LING 125 01,Introductory Sanskrit II
+6963,LING 525 01,Introductory Sanskrit II
+6963,SKRT 520 01,Introductory Sanskrit II
+6964,SKRT 141 01,Introduction to Vedic Sanskrit
+6964,SKRT 541 01,Introduction to Vedic Sanskrit
+6964,LING 158 01,Introduction to Vedic Sanskrit
+6964,LING 558 01,Introduction to Vedic Sanskrit
+6964,SAST 359 01,Introduction to Vedic Sanskrit
+6965,SLAV 900 01,Directed Reading
+6969,SOCY 081 01,"Race and Place in British New Wave, K-Pop, and Beyond"
+6969,ER&M 081 01,"Race and Place in British New Wave, K-Pop, and Beyond"
+6969,MUSI 081 01,"Race and Place in British New Wave, K-Pop, and Beyond"
+6970,SOCY 101 01,Introduction to Sociology
+6971,SOCY 105 01,"Prison Nation, Race, Gender, Crime, and Abolition Politics"
+6971,WGSS 106 01,"Prison Nation, Race, Gender, Crime, and Abolition Politics"
+6972,SOCY 141 01,Sociology of Crime and Deviance
+6973,SOCY 145 01,Inequality and Social Change in China
+6973,EAST 380 01,Inequality and Social Change in China
+6974,SOCY 152 01,Topics in Contemporary Social Theory
+6974,AFAM 152 01,Topics in Contemporary Social Theory
+6974,PLSC 292 01,Topics in Contemporary Social Theory
+6975,SOCY 160 01,Methods of Inquiry
+6975,URBN 369 01,Methods of Inquiry
+6976,SOCY 202 01,Cultural Sociology
+6976,SOCY 534 01,Cultural Sociology
+6977,SOCY 209 01,The Sociological Imagination
+6979,SOCY 227 01,Contemporary Anti-Semitism and Holocaust Memory
+6980,SOCY 228 01,Norms and Deviance
+6982,SOCY 234 01,"Inequality, Economic Mobility & Public Policy"
+6984,SOCY 351 01,"Race, Medicine, and Technology"
+6984,SOCY 545 01,"Race, Medicine, and Technology"
+6985,SOCY 352 01,Material Culture and Iconic Consciousness
+6985,SOCY 620 01,Material Culture and Iconic Consciousness
+6985,HUMS 247 01,Material Culture and Iconic Consciousness
+6986,SOCY 352 01,Material Culture and Iconic Consciousness
+6986,HUMS 247 01,Material Culture and Iconic Consciousness
+6989,SOCY 472 01,Individual Study
+6990,SOCY 492 01,Senior Essay and Colloquium for Nonintensive Majors
+6991,SOCY 494 01,Senior Essay and Colloquium for Intensive Majors
+6993,SOCY 554 01,Research Topics on Human Nature and Social Networks
+6994,SOCY 560 01,Comparative Research Workshop
+6994,PLSC 734 01,Comparative Research Workshop
+6995,SOCY 581 01,Intermediate Methods in Quantitative Sociology
+6996,SOCY 584 01,"Inequality, Race, and the City"
+6996,AFAM 584 01,"Inequality, Race, and the City"
+6997,SOCY 592 01,Qualitative Research Methods
+6997,WGSS 592 01,Qualitative Research Methods
+6998,SOCY 595 01,Stratification and Inequality Workshop
+6999,SOCY 599 01,Independent Study
+7000,SOCY 628 01,Workshop in Cultural Sociology
+7001,SOCY 633 01,Sociology of Education
+7002,SOCY 636 01,Biosocial Science
+7002,E&EB 636 01,Biosocial Science
+7003,SPAN 110 01,Elementary Spanish I
+7004,SPAN 110 02,Elementary Spanish I
+7005,SPAN 110 03,Elementary Spanish I
+7006,SPAN 110 04,Elementary Spanish I
+7007,SPAN 120 01,Elementary Spanish II
+7008,SPAN 120 02,Elementary Spanish II
+7009,SPAN 120 03,Elementary Spanish II
+7010,SPAN 120 04,Elementary Spanish II
+7011,SPAN 120 05,Elementary Spanish II
+7012,SPAN 120 06,Elementary Spanish II
+7013,SPAN 120 07,Elementary Spanish II
+7014,SPAN 120 08,Elementary Spanish II
+7015,SPAN 120 09,Elementary Spanish II
+7016,SPAN 130 01,Intermediate Spanish I
+7017,SPAN 130 02,Intermediate Spanish I
+7018,SPAN 130 03,Intermediate Spanish I
+7019,SPAN 130 04,Intermediate Spanish I
+7020,SPAN 130 05,Intermediate Spanish I
+7021,SPAN 130 06,Intermediate Spanish I
+7022,SPAN 130 07,Intermediate Spanish I
+7023,SPAN 130 08,Intermediate Spanish I
+7024,SPAN 140 01,Intermediate Spanish II
+7025,SPAN 140 02,Intermediate Spanish II
+7026,SPAN 140 03,Intermediate Spanish II
+7027,SPAN 140 04,Intermediate Spanish II
+7028,SPAN 140 05,Intermediate Spanish II
+7029,SPAN 140 06,Intermediate Spanish II
+7030,SPAN 140 07,Intermediate Spanish II
+7031,SPAN 140 08,Intermediate Spanish II
+7032,SPAN 140 09,Intermediate Spanish II
+7033,SPAN 140 10,Intermediate Spanish II
+7034,SPAN 142 01,Spanish for Heritage Speakers II
+7035,SPAN 142 02,Spanish for Heritage Speakers II
+7036,SPAN 145 01,Intensive Intermediate Spanish
+7037,SPAN 150 01,Advanced Oral and Written Communication in Spanish
+7038,SPAN 221 01,Spanish Language and Culture through Art
+7039,SPAN 223 01,Spanish in Film: An Introduction to the New Latin American Cinema
+7039,LAST 223 01,Spanish in Film: An Introduction to the New Latin American Cinema
+7040,SPAN 225 01,Spanish for the Medical Professions
+7040,LAST 225 01,Spanish for the Medical Professions
+7041,SPAN 225 02,Spanish for the Medical Professions
+7041,LAST 225 02,Spanish for the Medical Professions
+7042,SPAN 227 01,Creative Writing
+7042,LAST 227 01,Creative Writing
+7043,SPAN 228 01,Borders & Globalization in Hispanophone Cultures
+7043,ER&M 278 01,Borders & Globalization in Hispanophone Cultures
+7043,LAST 228 01,Borders & Globalization in Hispanophone Cultures
+7044,SPAN 243 01,Advanced Spanish Grammar
+7044,LAST 243 01,Advanced Spanish Grammar
+7045,SPAN 244 01,Writing in Spanish
+7045,LAST 244 01,Writing in Spanish
+7046,SPAN 246 01,Introduction to the Cultures of Spain
+7047,SPAN 262 01,Studies in Spanish Literature II
+7047,LAST 262 01,Studies in Spanish Literature II
+7048,SPAN 317 01,"The Spanish Inquisition: Literature, Material Culture and Visual Studies"
+7049,SPAN 318 01,The End of the World
+7049,SPAN 618 01,The End of the World
+7049,CPLT 968 01,The End of the World
+7049,HUMS 196 01,The End of the World
+7049,LITR 401 01,The End of the World
+7050,SPAN 385 01,Cervantes & Don Quijote
+7050,SPAN 916 01,Cervantes & Don Quijote
+7050,CPLT 669 01,Cervantes & Don Quijote
+7050,EMST 590 01,Cervantes & Don Quijote
+7050,LITR 434 01,Cervantes & Don Quijote
+7052,SPAN 479 01,Directed Readings and/or Individual Research
+7053,SPAN 491 01,The Senior Essay
+7054,SPAN 790 01,Methodologies of Modern Language Teaching
+7055,SPAN 846 01,Introduction to Digital Humanities II: Algorithmic Approaches to Culture
+7056,SPAN 984 01,Digital Humanities Practical Workshop Series
+7057,SPEC 492 01,The Senior Project
+7058,SWAH 120 01,Beginning Kiswahili II
+7058,SWAH 620 01,Beginning Kiswahili II
+7059,SWAH 140 01,Intermediate Kiswahili II
+7059,SWAH 640 01,Intermediate Kiswahili II
+7060,SWAH 160 01,Advanced Kiswahili II
+7060,SWAH 660 01,Advanced Kiswahili II
+7061,SWAH 171 01,Topics in Kiswahili Literature
+7062,SWED 120 01,Elementary Swedish II
+7063,THST 092 01,African Rhythm in Motion
+7063,AFST 092 01,African Rhythm in Motion
+7064,THST 093 01,"Creativity, Collaboration, and the Art of Making Theater"
+7065,THST 111 01,Modes of Performance
+7067,THST 205 01,Building Theatrical Worlds
+7068,THST 210 01,Performance Concepts
+7069,THST 211 01,Intermediate Acting
+7070,THST 213 01,The Process of New Play Development in American Theater
+7074,THST 230 01,Advanced Acting
+7077,THST 315 01,Acting Shakespeare
+7077,ENGL 211 01,Acting Shakespeare
+7079,THST 321 01,Production Seminar: Playwriting
+7079,ENGL 477 01,Production Seminar: Playwriting
+7080,THST 322 01,Advanced Playwriting
+7080,ENGL 481 01,Advanced Playwriting
+7081,THST 324 01,Playwright-Director Laboratory
+7082,THST 329 01,Theater Now
+7082,ENGL 361 01,Theater Now
+7084,THST 335 01,West African Dance: Traditional to Contemporary
+7084,AFST 435 01,West African Dance: Traditional to Contemporary
+7085,THST 345 01,Dance and Arts Activism in Southeast Asia
+7086,THST 347 01,Stanislavsky: His Rebellious Protégés (and some Americans)
+7087,THST 379 01,Advanced Topics in Theatrical Violence
+7088,THST 380 01,Choreographic Invention in 20th Century America
+7088,AMST 370 01,Choreographic Invention in 20th Century America
+7089,THST 396 01,Moving Sites and Structures
+7090,THST 412 01,Libretto Writing for Musical Theater
+7091,THST 427 01,Technologies of Movement Research
+7091,AMST 349 01,Technologies of Movement Research
+7094,THST 471 01,Directed Independent Study
+7095,THST 491 01,Senior Project in Theater Studies
+7096,THST 491 02,Senior Project in Theater Studies
+7097,TKSH 120 01,Elementary Modern Turkish II
+7097,TKSH 501 01,Elementary Modern Turkish II
+7098,TKSH 140 01,Intermediate Turkish II
+7098,TKSH 503 01,Intermediate Turkish II
