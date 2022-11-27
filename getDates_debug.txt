@@ -1,0 +1,914 @@
+
+
+<div id="header" class="clearfix">
+    <div class="wrap">
+        <div class="clearfix">
+            <div id="logo">
+                <a href="http://www.yale.edu">Yale University</a>
+            </div><!--end #logo-->
+        </div>
+        <h1>Course Demand Statistics</h1>
+    </div><!--end #header .wrap-->
+</div><!--end #header-->
+
+
+
+<div id="wrapper">
+
+    <div id="navigation" class="clearfix">
+    <ul>
+        <li>
+            <a href="/course-stats/">Home</a>
+        </li>       <li>
+            <a href="http://courses.yale.edu">Yale Course Search (YCS)</a>
+        </li>
+        <li>
+            <a href="/course-stats/course/download">Download Statistics</a>
+        </li>
+        <li>
+            <a href="/course-stats/discussion/index">Discussion Sections</a>
+        </li>
+    </ul>
+</div>
+
+
+    <div id="container" class="clearfix">
+
+        <div id="right-col" style="float: none; width: 100%;">
+
+            <div id="content">
+
+                <form action="/course-stats/" method="post">
+    <div style="display: block;">
+
+        <div style="float:left; padding-bottom: 2em;  padding-right:2em;">
+            <h4>Term</h4>
+
+            <select name="termCode" id="termCode" style="padding: .5em; width: 200px;" onchange="this.form.submit()">
+<option value="202301">Spring 2023</option>
+<option value="202203" selected="selected">Fall 2022</option>
+<option value="202202">Summer 2022</option>
+<option value="202201">Spring 2022</option>
+<option value="202103">Fall 2021</option>
+<option value="202101">Spring 2021</option>
+<option value="202003">Fall 2020</option>
+<option value="202001">Spring 2020</option>
+<option value="201903">Fall 2019</option>
+<option value="201901">Spring 2019</option>
+<option value="201803">Fall 2018</option>
+<option value="201801">Spring 2018</option>
+<option value="201703">Fall 2017</option>
+<option value="201701">Spring 2017</option>
+<option value="201603">Fall 2016</option>
+<option value="201601">Spring 2016</option>
+<option value="201503">Fall 2015</option>
+<option value="201501">Spring 2015</option>
+<option value="201403">Fall 2014</option>
+<option value="201401">Spring 2014</option>
+<option value="201303">Fall 2013</option>
+<option value="201301">Spring 2013</option>
+<option value="201203">Fall 2012</option>
+<option value="201201">Spring 2012</option>
+<option value="201103">Fall 2011</option>
+</select>
+
+        </div>
+
+        <div style="float:left; padding-bottom: 2em;  padding-right:2em;">
+            <h4>Subject</h4>
+
+            <select name="subjectCode" id="subjectCode" style="padding: .5em;" onchange="this.form.submit()">
+<option value="">- Select a subject -</option>
+<option value="ACCT">ACCT - Accounting</option>
+<option value="ADSC">ADSC - Administrative Sciences</option>
+<option value="AFAM">AFAM - African American Studies</option>
+<option value="AFAS">AFAS - African &amp; African-Amer Studies</option>
+<option value="AFKN">AFKN - Afrikaans</option>
+<option value="AFST">AFST - African Studies</option>
+<option value="AKKD">AKKD - Akkadian</option>
+<option value="AMST">AMST - American Studies</option>
+<option value="AMTH" selected="selected">AMTH - Applied Mathematics</option>
+<option value="ANES">ANES - Anesthesiology</option>
+<option value="ANTH">ANTH - Anthropology</option>
+<option value="APHY">APHY - Applied Physics</option>
+<option value="ARBC">ARBC - Arabic</option>
+<option value="ARCG">ARCG - Archaeological Studies</option>
+<option value="ARCH">ARCH - Architecture</option>
+<option value="ARMN">ARMN - Armenian</option>
+<option value="ART">ART - Art</option>
+<option value="ASL">ASL - American Sign Language</option>
+<option value="ASTR">ASTR - Astronomy</option>
+<option value="B&amp;BS">B&amp;BS - Biological &amp; Biomedical Sci</option>
+<option value="BENG">BENG - Biomedical Engineering</option>
+<option value="BIOL">BIOL - Biology</option>
+<option value="BIS">BIS - Biostatistics</option>
+<option value="BME">BME - Biomedical Engineering</option>
+<option value="BNGL">BNGL - Bengali</option>
+<option value="BRST">BRST - British Studies</option>
+<option value="BURM">BURM - Burmese</option>
+<option value="C&amp;MP">C&amp;MP - Cell &amp; Molecular Physiology</option>
+<option value="CAND">CAND - Prep for Adv to Candidacy</option>
+<option value="CB&amp;B">CB&amp;B - Comp Biol &amp; Bioinfomatics</option>
+<option value="CBIO">CBIO - Cell Biology</option>
+<option value="CDE">CDE - Chronic Disease Epidemiology</option>
+<option value="CENG">CENG - Chemical Engineering</option>
+<option value="CGSC">CGSC - Cognitive Science</option>
+<option value="CHEM">CHEM - Chemistry</option>
+<option value="CHLD">CHLD - Child Study</option>
+<option value="CHNS">CHNS - Chinese</option>
+<option value="CLCV">CLCV - Classical Civilization</option>
+<option value="CLSS">CLSS - Classics</option>
+<option value="CPAR">CPAR - Computing and the Arts</option>
+<option value="CPLT">CPLT - Comparative Literature</option>
+<option value="CPMD">CPMD - Comparative Medicine</option>
+<option value="CPSC">CPSC - Computer Science</option>
+<option value="CPTC">CPTC - Coptic</option>
+<option value="CSBF">CSBF - Coll Sem:Ben Franklin Coll</option>
+<option value="CSBK">CSBK - Coll Sem:Berkeley Coll</option>
+<option value="CSBR">CSBR - Coll Sem:Branford Coll</option>
+<option value="CSCC">CSCC - Coll Sem:Calhoun Coll</option>
+<option value="CSDC">CSDC - Coll Sem:Davenport Coll</option>
+<option value="CSEC">CSEC - Computer Science and Economics</option>
+<option value="CSES">CSES - Coll Sem:Ezra Stiles Coll</option>
+<option value="CSGH">CSGH - Coll Sem:Grace Hopper Coll</option>
+<option value="CSJE">CSJE - Coll Sem:Jonathan Edwards Coll</option>
+<option value="CSLI">CSLI - Computing and Linguistics</option>
+<option value="CSMC">CSMC - Coll Sem:Morse Coll</option>
+<option value="CSMY">CSMY - Coll Sem:Pauli Murray Coll</option>
+<option value="CSPC">CSPC - Coll Sem:Pierson Coll</option>
+<option value="CSSM">CSSM - Coll Sem:Silliman Coll</option>
+<option value="CSSY">CSSY - Coll Sem:Saybrook Coll</option>
+<option value="CSTC">CSTC - Coll Sem:Trumbull Coll</option>
+<option value="CSTD">CSTD - Coll Sem:Timothy Dwight Coll</option>
+<option value="CSYC">CSYC - Coll Sem: Yale Coll</option>
+<option value="CTLN">CTLN - Catalan</option>
+<option value="CZEC">CZEC - Czech</option>
+<option value="DERM">DERM - Dermatology</option>
+<option value="DEVN">DEVN - The DeVane Lecture Course</option>
+<option value="DIAG">DIAG - Diagnostic Radiology</option>
+<option value="DIR">DIR - DIrecting</option>
+<option value="DISA">DISA - Diss Research - in Absentia</option>
+<option value="DISR">DISR - Diss Research - in Residence</option>
+<option value="DRAM">DRAM - Drama</option>
+<option value="DRST">DRST - Directed Studies</option>
+<option value="DUTC">DUTC - Dutch</option>
+<option value="E&amp;EB">E&amp;EB - Ecology &amp; Evolutionary Biology</option>
+<option value="E&amp;RS">E&amp;RS - European &amp; Russian Studies</option>
+<option value="EALL">EALL - East Asian Lang and Lit</option>
+<option value="EAST">EAST - East Asian Studies</option>
+<option value="ECON">ECON - Economics</option>
+<option value="EDST">EDST - Education Studies</option>
+<option value="EECS">EECS - Elec Eng &amp; Comp Sci</option>
+<option value="EENG">EENG - Electrical Engineering</option>
+<option value="EGYP">EGYP - Egyptology</option>
+<option value="EHS">EHS - Environmental Health Sciences</option>
+<option value="EID">EID - Epidemiology Infectious Diseas</option>
+<option value="ELP">ELP - English Language Program</option>
+<option value="EMD">EMD - Epidemiology Microbial Disease</option>
+<option value="EMST">EMST - Early Modern Studies</option>
+<option value="ENAS">ENAS - Engineering &amp; Applied Science</option>
+<option value="ENGL">ENGL - English</option>
+<option value="ENHS">ENHS - Environmental Health Sciences</option>
+<option value="ENRG">ENRG - Energy Studies</option>
+<option value="ENV">ENV - Environment</option>
+<option value="ENVE">ENVE - Environmental Engineering</option>
+<option value="EP&amp;E">EP&amp;E - Ethics, Politics, &amp; Economics</option>
+<option value="EPH">EPH - Epidemiology &amp; Public Health</option>
+<option value="EPS">EPS - Earth and Planetary Sciences</option>
+<option value="ER&amp;M">ER&amp;M - Ethnicity, Race, &amp; Migration</option>
+<option value="EVST">EVST - Environmental Studies</option>
+<option value="EXCH">EXCH - Exchange Scholar Experience</option>
+<option value="EXPA">EXPA - Experimental Pathology</option>
+<option value="F&amp;ES">F&amp;ES - Forestry &amp; Environment Studies</option>
+<option value="FILM">FILM - Film &amp; Media Studies</option>
+<option value="FNSH">FNSH - Finnish</option>
+<option value="FREN">FREN - French</option>
+<option value="G&amp;G">G&amp;G - Geology and Geophysics</option>
+<option value="GENE">GENE - Genetics</option>
+<option value="GHD">GHD - Global Health</option>
+<option value="GLBL">GLBL - Global Affairs</option>
+<option value="GMAN">GMAN - German</option>
+<option value="GMIC">GMIC - Germanic</option>
+<option value="GMST">GMST - German Studies</option>
+<option value="GRAN">GRAN - Gross Anatomy</option>
+<option value="GREK">GREK - Ancient Greek</option>
+<option value="GSAS">GSAS - Graduate School</option>
+<option value="HAUS">HAUS - Hausa</option>
+<option value="HEBR">HEBR - Modern Hebrew</option>
+<option value="HGRN">HGRN - Hungarian</option>
+<option value="HIST">HIST - History</option>
+<option value="HLTH">HLTH - Health Studies</option>
+<option value="HM&amp;S">HM&amp;S - History of Medicine &amp; Science</option>
+<option value="HMRT">HMRT - Human Rights</option>
+<option value="HNDI">HNDI - Hindi</option>
+<option value="HPA">HPA - Health Policy Administration</option>
+<option value="HPM">HPM - Health Policy and Management</option>
+<option value="HPR">HPR - Health Policy Resources &amp; Adm</option>
+<option value="HSAR">HSAR - History of Art</option>
+<option value="HSHM">HSHM - Hist of Science, Hist of Med</option>
+<option value="HSMD">HSMD - History of Medicine</option>
+<option value="HSPL">HSPL - History &amp; Politics</option>
+<option value="HUMS">HUMS - Humanities</option>
+<option value="IBIO">IBIO - Immunobiology</option>
+<option value="IHD">IHD - International Health</option>
+<option value="IMED">IMED - Investigative Medicine</option>
+<option value="IND">IND - IndoEuropean</option>
+<option value="INDC">INDC - Indic</option>
+<option value="INDN">INDN - Indonesian</option>
+<option value="INMD">INMD - Internal Medicine</option>
+<option value="INP">INP - Interdpt Neuroscience Pgm</option>
+<option value="INRL">INRL - International Relations</option>
+<option value="INTL">INTL - International</option>
+<option value="INTS">INTS - International Studies</option>
+<option value="IRAN">IRAN - Iranian</option>
+<option value="IRES">IRES - Independent Research</option>
+<option value="ITAL">ITAL - Italian</option>
+<option value="JAPN">JAPN - Japanese</option>
+<option value="JDST">JDST - Judaic Studies</option>
+<option value="KHMR">KHMR - Khmer</option>
+<option value="KREN">KREN - Korean</option>
+<option value="LAST">LAST - Latin American Studies</option>
+<option value="LATN">LATN - Latin</option>
+<option value="LAW">LAW - Law</option>
+<option value="LBMD">LBMD - Laboratory Medicine</option>
+<option value="LING">LING - Linguistics</option>
+<option value="LITR">LITR - Literature</option>
+<option value="LUCE">LUCE - The Henry Luce Course</option>
+<option value="MATH">MATH - Mathematics</option>
+<option value="MB&amp;B">MB&amp;B - Molecular Biophysics &amp; Biochem</option>
+<option value="MBIO">MBIO - Microbiology</option>
+<option value="MCDB">MCDB - Molecular, Cellular &amp; Dev Biol</option>
+<option value="MDVL">MDVL - Medieval Studies</option>
+<option value="MED">MED - Master of Environmental Design</option>
+<option value="MEDC">MEDC - Courses in School of Medicine</option>
+<option value="MEDR">MEDR - Clinical Clerkships</option>
+<option value="MENG">MENG - Mechanical Engineering</option>
+<option value="MESO">MESO - Mesopotamia</option>
+<option value="MGMT">MGMT - Management</option>
+<option value="MGRK">MGRK - Modern Greek</option>
+<option value="MGT">MGT - School of Management</option>
+<option value="MHHR">MHHR - Material Hist of Human Record</option>
+<option value="MIC">MIC - Microbiology</option>
+<option value="MMES">MMES - Modern Middle East Studies</option>
+<option value="MRES">MRES - Master's Thesis Research</option>
+<option value="MTBT">MTBT - Modern Tibetan</option>
+<option value="MUS">MUS - School of Music</option>
+<option value="MUSI">MUSI - Music Department</option>
+<option value="NAVY">NAVY - Naval Science</option>
+<option value="NBIO">NBIO - Neurobiology</option>
+<option value="NELC">NELC - Near Eastern Langs &amp; Civs</option>
+<option value="NHTL">NHTL - Nahuatl</option>
+<option value="NPLI">NPLI - Nepali</option>
+<option value="NRLG">NRLG - Neurology</option>
+<option value="NSCI">NSCI - Neuroscience</option>
+<option value="NURS">NURS - Nursing</option>
+<option value="OBGN">OBGN - Obstetrics/Gynecology</option>
+<option value="OBIO">OBIO - Organismal Biology</option>
+<option value="OLPA">OLPA - Physician Assistant Online Pgm</option>
+<option value="OPRH">OPRH - Orthopaedics &amp; Rehabilitation</option>
+<option value="OPRS">OPRS - Operations Research</option>
+<option value="OPVS">OPVS - Ophthalmology &amp; Visual Science</option>
+<option value="ORMS">ORMS - Operations Res/Mgmt Science</option>
+<option value="OTTM">OTTM - Ottoman</option>
+<option value="PA">PA - Physician Associate Program</option>
+<option value="PATH">PATH - Pathology</option>
+<option value="PEDT">PEDT - Pediatrics</option>
+<option value="PERS">PERS - Persian</option>
+<option value="PHAR">PHAR - Pharmacology</option>
+<option value="PHIL">PHIL - Philosophy</option>
+<option value="PHUM">PHUM - Public Humanities</option>
+<option value="PHYS">PHYS - Physics</option>
+<option value="PIH">PIH - Program International Health</option>
+<option value="PLSC">PLSC - Political Science</option>
+<option value="PLSH">PLSH - Polish</option>
+<option value="PNJB">PNJB - Punjabi</option>
+<option value="PORT">PORT - Portuguese</option>
+<option value="PPM">PPM - Public &amp; Private Management</option>
+<option value="PRAC">PRAC - Practicum Analysis</option>
+<option value="PSYC">PSYC - Psychology</option>
+<option value="PSYT">PSYT - Psychiatry</option>
+<option value="PTB">PTB - Translational Biomedicine</option>
+<option value="QUAL">QUAL - Preparing for Qualifying Exams</option>
+<option value="QUAN">QUAN - Quantitative Reasoning</option>
+<option value="REL">REL - Religion</option>
+<option value="RLST">RLST - Religious Studies</option>
+<option value="RNST">RNST - Renaissance Studies</option>
+<option value="ROMN">ROMN - Romanian</option>
+<option value="RSEE">RSEE - Russian &amp; East Europe Studies</option>
+<option value="RUSS">RUSS - Russian</option>
+<option value="S&amp;DS">S&amp;DS - Statistics and Data Science</option>
+<option value="SAST">SAST - South Asian Studies</option>
+<option value="SBCR">SBCR - Serbian &amp; Croatian</option>
+<option value="SBS">SBS - Social and Behavioral Sciences</option>
+<option value="SCAN">SCAN - Scandinavian</option>
+<option value="SCIE">SCIE - Science</option>
+<option value="SKRT">SKRT - Sanskrit</option>
+<option value="SLAV">SLAV - Slavic</option>
+<option value="SMTC">SMTC - Semitic</option>
+<option value="SNHL">SNHL - Sinhala</option>
+<option value="SOCY">SOCY - Sociology</option>
+<option value="SPAN">SPAN - Spanish</option>
+<option value="SPEC">SPEC - Special Divisional Major</option>
+<option value="SPTC">SPTC - Special Term Course</option>
+<option value="STAT">STAT - Statistics</option>
+<option value="STCY">STCY - Study of the City</option>
+<option value="STEV">STEV - Studies in the Environment</option>
+<option value="STRT">STRT - Start Program - Medical School</option>
+<option value="SURG">SURG - Surgery</option>
+<option value="SWAH">SWAH - Kiswahili</option>
+<option value="SWED">SWED - Swedish</option>
+<option value="TAML">TAML - Tamil</option>
+<option value="TBTN">TBTN - Tibetan</option>
+<option value="THST">THST - Theater Studies</option>
+<option value="TKSH">TKSH - Turkish</option>
+<option value="TPRP">TPRP - Teacher Preparation</option>
+<option value="TRAD">TRAD - Therapeutic Radiology</option>
+<option value="TWI">TWI - Twi</option>
+<option value="UKRN">UKRN - Ukrainian</option>
+<option value="URBN">URBN - Urban Studies</option>
+<option value="URDU">URDU - Heritage Urdu</option>
+<option value="USAF">USAF - Aerospace Studies</option>
+<option value="VAIR">VAIR - Visiting Assistant in Research</option>
+<option value="VIET">VIET - Vietnamese</option>
+<option value="WGSS">WGSS - Women'sGender&amp;SexualityStudies</option>
+<option value="WGST">WGST - Women's &amp; Gender Studies</option>
+<option value="WHIT">WHIT - Whitney Seminar</option>
+<option value="WLOF">WLOF - Wolof</option>
+<option value="WMST">WMST - Women's Studies</option>
+<option value="YDSH">YDSH - Yiddish</option>
+<option value="YORU">YORU - Yoruba</option>
+<option value="YPKU">YPKU - PKU: Direct Enrollment</option>
+<option value="YSM">YSM - Yale School of Medicine</option>
+<option value="ZULU">ZULU - Zulu</option>
+</select>
+
+        </div>
+
+        
+        <div style="float:left; padding-bottom: 2em;  padding-right:2em;">
+            <h4>Type</h4>
+
+            <select name="statType" id="statType" class="day-select" style="padding: .5em; width: 175px;" onchange="this.form.submit()">
+<option value="REGISTERED">REGISTERED</option>
+<option value="WAITLISTED">WAITLISTED</option>
+<option value="VISITING">VISITING</option>
+<option value="ALL">ALL</option>
+</select>
+
+        </div>
+            <div style="float:left; padding-bottom: 2em;">
+                <h4>Days</h4>
+
+                <select name="numDays" id="days" style="padding: .5em; width: 175px;" onchange="this.form.submit()">
+<option value="7">7</option>
+<option value="14">14</option>
+<option value="21">21</option>
+<option value="28">28</option>
+<option value="35">35</option>
+</select>
+
+            </div>
+        
+
+
+    </div>
+
+</form>
+
+                <div style="clear: both;">
+
+                    
+                <div id="courseTableData">
+                
+
+
+    <div class="dataTables_wrapper">
+        <div id="coursesTable_wrapper" class="dataTables_wrapper no-footer"><div class="dt-buttons"> <button class="dt-button buttons-excel buttons-html5" tabindex="0" aria-controls="coursesTable" type="button"><span>Excel</span></button> <button class="dt-button buttons-csv buttons-html5" tabindex="0" aria-controls="coursesTable" type="button"><span>CSV</span></button> </div><div id="coursesTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="coursesTable"></label></div><div class="dataTables_scroll dtfc-has-left" style="position: relative;"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 978px; padding-right: 0px;"><table class="display compact nowrap row-border dataTable no-footer" style="width: 978px; margin-left: 0px;"><thead>
+            <tr><th style="width: 372.57px; left: 0px; position: sticky;" class="sorting sorting_asc dtfc-fixed-left" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Course: activate to sort column descending">Course</th><th class="trendCell sorting" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px;" aria-label="09/09: activate to sort column ascending">09/09</th><th class="trendCell sorting" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px;" aria-label="09/10: activate to sort column ascending">09/10</th><th class="trendCell sorting" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px;" aria-label="09/11: activate to sort column ascending">09/11</th><th class="trendCell sorting" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px;" aria-label="09/12: activate to sort column ascending">09/12</th><th class="trendCell sorting" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px;" aria-label="09/13: activate to sort column ascending">09/13</th><th class="trendCell sorting" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px;" aria-label="09/14: activate to sort column ascending">09/14</th><th class="trendCell sorting dtfc-fixed-right" tabindex="0" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.6797px; position: sticky; right: 0px;" aria-label="09/15: activate to sort column ascending">09/15</th></tr>
+            </thead></table></div></div><div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%; max-height: 50vh;"><table id="coursesTable" class="display compact nowrap row-border dataTable no-footer dtfc-has-left dtfc-has-right" style="width: 100%;" aria-describedby="coursesTable_info"><thead>
+            <tr style="height: 0px;"><th style="width: 372.57px; left: 0px; position: sticky; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" class="sorting sorting_asc dtfc-fixed-left" aria-controls="coursesTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Course: activate to sort column descending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Course</div></th><th class="trendCell sorting" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/09: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/09</div></th><th class="trendCell sorting" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/10: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/10</div></th><th class="trendCell sorting" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/11: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/11</div></th><th class="trendCell sorting" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/12: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/12</div></th><th class="trendCell sorting" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/13: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/13</div></th><th class="trendCell sorting" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.625px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/14: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/14</div></th><th class="trendCell sorting dtfc-fixed-right" aria-controls="coursesTable" rowspan="1" colspan="1" style="width: 47.6797px; position: sticky; right: 0px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="09/15: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">09/15</div></th></tr>
+            </thead>
+            
+
+            <tbody>
+
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            <tr class="highlight odd">
+                    <td data-order="AMTH 222" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=222&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 222 01 / AMTH 222 01
+                        </a>
+                        <span class="title">Linear Algebra with Applications</span>
+                    </td>
+                    
+                        <td class="trendCell">41</td>
+                    
+                        <td class="trendCell">41</td>
+                    
+                        <td class="trendCell">41</td>
+                    
+                        <td class="trendCell">41</td>
+                    
+                        <td class="trendCell">41</td>
+                    
+                        <td class="trendCell">41</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">41</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 222" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=222&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 222 02 / AMTH 222 02
+                        </a>
+                        <span class="title">Linear Algebra with Applications</span>
+                    </td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">38</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">38</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 222" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=222&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 222 03 / AMTH 222 03
+                        </a>
+                        <span class="title">Linear Algebra with Applications</span>
+                    </td>
+                    
+                        <td class="trendCell">16</td>
+                    
+                        <td class="trendCell">16</td>
+                    
+                        <td class="trendCell">16</td>
+                    
+                        <td class="trendCell">16</td>
+                    
+                        <td class="trendCell">16</td>
+                    
+                        <td class="trendCell">16</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">16</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 244" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=244&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 244 01 / AMTH 244 01
+                        </a>
+                        <span class="title">Discrete Mathematics</span>
+                    </td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">37</td>
+                    
+                        <td class="trendCell">36</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">35</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 244" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=244&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 244 02 / AMTH 244 02
+                        </a>
+                        <span class="title">Discrete Mathematics</span>
+                    </td>
+                    
+                        <td class="trendCell">73</td>
+                    
+                        <td class="trendCell">73</td>
+                    
+                        <td class="trendCell">73</td>
+                    
+                        <td class="trendCell">73</td>
+                    
+                        <td class="trendCell">74</td>
+                    
+                        <td class="trendCell">74</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">74</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 322" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=322&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 322 01 / MATH 522 01 / AMTH 322 01 / CPSC 644 01
+                        </a>
+                        <span class="title">Geometric and Topological Methods in Machine Learning</span>
+                    </td>
+                    
+                        <td class="trendCell">71</td>
+                    
+                        <td class="trendCell">69</td>
+                    
+                        <td class="trendCell">68</td>
+                    
+                        <td class="trendCell">66</td>
+                    
+                        <td class="trendCell">64</td>
+                    
+                        <td class="trendCell">63</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">62</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 342" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=342&amp;subjectCode=AMTH&amp;numDays=">
+                            EENG 432 01 / ENAS 902 01 / AMTH 342 01
+                        </a>
+                        <span class="title">Linear Systems</span>
+                    </td>
+                    
+                        <td class="trendCell">11</td>
+                    
+                        <td class="trendCell">11</td>
+                    
+                        <td class="trendCell">11</td>
+                    
+                        <td class="trendCell">8</td>
+                    
+                        <td class="trendCell">8</td>
+                    
+                        <td class="trendCell">8</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">8</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 420" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=420&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 421 01 / AMTH 420 01
+                        </a>
+                        <span class="title">The Mathematics of Data Science</span>
+                    </td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">1</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 428" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=428&amp;subjectCode=AMTH&amp;numDays=">
+                            EPS 428 01  / EPS 528 01  / AMTH 428 01  / E&amp;EB 428 01  /<br>  PHYS 428 01 /
+                        </a>
+                        <span class="title">Science of Complex Systems</span>
+                    </td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">13</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 431" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=431&amp;subjectCode=AMTH&amp;numDays=">
+                            S&amp;DS 431 01 / S&amp;DS 631 01 / AMTH 431 01 / AMTH 631 01
+                        </a>
+                        <span class="title">Optimization and Computation</span>
+                    </td>
+                    
+                        <td class="trendCell">57</td>
+                    
+                        <td class="trendCell">58</td>
+                    
+                        <td class="trendCell">56</td>
+                    
+                        <td class="trendCell">53</td>
+                    
+                        <td class="trendCell">51</td>
+                    
+                        <td class="trendCell">48</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">48</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 482" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=482&amp;subjectCode=AMTH&amp;numDays=">
+                            AMTH 482 01
+                        </a>
+                        <span class="title">Research Project</span>
+                    </td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell">1</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">1</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 491" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=491&amp;subjectCode=AMTH&amp;numDays=">
+                            AMTH 491 01
+                        </a>
+                        <span class="title">Senior Project</span>
+                    </td>
+                    
+                        <td class="trendCell">7</td>
+                    
+                        <td class="trendCell">7</td>
+                    
+                        <td class="trendCell">7</td>
+                    
+                        <td class="trendCell">7</td>
+                    
+                        <td class="trendCell">7</td>
+                    
+                        <td class="trendCell">7</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">7</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 525" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=525&amp;subjectCode=AMTH&amp;numDays=">
+                            AMTH 525 01
+                        </a>
+                        <span class="title">Seminar in Applied Mathematics</span>
+                    </td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">5</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 553" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=553&amp;subjectCode=AMTH&amp;numDays=">
+                            AMTH 553 01 / CB&amp;B 555 01 / CPSC 553 01 / GENE 555 01
+                        </a>
+                        <span class="title">Unsupervised Learning for Big Data</span>
+                    </td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">2</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 666" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=666&amp;subjectCode=AMTH&amp;numDays=">
+                            EPS 666 01 / AMTH 666 01 / ASTR 666 01 / MATH 666 01
+                        </a>
+                        <span class="title">Classical Statistical Thermodynamics</span>
+                    </td>
+                    
+                        <td class="trendCell">6</td>
+                    
+                        <td class="trendCell">6</td>
+                    
+                        <td class="trendCell">6</td>
+                    
+                        <td class="trendCell">6</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">4</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">4</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 675" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=675&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 675 01 / AMTH 675 01
+                        </a>
+                        <span class="title">Numerical Methods for Partial Differential Equations</span>
+                    </td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">13</td>
+                    
+                        <td class="trendCell">12</td>
+                    
+                        <td class="trendCell">12</td>
+                    
+                        <td class="trendCell">12</td>
+                    
+                        <td class="trendCell">12</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">12</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 701" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=701&amp;subjectCode=AMTH&amp;numDays=">
+                            MATH 701 01 / AMTH 701 01
+                        </a>
+                        <span class="title">Topics in Analysis</span>
+                    </td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">5</td>
+                    
+                        <td class="trendCell">6</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">6</td>
+                    
+                </tr><tr class="highlight even">
+                    <td data-order="AMTH 765" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=765&amp;subjectCode=AMTH&amp;numDays=">
+                            AMTH 765 01  / CB&amp;B 562 01  / ENAS 561 01  / INP 562 01  /<br>  MB&amp;B 562 01  / MCDB 562 01  / PHYS 562 01 /
+                        </a>
+                        <span class="title">Modeling Biological Systems II</span>
+                    </td>
+                    
+                        <td class="trendCell">0</td>
+                    
+                        <td class="trendCell">0</td>
+                    
+                        <td class="trendCell">0</td>
+                    
+                        <td class="trendCell">0</td>
+                    
+                        <td class="trendCell">0</td>
+                    
+                        <td class="trendCell">0</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">0</td>
+                    
+                </tr><tr class="highlight odd">
+                    <td data-order="AMTH 999" style="width: 200px !important; left: 0px; position: sticky;" class="sorting_1 dtfc-fixed-left">
+                        <a href="/course-stats/course/courseDetail?termCode=202203&amp;courseNumber=999&amp;subjectCode=AMTH&amp;numDays=">
+                            AMTH 999 01
+                        </a>
+                        <span class="title">Directed Reading</span>
+                    </td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell">2</td>
+                    
+                        <td class="trendCell dtfc-fixed-right" style="position: sticky; right: 0px;">2</td>
+                    
+                </tr></tbody>
+        </table></div><div class="dtfc-right-top-blocker" style="background-color: white; bottom: 0px; display: block; position: absolute; width: 1px; right: 0px; top: 0px; height: 29.5px;"></div></div><div class="dataTables_info" id="coursesTable_info" role="status" aria-live="polite">Showing 1 to 19 of 19 entries</div></div>
+    </div>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#coursesTable').DataTable({
+                "scrollY": 200,
+                scrollY: '50vh',
+                "scrollX": true,
+                scrollCollapse: true,
+                paging: false,
+                fixedColumns: {
+                    leftColumns: 1,
+                    rightColumns: 1,
+                },
+                columnDefs: [
+                    {width: 200, targets: 0},
+                ],
+                dom: 'Bfrtip',
+                buttons: [
+                    'excel', 'csv'
+                ]
+            });
+        });
+    
+</script>
+
+
+
+                </div>
+
+                </div>
+                <br>
+
+            </div><!--end #content-->
+        </div><!--end #right-col-->
+    </div><!--end #container-->
+
+    <div class="statDate">
+        
+            Fall 2022 statistics were last updated
+        
+        09/15/2022 11:30 PM
+    </div>
+
+</div><!--end #wrapper-->
+
+<div id="footer" class="clearfix">
+    <div id="foot-logo">
+        <a href="http://www.yale.edu">Yale University</a>
+    </div><!--end #foot-logo-->
+    <div id="foot-content">
+        <p>Copyright © <script>document.write(new Date().getFullYear())</script>2022 Yale University • All rights reserved • <a href="http://www.yale.edu/privacy.html">Privacy policy</a><br>
+            Contact us: <a href="mailto:websis@yale.edu">websis@yale.edu</a></p>
+    </div><!--end #foot-content-->
+</div><!--end #footer-->
+
+
+
+
+
+
