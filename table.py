@@ -3,9 +3,9 @@ from sqlalchemy import Column, ForeignKey, Index, Integer, Text, DECIMAL
 
 Base = declarative_base()
 
-class Courses(Base):
-    """courses table"""
-    __tablename__ = 'courses'
+class FallCourses(Base):
+    """courses table for fall 2022"""
+    __tablename__ = 'fallcourses'
     term = Column(Text)
     courseid = Column(Text, primary_key=True)
     coursecode = Column(Text)
@@ -14,11 +14,34 @@ class Courses(Base):
     coursenum = Column(Integer)
     title = Column(Text)
     descrip = Column(Text)
-    prereqs = Column(Text)
 
-class Demand(Base):
-    """demand statistics table"""
-    __tablename__ = 'demand'
-    courseid = Column(Text, ForeignKey('courses.courseid'), primary_key=True)
+class SpringCourses(Base):
+    """courses table for spring 2023"""
+    __tablename__ = 'springcourses'
+    term = Column(Text)
+    courseid = Column(Text, primary_key=True)
     coursecode = Column(Text)
+    deptcode = Column(Text)
+    deptname = Column(Text)
+    coursenum = Column(Integer)
+    title = Column(Text)
+    descrip = Column(Text)
+
+
+class FallDemand(Base):
+    """demand statistics table for fall 2022"""
+    __tablename__ = 'falldemand'
+    courseid = Column(Text)
+    coursecode = Column(Text, primary_key=True)
+    section = Column(Text)
+    coursetitle = Column(Text)
+    coursedemand = Column(Integer)
+
+class SpringDemand(Base):
+    """demand statistics table for spring 2023"""
+    __tablename__ = 'springdemand'
+    courseid = Column(Text)
+    coursecode = Column(Text, primary_key=True)
+    section = Column(Text)
+    coursetitle = Column(Text)
     coursedemand = Column(Integer)
