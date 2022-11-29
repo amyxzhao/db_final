@@ -1,97 +1,88 @@
-import csv
+import csv, pickle
 import pandas as pd
 from dotenv import load_dotenv
-from table import Base, FallDemand, SpringDemand
+from table import Base, SpringDemand, SpringCourses
 from sqlite3 import connect as sqlite_connect
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from codes import DEPARTMENTS
 
 load_dotenv()
 
-def format_crosslistings(course_data):
-    dict_format = []
+S23_DEMAND = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/full_spring_demand.csv"
 
-    with open(course_data, 'r') as csvfile:
-        all_courses = csv.reader(csvfile)
-        for row in all_courses:
-            if not any(d['courseid'] == row[0] for d in dict_format):
-                new_dict = {}
-                new_dict["courseid"] = row[0]
-                full_code = row[1]
-                new_dict["subjectcode"] = full_code[:-3]
-                new_dict["coursetitle"] = row[2]
-                dict_format.append(new_dict)
-            else:
-                for existing in dict_format:
-                    if existing["courseid"] == row[0]:
-                        full_code = row[1]
-                        sub_code = full_code[:-3]
-                        existing["subjectcode"] = existing["subjectcode"] + " | " + sub_code
+def tag_courseid():
 
-    return dict_format
+    with open('spring_courses', 'rb') as fp:
+        all_schools = pickle.load(fp)
 
-def find_corresonding_course_name(dict_course_data, id):
+    counter = 0
+    flat_list = [course for school in all_schools for course in school]
 
-    for course in dict_course_data:
-        if course["courseid"] == id:
-            return course["coursetitle"]
+    for c in flat_list:
+        c["courseId"] = counter
+        counter += 1
 
+    return flat_list
 
-def find_corresonding_subject_code(dict_course_data, id):
+COURSE_LIST = tag_courseid()
 
-    for course in dict_course_data:
-        if course["courseid"] == id:
-            return course["subjectcode"]
+def populate_courses(sql_session):
 
-def populate_fall_courses(course_data, sql_session):
-    print("Working")
+    '''
+    Adds all courses from all schools to the springcourses table in the database.
 
-def populate_fall_demand(course_data, demand_data, sql_session, dates):
+        Parameters:
+            sql_session: The session that is responsible for creating the database.
 
-    d = pd.read_csv(demand_data)
-    demand_length = len(d)
+        Returns:
+            none
+    '''
 
-    with open(demand_data, 'r') as csvfile:
-        all_demand = csv.reader(csvfile)
-        all_demand = list(all_demand)
+    for course in COURSE_LIST:
+        new_course = SpringCourses(term=course['termCode'], courseid=course["courseId"], fullcode=course["subjectCode"] + ' ' + course["courseNumber"], deptcode=course['department'], subcode=course["subjectCode"], deptname=DEPARTMENTS[course['department']], coursenum=course['courseNumber'], title=course['courseTitle'], description=course['description'], school=course['schoolDescription'])
+        sql_session.add(new_course)
 
-        counter = 0
-
-        for i in range(dates + 1, demand_length, dates):
-            if i < demand_length:
-                current_course = all_demand[i]
-                subject_code = find_corresonding_subject_code(course_data, current_course[0])
-                title = find_corresonding_course_name(course_data, current_course[0])
-                # print(current_course, subject_code, title)
-                new_demand = FallDemand(courseid=current_course[0], coursecode=subject_code, coursetitle=title, coursedemand=current_course[2])
-                sql_session.add(new_demand)
-                counter += 1
-    
     sql_session.commit()
 
-def populate_spring_courses(course_data, sql_session):
-    print("Working")
+def get_courseid(subject_code, course_number):
 
-def populate_spring_demand(course_data, demand_data, sql_session, dates):
-    d = pd.read_csv(demand_data)
-    demand_length = len(d)
+    for course in COURSE_LIST:
+        if subject_code == course["subjectCode"] and course_number == course["courseNumber"]:
+            return course["courseId"]
 
-    with open(demand_data, 'r') as csvfile:
-        all_demand = csv.reader(csvfile)
-        all_demand = list(all_demand)
+def create_demand_dict():
 
-        counter = 0
+    with open(S23_DEMAND, 'r') as spring_demand:
+        all_course_demand = csv.reader(spring_demand)
+        all_course_demand = list(all_course_demand)
+        del all_course_demand[0]
+        all_course_copy = all_course_demand
 
-        for i in range(dates + 1, demand_length, dates):
-            if i < demand_length:
-                current_course = all_demand[i]
-                subject_code = find_corresonding_subject_code(course_data, current_course[0])
-                title = find_corresonding_course_name(course_data, current_course[0])
-                # print(current_course, subject_code, title)
-                new_demand = SpringDemand(courseid=current_course[0], coursecode=subject_code, coursetitle=title, coursedemand=current_course[2])
+    full_dict = []
+
+    for course in all_course_copy:
+        courseid = get_courseid(course[3], course[4])
+        full_dict.append({ "courseid": courseid, "coursecode": course[3] + ' ' + course[4], "coursetitle": course[8], "coursedemand": course[11]})
+
+    return full_dict
+
+def populate_demand(demand_dict, sql_session):
+
+    seen_ids = []
+
+    for count, course in enumerate(demand_dict):
+        if (count + 1 < len(demand_dict)) and (course["courseid"] != None) and course["courseid"] not in seen_ids:
+            next = demand_dict[count + 1]
+            if course["coursecode"] != next["coursecode"]:
+                print("Course ID: ", course["courseid"], "Course Title: ", course["coursetitle"])
+                new_demand = SpringDemand(courseid=course["courseid"], coursecode=course["coursecode"], coursetitle=course["coursetitle"], coursedemand=course["coursedemand"])
+                seen_ids.append(course["courseid"])
                 sql_session.add(new_demand)
-                counter += 1
-    
+        # # else:
+        #     new_demand = SpringDemand(courseid=course["courseid"], coursecode=course["coursecode"], coursetitle=course["coursetitle"], coursedemand=course["coursedemand"])
+        #     sql_session.add(new_demand)
+
     sql_session.commit()
 
 if __name__ == "__main__":
@@ -103,20 +94,13 @@ if __name__ == "__main__":
         )
     )
 
-    fall_courses = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/courses_fall22.csv"
-    fall_demand = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/demand_fall22.csv"
-    spring_courses = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/courses_spring23.csv"
-    spring_demand = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/demand_spring23.csv"
-
-    formatted_fall_courses = format_crosslistings(fall_courses)
-    formatted_spring_courses = format_crosslistings(spring_courses)
-
     Session = sessionmaker(bind=engine)
     session = Session()
     Base.metadata.drop_all(engine)
     Base.metadata.create_all(engine)
 
-    populate_fall_demand(formatted_fall_courses, fall_demand, session, 7)
-    populate_spring_demand(formatted_spring_courses, spring_demand, session, 8)
+    populate_courses(session)
+    demand_dict = create_demand_dict()
+    populate_demand(demand_dict, session)
 
     print("Done")
