@@ -34,13 +34,21 @@ def tag_courseid():
     counter = 0
     flat_list = [course for school in all_schools for course in school]
 
-    for c in flat_list:
+    seen = []
+    final_list = []
+
+    for course in flat_list:
+        if course["subjectNumber"] not in seen:
+            final_list.append(course)
+
+    for c in final_list:
         c["courseId"] = counter
         counter += 1
 
     return flat_list
 
 COURSE_LIST = tag_courseid()
+
 
 def populate_courses(sql_session):
 
@@ -146,20 +154,19 @@ def clean_data():
             course["cleansentence"] = clean_text(course["description"])
             course["toklemsentence"] = tokenizer(course["cleansentence"], min_words=MIN_WORDS, max_words=MAX_WORDS, stopwords=STOPWORDS, lemmatize=True)
         else:
-            course["cleansentence"] = 'None'
-            course["toklemsentence"] = 'None'
+            course["cleansentence"] = ''
+            course["toklemsentence"] = ''
 
     return COURSE_LIST
 
 COURSE_LIST = clean_data()
-print(COURSE_LIST[1000])
 
 def populate_nlp_data(sql_session):
     for course in COURSE_LIST:
-        if course["toklemsentence"] != 'None':
+        if course["toklemsentence"] != '':
             converted_tl = '|'.join(course["toklemsentence"])
         else:
-            converted_tl = 'None'
+            converted_tl = ''
         new_nlp_data = NLPFormat(courseid=course["courseId"], cleansentence=course["cleansentence"], tokenlemmasentence=converted_tl)
         sql_session.add(new_nlp_data)
 
