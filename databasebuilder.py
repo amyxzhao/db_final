@@ -1,11 +1,26 @@
 import csv, pickle
 import pandas as pd
 from dotenv import load_dotenv
-from table import Base, SpringDemand, SpringCourses
+from table import Base, SpringDemand, SpringCourses, NLPFormat
 from sqlite3 import connect as sqlite_connect
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from codes import DEPARTMENTS
+from io import StringIO 
+from html.parser import HTMLParser
+
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import re 
+
+STOPWORDS = set(stopwords.words('english'))
+MIN_WORDS = 1
+MAX_WORDS = 1500
+
+PATTERN_S = re.compile("\'s")  # matches `'s` from text  
+PATTERN_RN = re.compile("\\r\\n") # matches `\r` and `\n`
+PATTERN_PUNC = re.compile(r"[^\w\s]") # matches all non 0-9 A-z whitespace 
 
 load_dotenv()
 
@@ -82,6 +97,74 @@ def populate_demand(demand_dict, sql_session):
 
     sql_session.commit()
 
+class MLStripper(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.reset()
+        self.strict = False
+        self.convert_charrefs= True
+        self.text = StringIO()
+    def handle_data(self, d):
+        self.text.write(d)
+    def get_data(self):
+        return self.text.getvalue()
+
+def strip_tags(html):
+    s = MLStripper()
+    s.feed(html)
+    return s.get_data()
+
+def strip_all_tags():
+    for course in COURSE_LIST:
+        if course["description"] != None:
+            course["description"] = strip_tags(course["description"])
+
+    return COURSE_LIST
+
+COURSE_LIST = strip_all_tags()
+
+def clean_text(text):
+    text = text.lower()
+    text = re.sub(PATTERN_S, ' ', text)
+    text = re.sub(PATTERN_RN, ' ', text)
+    text = re.sub(PATTERN_PUNC, ' ', text)
+    return text
+
+def tokenizer(sentence, min_words=MIN_WORDS, max_words=MAX_WORDS, stopwords=STOPWORDS, lemmatize=True):
+    if lemmatize:
+        stemmer = WordNetLemmatizer()
+        tokens = [stemmer.lemmatize(w) for w in word_tokenize(sentence)]
+    else:
+        tokens = [w for w in word_tokenize(sentence)]
+
+    tokens = [w for w in tokens if (len(w) > min_words and len(w) < max_words and w not in stopwords)]
+    return tokens 
+
+def clean_data():
+    for course in COURSE_LIST:
+        if course["description"] != None:
+            course["cleansentence"] = clean_text(course["description"])
+            course["toklemsentence"] = tokenizer(course["cleansentence"], min_words=MIN_WORDS, max_words=MAX_WORDS, stopwords=STOPWORDS, lemmatize=True)
+        else:
+            course["cleansentence"] = 'None'
+            course["toklemsentence"] = 'None'
+
+    return COURSE_LIST
+
+COURSE_LIST = clean_data()
+print(COURSE_LIST[1000])
+
+def populate_nlp_data(sql_session):
+    for course in COURSE_LIST:
+        if course["toklemsentence"] != 'None':
+            converted_tl = '|'.join(course["toklemsentence"])
+        else:
+            converted_tl = 'None'
+        new_nlp_data = NLPFormat(courseid=course["courseId"], cleansentence=course["cleansentence"], tokenlemmasentence=converted_tl)
+        sql_session.add(new_nlp_data)
+
+    sql_session.commit()
+
 if __name__ == "__main__":
 
     engine = create_engine(
@@ -99,5 +182,6 @@ if __name__ == "__main__":
     populate_courses(session)
     demand_dict = create_demand_dict()
     populate_demand(demand_dict, session)
+    populate_nlp_data(session)
 
     print("Done")

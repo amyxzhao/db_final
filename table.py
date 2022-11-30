@@ -24,3 +24,9 @@ class SpringDemand(Base):
     coursecode = Column(Text)
     coursetitle = Column(Text)
     coursedemand = Column(Integer)
+
+class NLPFormat(Base):
+    __tablename__ = 'nlpformat'
+    courseid = Column(Integer, primary_key=True)
+    cleansentence = Column(Text)
+    tokenlemmasentence = Column(Text)
