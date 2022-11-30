@@ -35,11 +35,11 @@ def get_coursetitle(courseid):
 
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
-            query_string = "SELECT title from springcourses WHERE courseid=?"
+            query_string = "SELECT fullcode, title from springcourses WHERE courseid=?"
             cursor.execute(query_string, [courseid])
 
             row = cursor.fetchone()
-            return row[0]
+            return row[0] + ': ' + row[1]
 
 def create_tfidf(course_descriptions):
     tfidf = TfidfVectorizer(stop_words='english')
@@ -58,9 +58,9 @@ def get_recommendations(coursetitle, cosine_sim):
 
     # sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
     sim_scores.sort(key=lambda x: x[1], reverse=True)
-    print(sim_scores)
-    top_scores = sim_scores[0:9]
-    print(top_scores)
+    # print(sim_scores)
+    top_scores = sim_scores[1:10]
+    # print(top_scores)
 
     top_courses_idx = [i[0] for i in top_scores]
     course_names = []

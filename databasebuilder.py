@@ -40,15 +40,15 @@ def tag_courseid():
     for course in flat_list:
         if course["subjectNumber"] not in seen:
             final_list.append(course)
+            seen.append(course["subjectNumber"])
 
     for c in final_list:
         c["courseId"] = counter
         counter += 1
 
-    return flat_list
+    return final_list
 
 COURSE_LIST = tag_courseid()
-
 
 def populate_courses(sql_session):
 
