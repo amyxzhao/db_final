@@ -75,13 +75,10 @@ def populate_demand(demand_dict, sql_session):
         if (count + 1 < len(demand_dict)) and (course["courseid"] != None) and course["courseid"] not in seen_ids:
             next = demand_dict[count + 1]
             if course["coursecode"] != next["coursecode"]:
-                print("Course ID: ", course["courseid"], "Course Title: ", course["coursetitle"])
+                # print("Course ID: ", course["courseid"], "Course Title: ", course["coursetitle"])
                 new_demand = SpringDemand(courseid=course["courseid"], coursecode=course["coursecode"], coursetitle=course["coursetitle"], coursedemand=course["coursedemand"])
                 seen_ids.append(course["courseid"])
                 sql_session.add(new_demand)
-        # # else:
-        #     new_demand = SpringDemand(courseid=course["courseid"], coursecode=course["coursecode"], coursetitle=course["coursetitle"], coursedemand=course["coursedemand"])
-        #     sql_session.add(new_demand)
 
     sql_session.commit()
 
