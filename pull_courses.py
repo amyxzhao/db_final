@@ -1,18 +1,29 @@
-import csv, json, os, pickle, requests
+import json, os, pickle, requests
+
+from codes import SCHOOLS
 from dotenv import load_dotenv
 from progressbar import progressbar
-from codes import SCHOOLS
 
 load_dotenv()
 
 def get_courses(subj_code, term_code, school):
     """Given subject code and term_code, get relevant courses"""
+    '''
+    Returns a list of courses formatted as dictionaries that meet the specified parameters of subject, term, and school.
+
+        Parameters:
+            subj_code: The subject area that the course belongs to.
+            term_code: The term in which the course is offered in. 
+            school: The school in which the course is offered in. 
+
+        Returns:
+            response_list: List of all courses in a specified subject, term, and school. 
+    '''
 
     if term_code is not None:
 
         parameters = {
             "apikey": os.environ.get("API_KEY"),
-            # "apikey": qwerqerqwerqr, # uncomment this line if dot_env is being weird
             "subjectCode": subj_code,
             "termCode": term_code,
             "mode": "json", 
@@ -21,7 +32,6 @@ def get_courses(subj_code, term_code, school):
     else:
         parameters = {
             "apikey": os.environ.get("API_KEY"),
-            # "apikey": qwerqerqwerqr, # uncomment this line if dot_env is being weird
             "subjectCode": subj_code,
             "mode": "json", 
             "school": school,
@@ -37,11 +47,18 @@ def get_courses(subj_code, term_code, school):
     return response_list
 
 def get_subj_codes():
-    """Get all subject codes"""
+    '''
+    Returns a list of all subject codes at Yale, pulled from the Yale Subjects API.
+
+        Parameters:
+            none
+
+        Returns:
+            subj_codes: List of all subject codes. 
+    '''
 
     parameters = {
         "apikey": os.environ.get("API_KEY"),
-        # "apikey": qwerqerqwerqr, # uncomment this line if dot_env is being weird
         "mode": "json"
     }
 
@@ -58,7 +75,17 @@ def get_subj_codes():
     return subj_codes
 
 def get_all_courses(term_code, school):
-    """Given term_code, get relevant courses"""
+    '''
+    Returns a list of courses for a given term code and school.
+
+        Parameters:
+            term_code: A six-digit string that represents the term for the desired courses. 
+            school: A two-letter string abbreviation of the school for the desired courses. 
+
+        Returns:
+            all_courses: A list of dictionaries for all courses in the school and term specified. 
+
+    '''
 
     print("Accessing all courses...")
     subj_codes = get_subj_codes()
@@ -72,6 +99,15 @@ def get_all_courses(term_code, school):
     return all_courses
 
 def get_all_courses_all_schools(term_code):
+    '''
+    Returns a list of lists. Each sublist contains multiple dictionaries, and each dictionary represents a course. 
+
+        Parameters:
+            term_code: A six-digit string that represents the term for the desired courses. 
+
+        Returns:
+            dict_list: A list of lists that contains dictionaries for all courses in all schools at Yale University.
+    '''
 
     dict_list = []
     
