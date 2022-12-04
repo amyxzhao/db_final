@@ -5,20 +5,30 @@
 - Amy Zhao
 - Lily Zhou
 
-## Setup (Please Read!) 
-Several files in the repository are meant to set up the database. If you are not part of the development of this project, you shouldn't need to run them. If you are part of development, you shouldn't need to run them either (unless you're curious, and you have a lot of time; the scrapers are pretty slow). Below is a description of each setup file. 
+## Project Setup (Please Read!) 
+Several files in the repository are meant to set up the database or retrieve data. If you are not part of the development of this project, you shouldn't need to run them. If you are part of development, you shouldn't need to run them either (unless you're curious, and you have a lot of time; the scrapers are pretty slow). Below is a description of each setup file. 
 
 ### `codes.py`
 This file contains two dictionaries: (1) all subjects offered at Yale, and (2) all schools under Yale. These are used to pull courses from the API.
 
-### `pull_courses.py`
-This file queries the Yale Courses API and pulls all courses from all Yale schools (College and graduate schools) for the Fall 2022 and Spring 2023 semesters. It pickles the data into `fall_courses.pkl` and `spring_courses.pkl` as temporary storage. Never un-pickle data you do not trust! 
+### `progressbar.py`
+Borrowed from department lecturer Alan Weide, this is essentially a sanity check. When the API calls are running, this gives a visual representation in the terminal of the progress. It holds no actual bearing on the functionality of the project. 
 
-### `demand_scraper.py`
-This scraper is borrowed from the YDN Data Desk where Amy was a previous editor who contributed to the writing of the code. It accesses Yale Course Demand Statistics and pulls the demand numbers for all courses in a particular semester. The statistics are saved in csv files.  
+### `pull_courses.py`
+This file queries the Yale Courses API and pulls all courses from all Yale schools (College and graduate schools) for the Fall 2022 and Spring 2023 semesters. This program uses an API key. To replicate this locally, create a `.env` file and incllude the following line:
+```
+API_KEY: QWERTY12345
+```
+where `QWERTY12345` represents your actual API key.
+The program proceeds to pickles the data into `fall_courses.pkl` and `spring_courses.pkl` as temporary storage. Never un-pickle data you do not trust! Note: For the sake of this project, we will focus on Spring 2023 courses. 
 
 ### `table.py`
-This file sets up the database tables. There are four: a courses table and a demand table for each semester. 
+This file sets up the database tables. There are three tables: 
+- `springcourses`: Contains course information for all courses offered during the Spring 2023 semester; data retrieved using the Yale Courses API. 
+- `springdemand`: Contains demand information (number of people registered) for each course; data retrieved directly from Yale Course Demand Statistics. 
+- `nlpformat`: Contains various formats of the course description string for natural language processing purposes. 
 
 ### `databasebuilder.py`
-This file constructs the database with tables and columns as defined in `table.py`. It uses data obtained from the Yale Courses API and the Course Demand Statistics scraper. 
+This file constructs the database with tables and columns as defined in `table.py`. The functions used to format the course descriptions are also found in this file. For more detailed information, please see the docstrings for each function.
+
+## Other Files
