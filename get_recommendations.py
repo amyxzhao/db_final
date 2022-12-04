@@ -1,7 +1,8 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sqlite3 import connect
 from contextlib import closing
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
+from sqlite3 import connect
+
 
 DB_PATH = 'file:database.sqlite?mode=ro'
 
@@ -131,7 +132,7 @@ def get_recommendations(coursetitle, cosine_sim):
 
 if __name__ == "__main__":
 
-    # A proof of viability. 
+    # A proof of concept. 
     d = get_course_descriptions()
     m = create_tfidf(d)
     n = create_cosine_matrix(m)
