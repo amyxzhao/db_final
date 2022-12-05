@@ -15,9 +15,9 @@ This file contains two dictionaries: (1) all subjects offered at Yale, and (2) a
 Borrowed from department lecturer Alan Weide, this is essentially a sanity check. When the API calls are running, this gives a visual representation in the terminal of the progress. It holds no actual bearing on the functionality of the project. 
 
 ### `pull_courses.py`
-This file queries the Yale Courses API and pulls all courses from all Yale schools (College and graduate schools) for the Fall 2022 and Spring 2023 semesters. This program uses an API key. To replicate this locally, create a `.env` file and incllude the following line:
+This file queries the Yale Courses API and pulls all courses from all Yale schools (College and graduate schools) for the Fall 2022 and Spring 2023 semesters. This program uses an API key. To replicate this locally, create a `.env` file and include the following line:
 ```
-API_KEY: QWERTY12345
+API_KEY=QWERTY12345
 ```
 where `QWERTY12345` represents your actual API key.
 The program proceeds to pickles the data into `fall_courses.pkl` and `spring_courses.pkl` as temporary storage. Never un-pickle data you do not trust! Note: For the sake of this project, we will focus on Spring 2023 courses. 
