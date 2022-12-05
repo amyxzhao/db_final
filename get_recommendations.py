@@ -60,7 +60,7 @@ def get_coursetitle(courseid):
             courseid: The course id of the course to search.
         
         Returns:
-            row[0] + ': ' + row[1]: A formatted string of the course subject code and title. 
+            new_title: A dictionary containing the course number and the course title. 
     
     '''
 
@@ -72,7 +72,10 @@ def get_coursetitle(courseid):
             cursor.execute(query_string, [courseid])
 
             row = cursor.fetchone()
-            return row[0] + ': ' + row[1]
+            new_title = {}
+            new_title["coursenumber"] = row[0]
+            new_title["coursetitle"] = row[1]
+            return new_title
 
 def create_tfidf(course_descriptions):
     '''
@@ -112,7 +115,7 @@ def get_recommendations(coursetitle, cosine_sim):
             cosine_sim: The cosine similarity matrix.
 
         Returns:
-            course_names: List of strings that represent the most similar courses to the one provided. 
+            course_names: List of dictionaries that represent the most similar courses to the one provided. 
     '''
 
     # TODO: Address the crosslisting issue!
@@ -121,14 +124,16 @@ def get_recommendations(coursetitle, cosine_sim):
 
     sim_scores.sort(key=lambda x: x[1], reverse=True)
 
-    top_scores = sim_scores[1:10]
-
+    top_scores = sim_scores[1:50]
     top_courses_idx = [i[0] for i in top_scores]
     course_names = []
     for courseid in top_courses_idx:
-        course_names.append(get_coursetitle(courseid))
+        # A small, albeit not very good fix for crosslistings.
+        c_dict = get_coursetitle(courseid)
+        if not any(c["coursetitle"] == c_dict["coursetitle"] for c in course_names):
+            course_names.append(c_dict)
 
-    return course_names
+    return course_names[0:10]
 
 if __name__ == "__main__":
 
@@ -137,4 +142,4 @@ if __name__ == "__main__":
     m = create_tfidf(d)
     n = create_cosine_matrix(m)
 
-    print(get_recommendations("Compilers and Interpreters", n))
+    print(get_recommendations("Algorithms", n))
