@@ -8,14 +8,26 @@ from sqlite3 import connect
 DB_PATH = 'file:database.sqlite'
 
 def get_matching(title_snip):
-    
+    courses = []
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
             v = '%' + title_snip + '%'
             query_string = "SELECT courseid, coursecode, coursetitle from springdemand WHERE coursetitle LIKE ?"
             cursor.execute(query_string, [v])
-            
-            return cursor.fetchall()
+            courses = cursor.fetchall()
+    matching_set = {}
+    matching_courses = []
+    for course in courses:
+        if course[2] not in matching_set:
+            modified_course = ([course[0]], course[1], course[2])
+            matching_courses.append(modified_course)
+            matching_set[course[2]] = len(matching_courses) - 1
+        else:
+            modified_ids = matching_courses[matching_set[course[2]]][0]
+            modified_ids.append(course[0])
+            modified_course_code = matching_courses[matching_set[course[2]]][1] + f"/{course[1]}"
+            matching_courses[matching_set[course[2]]] = (modified_ids, modified_course_code, matching_courses[matching_set[course[2]]][2])
+    return matching_courses
 
 def get_course_descriptions():
     '''

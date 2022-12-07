@@ -9,7 +9,15 @@
 
     {% for course in all_results %}
         <tr>
-            <td><a href="recommendations?courseid={{course[0]}}">{{course[0]}}</a></td>
+            <td>
+                {% for id in course[0] %}
+                    <a href="recommendations?courseid={{id}}">{{id}}
+                        {% if not loop.last %}
+                            /
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </td>
             <td>{{course[1]}}</td>
             <td>{{course[2]}}</td>
         </tr>
