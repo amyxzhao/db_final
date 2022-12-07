@@ -15,14 +15,16 @@
             <th>Course Description</th>
             <th>Similarity Score</th>
         </tr>
-        {% for course in similarity_sorted %}
-            <tr>
-                <td>{{course[1]}}</td>
-                <td>{{course[2]}}</td>
-                <td>{{course[3]}}</td>
-                <td>{{course[5]}}</td>
-            </tr>
-        {% endfor %}
+        <tbody>
+            {% for course in similarity_sorted %}
+                <tr>
+                    <td>{{course[1]}}</td>
+                    <td>{{course[2]}}</td>
+                    <td>{{course[3]}}</td>
+                    <td>{{course[5]}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
     </table>
     <br>
     <h2>Results Sorted By Demand</h2>

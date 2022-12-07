@@ -62,7 +62,7 @@ def get_courseid(coursetitle):
             coursetitle: The full title of the course to search.
 
         Returns:
-            row[0]: The courseid corresponding to the tile. 
+            row[0]: The courseid corresponding to the title. 
     '''
 
     # TODO: Address the crosslisting issue!
@@ -83,7 +83,7 @@ def get_coursetitle(courseid):
             courseid: The course id of the course to search.
         
         Returns:
-            new_title: A dictionary containing the course number and the course title. 
+            row[0]: The coursetitle corresponding to the id.
     
     '''
 
@@ -149,7 +149,7 @@ def get_recommendations(coursetitle, cosine_sim):
     course_names = []
     for course in top_scores:
         c_dict = {}
-        c_dict["courseid"], c_dict["similarity_score"] = course[0], course[1]
+        c_dict["courseid"], c_dict["similarity_score"] = course[0], round(course[1], 5)
         course_names.append(c_dict)
 
     return course_names[0:10]
@@ -200,6 +200,7 @@ def get_overall_demand():
 
             row = cursor.fetchone()
             overall_avg_demand = row[0]
+            overall_avg_demand = round(overall_avg_demand, 3)
 
             return overall_avg_demand
 
