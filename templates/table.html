@@ -1,0 +1,18 @@
+<hr>
+<br>
+<table>
+    <tr>
+    {% for col_name in col_names: %}
+       <th>{{col_name}}</th>
+    {% endfor %}
+    </tr>
+
+    {% for course in all_results %}
+        <tr>
+            <td><a href="recommendations?courseid={{course[0]}}">{{course[0]}}</a></td>
+            <td>{{course[1]}}</td>
+            <td>{{course[2]}}</td>
+        </tr>
+    {% endfor %}
+
+</table>

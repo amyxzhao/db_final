@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Karla', sans-serif;
+    src: url('../fonts/Karla-VariableFont_wght.ttf');
+    font-style: normal;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    padding: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+li {
+    list-style-type: circle;
+}
+
+
+  

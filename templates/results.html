@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Recommendations</title>
+        <link rel="stylesheet" href="../static/css/styles.css"> 
+    </head>
+
+    <h1>Recommendation Results for {{selected_coursetitle}}</h1>
+    <br>
+    <h2>Results Sorted By Similarity</h2>
+    <table>
+        <tr>
+            <th>Course Code</th>
+            <th>Course Title</th>
+            <th>Course Description</th>
+            <th>Similarity Score</th>
+        </tr>
+        {% for course in similarity_sorted %}
+            <tr>
+                <td>{{course[1]}}</td>
+                <td>{{course[2]}}</td>
+                <td>{{course[3]}}</td>
+                <td>{{course[5]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <h2>Results Sorted By Demand</h2>
+    <table>
+        <tr>
+            <th>Course Code</th>
+            <th>Course Title</th>
+            <th>Course Description</th>
+            <th>Course Demand</th>
+        </tr>
+        {% for course in demand_sorted %}
+            <tr>
+                <td>{{course[1]}}</td>
+                <td>{{course[2]}}</td>
+                <td>{{course[3]}}</td>
+                <td>{{course[4]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <h2>Average Statistics</h2>
+    <br>
+    <h3>Average Demand for Recommendations: {{avg_demand}}</h3>
+    <h3>Number of Recommended Courses by Department</h3>
+    <table>
+        <tr>
+            <th>Department</th>
+            <th>Number of Courses</th>
+        </tr>
+        {% for dept in dept_count %}
+            <tr>
+                <td>{{dept[0]}}</td>
+                <td>{{dept[1]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <h3>Average Demand By Department</h3>
+    <table>
+        <tr>
+            <th>Department</th>
+            <th>Average Demand</th>
+        </tr>
+        {% for dept in dept_demand %}
+            <tr>
+                <td>{{dept[0]}}</td>
+                <td>{{dept[1]}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+
+    <h3>Most Demanded</h3>
+    <ul>
+        {% for course in most_demanded %}
+            <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
+        {% endfor %}
+    </ul>
+    
+    <h3>Least Demanded</h3>
+    <ul>
+        {% for course in least_demanded %}
+            <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
+        {% endfor %}
+    </ul>
+    
+
+</html>
+
+<!-- c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity -->
