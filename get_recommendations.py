@@ -89,7 +89,7 @@ def get_coursetitle(courseid):
 
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
-            query_string = "SELECT coursetitle from springdemand WHERE courseid=?"
+            query_string = "SELECT title from springdemand WHERE courseid=?"
             cursor.execute(query_string, [courseid])
 
             row = cursor.fetchone()
@@ -147,10 +147,14 @@ def get_recommendations(coursetitle, cosine_sim):
     # TODO: Crosslisting issue persists :(
 
     course_names = []
+    seen_names = set()
     for course in top_scores:
-        c_dict = {}
-        c_dict["courseid"], c_dict["similarity_score"] = course[0], round(course[1], 5)
-        course_names.append(c_dict)
+        title = get_coursetitle(course[0])
+        if title not in seen_names:
+            c_dict = {}
+            c_dict["courseid"], c_dict["similarity_score"] = course[0], round(course[1], 5)
+            course_names.append(c_dict)
+            seen_names.add(title)
 
     return course_names[0:10]
 
