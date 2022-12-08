@@ -68,9 +68,16 @@ table tbody tr td {
     color: #4b5660;
   }
   
+  div#directions {
+    font-size: 35px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
   table {
-    max-width: 960px;
-    margin: 10px auto;
+    max-width: 75%;
+    margin-top: 15px;
+    /* margin: 10px auto; */
   }
 
   tr th {
@@ -79,26 +86,55 @@ table tbody tr td {
     color: #FFF;
   }
   
-  tr {
-    background: #f4f7f8;
+tr {
+    background: white;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
-  }
+}
   
-  tr:nth-child(even) {
-    background: #e8eeef;
-  }
+tr:nth-child(even) {
+    background: white;
+}
   
-  th, td {
+th, td {
     text-align: left;
     padding: 20px;
     font-weight: 300;
-  }
+}
 
-  li {
+li {
     list-style-type: circle;
 }
 
 a {
-    color: #000;
+    color: #4b5660;
+}
+
+input#coursename {
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 35px;
+    border: 2px solid #4b5660;
+}
+
+input#searchbutton {
+    color: #4b5660; 
+    background-color: white;
+    width: 75px; 
+    height: 35px;
+    border: 2px solid #4b5660;
+}
+
+/* .table-of-contents {
+    padding-bottom: 2rem;
+} */
+
+#dept-avg, #dept-count { 
+    width: 50%; 
+    float: left;
+    max-width: 25%;
+}
+
+#overall-avg, #pop-courses, #unpop-courses {
+    font-weight: bold;
 }

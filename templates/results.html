@@ -5,86 +5,99 @@
         <link rel="stylesheet" href="../static/css/styles.css"> 
     </head>
 
-    <h1>Recommendation Results for {{selected_coursetitle}}</h1>
+    <h1>Recommendations for {{selected_coursetitle}}</h1>
     <br>
-    <h2>Results Sorted By Similarity</h2>
-    <table>
-        <tr>
-            <th>Course Code</th>
-            <th>Course Title</th>
-            <th>Course Description</th>
-            <th>Similarity Score</th>
-        </tr>
-        <tbody>
-            {% for course in similarity_sorted %}
+    <!-- <h2>Results Sorted By Similarity</h2> -->
+    <span class="table-of-contents"><a href="#sim-results">Results Sorted By Similarity</a> | <a href="#demand-results">Results Sorted By Demand</a></span> | <a href="#dept-count">Number of Recommended Courses by Department</a> | <a href="#overall-avg">Average Statistics</a>
+
+    <div id="sim-results">
+        <table>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th>Course Description</th>
+                <th>Similarity Score</th>
+            </tr>
+            <tbody>
+                {% for course in similarity_sorted %}
+                    <tr>
+                        <td>{{course[1]}}</td>
+                        <td>{{course[2]}}</td>
+                        <td>{{course[3]}}</td>
+                        <td>{{course[5]}}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+
+    <div id="demand-results">
+        <table>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th>Course Description</th>
+                <th>Course Demand</th>
+            </tr>
+            {% for course in demand_sorted %}
                 <tr>
                     <td>{{course[1]}}</td>
                     <td>{{course[2]}}</td>
                     <td>{{course[3]}}</td>
-                    <td>{{course[5]}}</td>
+                    <td>{{course[4]}}</td>
                 </tr>
             {% endfor %}
-        </tbody>
-    </table>
-    <br>
-    <h2>Results Sorted By Demand</h2>
-    <table>
-        <tr>
-            <th>Course Code</th>
-            <th>Course Title</th>
-            <th>Course Description</th>
-            <th>Course Demand</th>
-        </tr>
-        {% for course in demand_sorted %}
-            <tr>
-                <td>{{course[1]}}</td>
-                <td>{{course[2]}}</td>
-                <td>{{course[3]}}</td>
-                <td>{{course[4]}}</td>
-            </tr>
-        {% endfor %}
-    </table>
-    <br>
-    <h2>Average Statistics</h2>
-    <br>
-    <h3>Average Demand for Recommendations: {{avg_demand}}</h3>
-    <h3>Number of Recommended Courses by Department</h3>
-    <table>
-        <tr>
-            <th>Department</th>
-            <th>Number of Courses</th>
-        </tr>
-        {% for dept in dept_count %}
-            <tr>
-                <td>{{dept[0]}}</td>
-                <td>{{dept[1]}}</td>
-            </tr>
-        {% endfor %}
-    </table>
-    <h3>Average Demand By Department</h3>
-    <table>
-        <tr>
-            <th>Department</th>
-            <th>Average Demand</th>
-        </tr>
-        {% for dept in dept_demand %}
-            <tr>
-                <td>{{dept[0]}}</td>
-                <td>{{dept[1]}}</td>
-            </tr>
-        {% endfor %}
-    </table>
+        </table>
+    </div>
 
     <br>
 
-    <h3>Most Demanded</h3>
+    <p id="overall-avg">Overall Average Demand: {{avg_demand}}</p>
+
+    <div class="float-container">
+        <div id="dept-count">
+            <table>
+                <tr>
+                    <th>Department</th>
+                    <th>Number of Courses</th>
+                </tr>
+                {% for dept in dept_count %}
+                    <tr>
+                        <td>{{dept[0]}}</td>
+                        <td>{{dept[1]}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+        <!-- <h3>Average Demand By Department</h3> -->
+        <div id="dept-avg">
+            <table>
+                <tr>
+                    <th>Department</th>
+                    <th>Average Demand</th>
+                </tr>
+                {% for dept in dept_demand %}
+                    <tr>
+                        <td>{{dept[0]}}</td>
+                        <td>{{dept[1]}}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+
+    <br>
+
+    <p id="pop-courses">Most Demanded</p>
     <ul>
         {% for course in most_demanded %}
             <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
         {% endfor %}
     </ul>
     
-    <h3>Least Demanded</h3>
+    <p id="unpop-courses">Least Demanded</p>
     <ul>
         {% for course in least_demanded %}
             <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>

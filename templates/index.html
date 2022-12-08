@@ -6,12 +6,11 @@
     <link rel="stylesheet" href="../static/css/styles.css"> 
 </head>
 <body>
-    <h1>Search for a course to get recommendations.</h1>
+    <div id="directions">Give me course recommendations for:</div>
     <form action="search" method="get">
-        <label for="Name">Course Name:</label>
-        <input type="text" name="coursename_input" value="{{coursename_input}}">
-        <br>
-        <input type="submit" value="Search">
+        <!-- <label for="Name">Course Name:</label> -->
+        <input id="coursename" type="text" name="coursename_input" value="{{coursename_input}}">
+        <input id="searchbutton" type="submit" value="Search">
     </form>
 
     {% include 'table.html' %}

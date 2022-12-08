@@ -12,7 +12,7 @@ def get_matching(title_snip):
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
             v = '%' + title_snip + '%'
-            query_string = "SELECT courseid, coursecode, coursetitle from springdemand WHERE coursetitle LIKE ?"
+            query_string = "SELECT courseid, coursecode, coursetitle from springdemand WHERE coursetitle LIKE ? ORDER BY coursecode"
             cursor.execute(query_string, [v])
             courses = cursor.fetchall()
     matching_set = {}

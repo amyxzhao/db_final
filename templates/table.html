@@ -9,7 +9,7 @@
 
     {% for course in all_results %}
         <tr>
-            <td>
+            <td style="width: 20%; word-wrap: break-word;">
                 {% for id in course[0] %}
                     <a href="recommendations?courseid={{id}}">{{id}}
                         {% if not loop.last %}
@@ -18,7 +18,7 @@
                     </a>
                 {% endfor %}
             </td>
-            <td>{{course[1]}}</td>
+            <td style="width: 30%; word-wrap: break-word;">{{course[1]}}</td>
             <td>{{course[2]}}</td>
         </tr>
     {% endfor %}
