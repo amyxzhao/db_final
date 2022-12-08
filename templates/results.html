@@ -65,8 +65,8 @@
                 </tr>
                 {% for dept in dept_count %}
                     <tr>
-                        <td>{{dept[0]}}</td>
-                        <td>{{dept[1]}}</td>
+                        <td style="width: 10%; word-wrap: break-word;">{{dept[0]}}</td>
+                        <td style="width: 10%; word-wrap: break-word;">{{dept[1]}}</td>
                     </tr>
                 {% endfor %}
             </table>
@@ -80,30 +80,32 @@
                 </tr>
                 {% for dept in dept_demand %}
                     <tr>
-                        <td>{{dept[0]}}</td>
-                        <td>{{dept[1]}}</td>
+                        <td style="width: 10%; word-wrap: break-word;">{{dept[0]}}</td>
+                        <td style="width: 10%; word-wrap: break-word;">{{dept[1]}}</td>
                     </tr>
                 {% endfor %}
             </table>
         </div>
+        <div id="popularity">
+            <p id="pop-courses">Most Demanded</p>
+            <ul>
+                {% for course in most_demanded %}
+                    <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
+                {% endfor %}
+            </ul>
+            
+            <p id="unpop-courses">Least Demanded</p>
+            <ul>
+                {% for course in least_demanded %}
+                    <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
     </div>
 
     <br>
 
-    <p id="pop-courses">Most Demanded</p>
-    <ul>
-        {% for course in most_demanded %}
-            <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
-        {% endfor %}
-    </ul>
-    
-    <p id="unpop-courses">Least Demanded</p>
-    <ul>
-        {% for course in least_demanded %}
-            <li>{{course[1]}}: {{course[2]}} (Similarity: {{course[5]}})</li>
-        {% endfor %}
-    </ul>
-    
 
 </html>
 

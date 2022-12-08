@@ -129,12 +129,17 @@ input#searchbutton {
     padding-bottom: 2rem;
 } */
 
-#dept-avg, #dept-count { 
-    width: 50%; 
+#dept-avg, #dept-count, #popularity { 
+    width: 33%; 
     float: left;
     max-width: 25%;
 }
 
 #overall-avg, #pop-courses, #unpop-courses {
     font-weight: bold;
+}
+
+#popularity {
+    max-width: 30%;
+    margin-left: 100px;
 }

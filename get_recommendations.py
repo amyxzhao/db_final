@@ -89,7 +89,7 @@ def get_coursetitle(courseid):
 
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
-            query_string = "SELECT title from springdemand WHERE courseid=?"
+            query_string = "SELECT title from springcourses WHERE courseid=?"
             cursor.execute(query_string, [courseid])
 
             row = cursor.fetchone()
