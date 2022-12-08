@@ -1,5 +1,4 @@
 from contextlib import closing
-from recommendations import Recommendation
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 from sqlite3 import connect

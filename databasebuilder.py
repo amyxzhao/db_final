@@ -24,7 +24,7 @@ PATTERN_PUNC = re.compile(r"[^\w\s]") # matches all non 0-9 A-z whitespace
 
 load_dotenv()
 
-S23_DEMAND = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/full_spring_demand.csv"
+S23_DEMAND = "/Users/zhaoamyx/Desktop/CPSC437/Final/db_final/course_csv/full_spring_demand.csv"
 
 def tag_courseid():
 
