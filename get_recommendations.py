@@ -64,8 +64,6 @@ def get_courseid(coursetitle):
             row[0]: The courseid corresponding to the title. 
     '''
 
-    # TODO: Address the crosslisting issue!
-
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
             query_string = "SELECT courseid from springcourses WHERE title=?"
@@ -143,8 +141,6 @@ def get_recommendations(coursetitle, cosine_sim):
     # Top 20 matching courses. 
     top_scores = sim_scores[1:50]
 
-    # TODO: Crosslisting issue persists :(
-
     course_names = []
     seen_names = set()
     for course in top_scores:
@@ -172,27 +168,12 @@ def build_rec_table(course_names):
                 insert_query = f"INSERT INTO courserecs VALUES ({c['courseid']}, {c['similarity_score']})"
                 cursor.execute(insert_query)
 
-def sort_by_sim():
-    
+def query_fetch_all_helper(query):
     with connect(DB_PATH, uri=True) as connection:
-        with closing(connection.cursor()) as cursor:
-            sort_similarity_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid ORDER BY similarity DESC"
-            
-            cursor.execute(sort_similarity_query)
-
-            sorted_by_similarity = cursor.fetchall()
-            return sorted_by_similarity
-
-def sort_by_demand():
-
-    with connect(DB_PATH, uri=True) as connection:
-        with closing(connection.cursor()) as cursor:
-            sort_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid ORDER BY coursedemand DESC"
-
-            cursor.execute(sort_demand_query)
-
-            sorted_by_demand = cursor.fetchall()
-            return sorted_by_demand
+        with(closing(connection.cursor())) as cursor:
+            cursor.execute(query)
+            results = cursor.fetchall()
+            return results
 
 def get_overall_demand():
     with connect(DB_PATH, uri=True) as connection:
@@ -207,42 +188,32 @@ def get_overall_demand():
 
             return overall_avg_demand
 
+def sort_by_sim():
+    sort_similarity_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid ORDER BY similarity DESC"
+    sorted_by_similarity = query_fetch_all_helper(sort_similarity_query)
+    return sorted_by_similarity
+
+def sort_by_demand():
+    sort_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid ORDER BY coursedemand DESC"
+    sorted_by_demand = query_fetch_all_helper(sort_demand_query)
+    return sorted_by_demand
+
 def get_dept_demand():
-    with connect(DB_PATH, uri=True) as connection:
-        with closing(connection.cursor()) as cursor:
-            avg_by_dept_query = "SELECT s.deptname, AVG(d.coursedemand) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid GROUP BY s.deptname"
-
-            cursor.execute(avg_by_dept_query)
-
-            avg_demand_by_dept = cursor.fetchall()
-            return avg_demand_by_dept
+    avg_by_dept_query = "SELECT s.deptname, AVG(d.coursedemand) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid GROUP BY s.deptname"
+    avg_demand_by_dept = query_fetch_all_helper(avg_by_dept_query)
+    return avg_demand_by_dept
 
 def get_dept_count():
-    with connect(DB_PATH, uri=True) as connection:
-        with closing(connection.cursor()) as cursor:
-            count_query = "SELECT s.deptname, COUNT(*) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid GROUP BY s.deptname"
-
-            cursor.execute(count_query)
-
-            course_count_by_dept = cursor.fetchall() # Formatted as a list of tuples (department name, count).
-            return course_count_by_dept
+    count_query = "SELECT s.deptname, COUNT(*) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid GROUP BY s.deptname"
+    course_count_by_dept = query_fetch_all_helper(count_query)
+    return course_count_by_dept
 
 def get_popular_recs():
-    with connect(DB_PATH, uri=True) as connection:
-        with closing(connection.cursor()) as cursor:
-            high_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid WHERE d.coursedemand > (SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springdemand d)"
-
-            cursor.execute(high_demand_query)
-
-            high_demand_courses = cursor.fetchall()
-            return high_demand_courses
+    high_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid WHERE d.coursedemand > (SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springdemand d)"
+    high_demand_courses = query_fetch_all_helper(high_demand_query)
+    return high_demand_courses
 
 def get_unpopular_recs():
-     with connect(DB_PATH, uri=True) as connection:
-        with closing(connection.cursor()) as cursor:
-            low_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid WHERE d.coursedemand < (SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springdemand d)"
-
-            cursor.execute(low_demand_query)
-
-            low_demand_courses = cursor.fetchall()
-            return low_demand_courses
+    low_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid WHERE d.coursedemand < (SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springdemand d)"
+    low_demand_courses = query_fetch_all_helper(low_demand_query)
+    return low_demand_courses
