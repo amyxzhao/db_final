@@ -15,7 +15,7 @@ python runserver.py [port-number]
 Several files in the repository are meant to set up the database or retrieve data. If you are not part of the development of this project, you shouldn't need to run them. If you are part of development, you shouldn't need to run them either (unless you're curious, and you have a lot of time; the scrapers are pretty slow). Below is a description of each setup file. 
 
 ### `requirements.txt`
-This file contains a list of all the relevant Python libraries. You can install them by running the following:
+This file contains a list of all the relevant Python libraries. First, make sure you have `pip` on your machine. You can install them by running the following:
 ```
 pip install -r requirements.txt
 ```
