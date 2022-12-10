@@ -7,6 +7,15 @@ from sqlite3 import connect
 DB_PATH = 'file:database.sqlite'
 
 def get_matching(title_snip):
+    '''
+        Returns a list of courses that are related to the inputted course.
+
+        Parameters:
+            title_snip: Inputted text that user seeks to find related courses for.
+
+        Returns:
+            matching_courses: list of courses.
+    '''
     courses = []
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
@@ -154,6 +163,15 @@ def get_recommendations(coursetitle, cosine_sim):
     return course_names[0:10]
 
 def build_rec_table(course_names):
+    '''
+        Builds the table of recommended courses by performing insert queries.
+
+        Parameters:
+            course_names: The names of the courses to add to the table.
+            
+        Returns:
+            None
+    '''
     
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
@@ -169,6 +187,15 @@ def build_rec_table(course_names):
                 cursor.execute(insert_query)
 
 def query_fetch_all_helper(query):
+    '''
+        Executes a query and returns all the data that is fetched upon execution.
+    
+        Parameters:
+            query: The query to execute.
+        
+        Returns:
+            results: list of tuples corresponding to the information fetched from executing the query.
+    '''
     with connect(DB_PATH, uri=True) as connection:
         with(closing(connection.cursor())) as cursor:
             cursor.execute(query)
@@ -176,6 +203,12 @@ def query_fetch_all_helper(query):
             return results
 
 def get_overall_demand():
+    '''
+        Executes a query that fetches the overall average demand of the related courses.
+        
+        Returns:
+            overall_age_demand: number.
+    '''
     with connect(DB_PATH, uri=True) as connection:
         with closing(connection.cursor()) as cursor:
             overall_avg_query = "SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid"
@@ -189,31 +222,67 @@ def get_overall_demand():
             return overall_avg_demand
 
 def sort_by_sim():
+    '''
+        Executes a query that fetches courses related to the selected source sorted by similarity in a descending order.
+        
+        Returns:
+            results: list of courses and useful information, including courseid, title, demand, and similarity score.
+    '''
     sort_similarity_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid ORDER BY similarity DESC"
     sorted_by_similarity = query_fetch_all_helper(sort_similarity_query)
     return sorted_by_similarity
 
 def sort_by_demand():
+    '''
+        Executes a query that fetches courses related to the selected source sorted by demand in a descending order.
+        
+        Returns:
+            results: list of courses and useful information, including courseid, title, demand, and similarity score.
+    '''
     sort_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid ORDER BY coursedemand DESC"
     sorted_by_demand = query_fetch_all_helper(sort_demand_query)
     return sorted_by_demand
 
 def get_dept_demand():
+    '''
+        Executes a query that fetches information pertaining to the department's demand based on the demand of the courses that belong to the departments.
+        
+        Returns:
+            results: list of departments.
+    '''
     avg_by_dept_query = "SELECT s.deptname, AVG(d.coursedemand) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid GROUP BY s.deptname"
     avg_demand_by_dept = query_fetch_all_helper(avg_by_dept_query)
     return avg_demand_by_dept
 
 def get_dept_count():
+    '''
+        Executes a query that fetches information pertaining to the number of departments that the targeted courses belong to.
+        
+        Returns:
+            results: list of departments.
+    '''
     count_query = "SELECT s.deptname, COUNT(*) FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid GROUP BY s.deptname"
     course_count_by_dept = query_fetch_all_helper(count_query)
     return course_count_by_dept
 
 def get_popular_recs():
+    '''
+        Executes a query that fetches courses with highest demand.
+        
+        Returns:
+            results: list of courses.
+    '''
     high_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid WHERE d.coursedemand > (SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springdemand d)"
     high_demand_courses = query_fetch_all_helper(high_demand_query)
     return high_demand_courses
 
 def get_unpopular_recs():
+    '''
+        Executes a query that fetches courses with lowest demand.
+        
+        Returns:
+            results: list of courses.
+    '''
     low_demand_query = "SELECT c.courseid, s.fullcode, s.title, s.description, d.coursedemand, c.similarity FROM courserecs c LEFT JOIN springcourses s ON c.courseid = s.courseid LEFT JOIN springdemand d ON s.courseid = d.courseid WHERE d.coursedemand < (SELECT AVG(d.coursedemand) FROM courserecs c LEFT JOIN springdemand d)"
     low_demand_courses = query_fetch_all_helper(low_demand_query)
     return low_demand_courses
