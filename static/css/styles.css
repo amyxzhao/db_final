@@ -129,8 +129,8 @@ input#searchbutton {
     padding-bottom: 2rem;
 } */
 
-#dept-avg, #dept-count, #popularity { 
-    width: 33%; 
+#dept-avg, #dept-count { 
+    width: 50%; 
     float: left;
     max-width: 25%;
 }
@@ -139,7 +139,3 @@ input#searchbutton {
     font-weight: bold;
 }
 
-#popularity {
-    max-width: 30%;
-    margin-left: 100px;
-}
