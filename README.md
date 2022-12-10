@@ -14,6 +14,12 @@ python runserver.py [port-number]
 ## Project Setup (Please Read!) 
 Several files in the repository are meant to set up the database or retrieve data. If you are not part of the development of this project, you shouldn't need to run them. If you are part of development, you shouldn't need to run them either (unless you're curious, and you have a lot of time; the scrapers are pretty slow). Below is a description of each setup file. 
 
+### `requirements.txt`
+This file contains a list of all the relevant Python libraries. You can install them by running the following:
+```
+pip install -r requirements.txt
+```
+
 ### `codes.py`
 This file contains two dictionaries: (1) all subjects offered at Yale, and (2) all schools under Yale. These are used to pull courses from the API.
 
