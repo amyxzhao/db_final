@@ -152,6 +152,7 @@ def get_recommendations(coursetitle, cosine_sim):
 
     course_names = []
     seen_names = set()
+    seen_names.add(coursetitle)
     for course in top_scores:
         title = get_coursetitle(course[0])
         if title not in seen_names:
