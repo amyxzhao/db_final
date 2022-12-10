@@ -5,6 +5,12 @@
 - Amy Zhao
 - Lily Zhou
 
+## How to Run
+The project includes a web application. To start the web app, run the script `run_server.py` by executing:
+```
+python run_server.py [port-number]
+```
+
 ## Project Setup (Please Read!) 
 Several files in the repository are meant to set up the database or retrieve data. If you are not part of the development of this project, you shouldn't need to run them. If you are part of development, you shouldn't need to run them either (unless you're curious, and you have a lot of time; the scrapers are pretty slow). Below is a description of each setup file. 
 
@@ -29,7 +35,7 @@ The program proceeds to pickles the data into `fall_courses.pkl` and `spring_cou
 This file constructs the Flask application for the web server and defines its routes.
 
 ### `run_server.py`
-Running this script launches a local development server that runs the web application. It requires an argument of port number. To run this script, execute `python runserver.py [port]`.
+Running this script launches a local development server that runs the web application. It requires an argument of port number. To run this script, execute `python runserver.py [port-number]`.
 
 ### `table.py`
 This file sets up the database tables. There are three tables: 
