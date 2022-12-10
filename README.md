@@ -6,9 +6,9 @@
 - Lily Zhou
 
 ## How to Run
-The project includes a web application. To start the web app, run the script `run_server.py` by executing:
+The project includes a web application. To start the web app, run the script `runserver.py` by executing:
 ```
-python run_server.py [port-number]
+python runserver.py [port-number]
 ```
 
 ## Project Setup (Please Read!) 
@@ -34,7 +34,7 @@ The program proceeds to pickles the data into `fall_courses.pkl` and `spring_cou
 ### `rec_app.py`
 This file constructs the Flask application for the web server and defines its routes.
 
-### `run_server.py`
+### `runserver.py`
 Running this script launches a local development server that runs the web application. It requires an argument of port number. To run this script, execute `python runserver.py [port-number]`.
 
 ### `table.py`
@@ -47,4 +47,5 @@ This file sets up the database tables. There are three tables:
 
 - `/static`: This directory includes files for styling the web application.
 - `/template`: This directory includes html templates that will be used to create the web application.
+- `/course_csv`: This directory includes CSV files for the course information and demand statistics of Fall 2022 and Spring 2023. These are not directly used in the project, but provide helpful reference information.
 - `progressbar.py`: Borrowed from department lecturer Alan Weide, this is essentially a sanity check. When the API calls are running, this gives a visual representation in the terminal of the progress. It holds no actual bearing on the functionality of the project. 
